@@ -1,0 +1,1559 @@
+Here are 20 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the alert function in JavaScript?
+A) To display a message box
+B) To prompt the user for input
+C) To log a message to the console
+D) To redirect to a new page
+
+Correct answer: A) To display a message box
+
+Quiz 2
+What is a variable in JavaScript?
+A) A keyword that has special meaning
+B) A value that cannot be changed
+C) A word that refers to a particular value
+D) A function that performs a calculation
+
+Correct answer: C) A word that refers to a particular value
+
+Quiz 3
+How do you declare a variable in JavaScript?
+A) Using the let keyword
+B) Using the var keyword
+C) Using the const keyword
+D) All of the above
+
+Correct answer: D) All of the above
+
+Quiz 4
+What is the difference between a string and a number in JavaScript?
+A) A string is enclosed in quotes, while a number is not
+B) A string is a sequence of characters, while a number is a single value
+C) A string can be used in math calculations, while a number cannot
+D) A string is always longer than a number
+
+Correct answer: A) A string is enclosed in quotes, while a number is not
+
+Quiz 5
+What is the result of the expression 2 + 2 in JavaScript?
+A) "2 + 2"
+B) 4
+C) 2
+D) Error
+
+Correct answer: B) 4
+
+Quiz 6
+What is the purpose of the modulus operator (%) in JavaScript?
+A) To perform division
+B) To perform multiplication
+C) To find the remainder of a division operation
+D) To perform addition
+
+Correct answer: C) To find the remainder of a division operation
+
+Quiz 7
+What is the result of the expression 10 % 3 in JavaScript?
+A) 3
+B) 1
+C) 0
+D) 10
+
+Correct answer: B) 1
+
+Quiz 8
+What is the naming convention for variables in JavaScript?
+A) camelCase
+B) PascalCase
+C) snake_case
+D) kebab-case
+
+Correct answer: A) camelCase
+
+Quiz 9
+What is the purpose of using descriptive variable names in JavaScript?
+A) To make the code more readable
+B) To make the code more efficient
+C) To make the code more secure
+D) To make the code more complex
+
+Correct answer: A) To make the code more readable
+
+Quiz 10
+Can a variable name start with a number in JavaScript?
+A) Yes
+B) No
+C) Only if it's a decimal number
+D) Only if it's a negative number
+
+Correct answer: B) No
+
+Quiz 11
+What happens when you assign a new value to a variable in JavaScript?
+A) The old value is retained
+B) The new value overwrites the old value and becomes the new value
+C) The variable is deleted
+D) The variable becomes undefined
+
+Correct answer: B) The new value overwrites the old value and becomes the new value
+
+Quiz 12
+Can a variable be used in calculating its own new value in JavaScript?
+A) Yes
+B) No
+C) Only if it's a string variable
+D) Only if it's a number variable
+
+Correct answer: A) Yes
+
+Quiz 13
+What is the result of the expression num + 200 if num is 10?
+A) 10
+B) 200
+C) 210
+D) Error
+
+Correct answer: C) 210
+
+Quiz 14
+Can a variable name contain only numbers in JavaScript?
+A) Yes
+B) No
+C) Only if it's a decimal number
+D) Only if it's a negative number
+
+Correct answer: B) No
+
+Quiz 15
+What is the purpose of the alert function in JavaScript?
+A) To display a message box with a specific message
+B) To prompt the user for input
+C) To log a message to the console
+D) To redirect to a new page
+
+Correct answer: A) To display a message box with a specific message
+
+Quiz 16
+How do you assign a string value to a variable in JavaScript?
+A) Using quotes around the value
+B) Without quotes around the value
+C) Using parentheses around the value
+D) Using brackets around the value
+
+Correct answer: A) Using quotes around the value
+
+
+What is the correct way to display an alert with the message "Hello, World!"?
+a) Alert("Hello, World!");
+b) alert("Hello, World!");
+c) alert(Hello, World!);
+Correct Answer: b) alert("Hello, World!");
+
+What is the term for the text enclosed in quotes in JavaScript?
+a) Variable
+b) String
+c) Keyword
+Correct Answer: b) String
+
+True or False: JavaScript is case-sensitive, so alert and Alert are the same.
+Correct Answer: False
+
+Chapter 2: Variables for Strings
+How do you declare a variable named greeting and assign it the string "Hello"?
+a) var greeting = "Hello";
+b) var greeting = Hello;
+c) greeting = "Hello";
+Correct Answer: a) var greeting = "Hello";
+
+What will the following code display?
+
+javascript
+var name = "Alice";
+alert(name);
+a) "name"
+b) "Alice"
+c) Nothing, it will cause an error.
+Correct Answer: b) "Alice"
+
+True or False: A variable can change its value after it is declared.
+Correct Answer: True
+
+Chapter 3: Variables for Numbers
+What is the result of the following code?
+
+javascript
+var num = 10;
+var result = num + 5;
+alert(result);
+a) "15"
+b) 15
+c) "10 + 5"
+Correct Answer: b) 15
+
+What happens if you enclose a number in quotes, like var num = "10";?
+a) It becomes a string and cannot be used in math operations.
+b) It is treated as a number.
+c) It causes an error.
+Correct Answer: a) It becomes a string and cannot be used in math operations.
+
+True or False: A variable name can start with a number.
+Correct Answer: False
+
+Chapter 4: Variable Names Legal and Illegal
+Which of the following is a legal variable name?
+a) 1stPlace
+b) first_Place
+c) first Place
+Correct Answer: b) first_Place
+
+Which naming convention is recommended for variables in JavaScript?
+a) camelCase
+b) PascalCase
+c) snake_case
+Correct Answer: a) camelCase
+
+True or False: JavaScript variable names can include spaces.
+Correct Answer: False
+
+Chapter 5: Math Expressions
+What is the result of 10 % 3?
+a) 3
+b) 1
+c) 0
+Correct Answer: b) 1
+
+What will this code display?
+
+javascript
+var x = 5;
+var y = 2;
+alert(x * y);
+a) "10"
+b) 10
+c) 7
+Correct Answer: b) 10
+
+True or False: The modulus operator (%) returns the remainder of a division.
+Correct Answer: True
+
+Chapter 1: Alerts
+
+What does the alert() function do in JavaScript?
+A) Prints text on console
+B) Displays a message box
+C) Creates a variable
+D) Closes the browser
+Answer: B
+
+Which is the correct way to write an alert?
+A) Alert("Hello!");
+B) alert("Hello!");
+C) ALERT("Hello!");
+D) alert = "Hello!";
+Answer: B
+
+What will happen if you capitalize Alert instead of writing alert?
+A) It will still work
+B) It will show a warning only
+C) It will stop the script
+D) It will display "Alert"
+Answer: C
+
+Which statement is correct about quotation marks in alerts?
+A) They are optional
+B) You can use single or double quotes, but they must match
+C) You cannot use single quotes
+D) Quotes are not allowed
+Answer: B
+
+Chapter 2: Variables for Strings
+
+What keyword is used to declare a variable in JavaScript?
+A) var
+B) string
+C) let
+D) value
+Answer: A
+
+Which is a valid variable declaration?
+A) var name = "Mark";
+B) var = name "Mark";
+C) name = var "Mark";
+D) "Mark" = var name;
+Answer: A
+
+What will this code output?
+
+var name = "Mark";
+alert(name);
+
+
+A) name
+B) "name"
+C) Mark
+D) Error
+Answer: C
+
+Can the value of a variable be changed after declaring it?
+A) No, never
+B) Yes, always
+C) Only if declared again
+D) Only with numbers
+Answer: B
+
+Chapter 3: Variables for Numbers
+
+Which variable is a number type?
+A) var age = "20";
+B) var age = 20;
+C) var age = "twenty";
+D) var age = "0020";
+Answer: B
+
+What is the result of this code?
+
+var x = 23;
+var y = x + 7;
+alert(y);
+
+
+A) 30
+B) 23 + 7
+C) 237
+D) Error
+Answer: A
+
+What happens if you write:
+
+var x = "23";
+var y = x + 7;
+
+
+A) y = 30
+B) y = 237
+C) y = "23+7"
+D) Error
+Answer: B
+
+Which of the following is an illegal variable declaration?
+A) var weight = 150;
+B) var age2 = 25;
+C) var 2age = 25;
+D) var total = 100;
+Answer: C
+
+Chapter 4: Variable Names Legal & Illegal
+
+Which is a legal variable name?
+A) user Name
+B) user_Name
+C) user-Name
+D) 123user
+Answer: B
+
+What will happen here?
+
+var rose = "Floribundas";
+alert(Rose);
+
+
+A) Floribundas
+B) rose
+C) Undefined / Error
+D) floribundas
+Answer: C
+
+Which naming convention is recommended in JavaScript?
+A) snake_case
+B) kebab-case
+C) camelCase
+D) PascalCase
+Answer: C
+
+Which variable name is more descriptive and preferred?
+A) x
+B) y
+C) userName
+D) zzz
+Answer: C
+
+Chapter 5: Math Expressions
+
+What will this code display?
+
+alert(2 + 2);
+
+
+A) 22
+B) 4
+C) "2 + 2"
+D) Error
+Answer: B
+
+What does the operator % return in JavaScript?
+A) Division result
+B) Multiplication result
+C) Remainder after division
+D) Average
+Answer: C
+
+What is the value of var whatsLeft = 10 % 3; ?
+A) 3
+B) 1
+C) 0
+D) 7
+Answer: B
+
+What will this code do?
+
+var num = 10;
+var anotherNum = 1;
+var total = num + anotherNum;
+alert(total);
+
+
+A) 10
+B) 11
+C) num + anotherNum
+D) Error
+Answer: B
+
+✅ JavaScript Quiz (Chapters 6–10)
+Chapter 6: Math Expressions – Unfamiliar Operators
+
+What does num++ do in JavaScript?
+A) Decreases variable by 1
+B) Increases variable by 1
+C) Multiplies variable by 2
+D) Assigns 0 to variable
+Answer: B
+
+Which is equivalent to num++?
+A) num = num - 1;
+B) num = num + 1;
+C) num = num / 1;
+D) num = num * 1;
+Answer: B
+
+What value does newNum get in the following code?
+
+var num = 1;
+var newNum = num++;
+
+
+A) 0
+B) 1
+C) 2
+D) Error
+Answer: B
+
+What will be the value of newNum here?
+
+var num = 1;
+var newNum = ++num;
+
+
+A) 0
+B) 1
+C) 2
+D) Error
+Answer: C
+
+Chapter 7: Math Expressions – Eliminating Ambiguity
+
+What is the result of:
+
+var totalCost = 1 + 3 * 4;
+
+
+A) 16
+B) 13
+C) 12
+D) Error
+Answer: B
+
+Which operator has higher precedence in JavaScript?
+A) Addition (+)
+B) Multiplication (*)
+C) Subtraction (-)
+D) All are equal
+Answer: B
+
+What will be the result of this code?
+
+var totalCost = (1 + 3) * 4;
+
+
+A) 13
+B) 16
+C) 12
+D) 20
+Answer: B
+
+What is the output of:
+
+var result = (2 * 4) * (4 + 2);
+
+
+A) 34
+B) 48
+C) 24
+D) 12
+Answer: B
+
+Chapter 8: Concatenating Strings
+
+What does this code display?
+
+var userName = "Susan";
+alert("Thanks, " + userName + "!");
+
+
+A) Thanks userName!
+B) Thanks, Susan!
+C) Susan Thanks!
+D) Error
+Answer: B
+
+What is string concatenation in JavaScript?
+A) Joining two or more variables
+B) Adding numbers
+C) Multiplying text
+D) Linking arrays
+Answer: A
+
+What will this code display?
+
+alert("2" + "2");
+
+
+A) 22
+B) 4
+C) "2+2"
+D) Error
+Answer: A
+
+What will this code display?
+
+alert("2 plus 2 equals " + 2 + 2);
+
+
+A) 2 plus 2 equals 4
+B) 2 plus 2 equals 22
+C) 2 + 2 equals 22
+D) Error
+Answer: B
+
+Chapter 9: Prompts
+
+What does a prompt() do in JavaScript?
+A) Displays a message only
+B) Asks the user for input
+C) Stores data permanently
+D) Runs a loop
+Answer: B
+
+What type of data does prompt() return?
+A) Number
+B) Boolean
+C) String
+D) Undefined
+Answer: C
+
+What will happen here?
+
+var spec = prompt("Your species?", "human");
+
+
+A) Asks the user input, default = "human"
+B) Always stores "human"
+C) Error occurs
+D) Assigns null
+Answer: A
+
+If a user enters nothing and presses OK in a prompt, what is stored?
+A) null
+B) " " (empty string)
+C) 0
+D) undefined
+Answer: B
+
+Chapter 10: If Statements
+
+Which symbol is used to compare values in JavaScript?
+A) =
+B) ==
+C) ===
+D) Both B and C
+Answer: D
+
+What does this code do?
+
+var x = "Vatican";
+if (x === "Vatican") {
+   alert("Correct!");
+}
+
+
+A) Always shows "Correct!"
+B) Shows "Correct!" only if input is Vatican
+C) Gives an error
+D) Never runs
+Answer: B
+
+What happens if you use a single = instead of === inside if condition?
+A) It compares values correctly
+B) It assigns value instead of comparing
+C) It works same as ===
+D) No effect
+Answer: B
+
+What is the correct way to write an if statement?
+A) if(x === "yes"); { alert("OK"); }
+B) if (x === "yes") { alert("OK"); }
+C) if x === "yes" { alert("OK"); }
+D) if: (x === "yes") { alert("OK"); }
+Answer: B
+
+Here are 20 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What does the num++ expression do?
+A) Increments the variable by 1
+B) Decrements the variable by 1
+C) Multiplies the variable by 2
+D) Divides the variable by 2
+
+Correct answer: A) Increments the variable by 1
+
+Quiz 2
+What is the difference between num++ and ++num?
+A) num++ increments before assignment, while ++num increments after assignment
+B) num++ increments after assignment, while ++num increments before assignment
+C) num++ decrements, while ++num increments
+D) There is no difference
+
+Correct answer: B) num++ increments after assignment, while ++num increments before assignment
+
+Quiz 3
+What is the purpose of using parentheses in math expressions?
+A) To make the code more readable
+B) To override built-in precedence rules
+C) To declare variables
+D) To assign values
+
+Correct answer: B) To override built-in precedence rules
+
+Quiz 4
+What is the result of the expression (2 * 4) * 4 + 2?
+A) 34
+B) 48
+C) 16
+D) 20
+
+Correct answer: A) 34
+
+Quiz 5
+How do you concatenate strings in JavaScript?
+A) Using the + operator
+B) Using the - operator
+C) Using the * operator
+D) Using the / operator
+
+Correct answer: A) Using the + operator
+
+Quiz 6
+What is the result of the expression "2" + "2"?
+A) 4
+B) "22"
+C) "2 + 2"
+D) Error
+
+Correct answer: B) "22"
+
+Quiz 7
+What is the purpose of the prompt function?
+A) To display a message box
+B) To ask the user for input
+C) To log a message to the console
+D) To redirect to a new page
+
+Correct answer: B) To ask the user for input
+
+Quiz 8
+What type of value does the prompt function return?
+A) Number
+B) String
+C) Boolean
+D) Null
+
+Correct answer: B) String
+
+Quiz 9
+What happens if the user clicks Cancel in a prompt dialog?
+A) The variable is assigned an empty string
+B) The variable is assigned a null value
+C) The variable is assigned a default value
+D) The code throws an error
+
+Correct answer: B) The variable is assigned a null value
+
+Quiz 10
+What is the purpose of an if statement?
+A) To execute a block of code repeatedly
+B) To execute a block of code conditionally
+C) To declare variables
+D) To assign values
+
+Correct answer: B) To execute a block of code conditionally
+
+Quiz 11
+What is the syntax for an if statement?
+A) if (condition) { code }
+B) if condition { code }
+C) if (condition) code
+D) if condition code
+
+Correct answer: A) if (condition) { code }
+
+Quiz 12
+What is the difference between = and ===?
+A) = is used for comparison, while === is used for assignment
+B) = is used for assignment, while === is used for comparison
+C) = is used for strings, while === is used for numbers
+D) There is no difference
+
+Correct answer: B) = is used for assignment, while === is used for comparison
+
+Quiz 13
+Can you use variables in an if statement?
+A) Yes
+B) No
+C) Only for strings
+D) Only for numbers
+
+Correct answer: A) Yes
+
+Quiz 14
+What happens if the condition in an if statement is true?
+A) The code inside the if block is executed
+B) The code inside the if block is skipped
+C) The code throws an error
+D) The variable is assigned a new value
+
+Correct answer: A) The code inside the if block is executed
+
+Quiz 15
+Can you have multiple statements inside an if block?
+A) Yes
+B) No
+C) Only for strings
+D) Only for numbers
+
+Correct answer: A) Yes
+
+Quiz 16
+What is the purpose of curly brackets in an if statement?
+A) To declare variables
+B) To assign values
+C) To group statements
+D) To log messages
+
+Correct answer: C) To group statements
+
+Chapter 6: Unfamiliar Operators
+What does num++ do?
+a) Adds 1 to num
+b) Subtracts 1 from num
+c) Multiplies num by 1
+Answer: a) Adds 1 to num
+
+What is the value of newNum after this code runs?
+
+javascript
+var num = 5;
+var newNum = num--;
+a) 5
+b) 4
+c) 6
+Answer: a) 5 (Post-decrement assigns original value first.)
+
+What does --num do?
+a) Decrements num before using its value
+b) Decrements num after using its value
+c) Doubles num
+Answer: a) Decrements num before using its value
+
+Chapter 7: Math Expressions (Precedence)
+What is the result of 2 + 3 * 4?
+a) 20
+b) 14
+c) 10
+Answer: b) 14 (Multiplication first: 34=12, then +2=14.)*
+
+How do parentheses change the result of (2 + 3) * 4?
+a) 20
+b) 14
+c) 24
+Answer: a) 20 *(Addition first: 2+3=5, then *4=20.)*
+
+What is the value of result after this code?
+
+javascript
+var result = (10 % 3) + 1;
+a) 1
+b) 2
+c) 4
+Answer: b) 2 *(10%3=1, then +1=2.)*
+
+Chapter 8: Concatenating Strings
+What does "Hello" + "World" produce?
+a) "Hello World"
+b) "HelloWorld"
+c) An error
+Answer: b) "HelloWorld" (No space added automatically.)
+
+What is the output of this code?
+
+javascript
+var x = "2";
+var y = "3";
+alert(x + y);
+a) "5"
+b) "23"
+c) 6
+Answer: b) "23" (Strings concatenate, not add.)
+
+How do you insert a space between two variables in concatenation?
+a) var str = a + " " + b;
+b) var str = a + b;
+c) var str = a,b;
+Answer: a) var str = a + " " + b;
+
+Chapter 9: Prompts
+What does prompt("Age?") return if the user clicks Cancel?
+a) "" (empty string)
+b) null
+c) 0
+Answer: b) null
+
+What is the data type of a prompt response?
+a) Number
+b) String
+c) Boolean
+Answer: b) String (Even if the user enters a number.)
+
+How do you set a default answer in a prompt?
+
+javascript
+var ans = prompt("Question", "default");
+a) True
+b) False (Correct syntax is prompt("Question", "default"))
+Answer: a) True
+
+Chapter 10: if Statements
+Which operator checks equality in an if statement?
+a) =
+b) ==
+c) ===
+Answer: c) === (Strict equality, preferred.)
+
+What happens if the condition in an if is false?
+a) The code inside {} runs.
+b) The code is skipped.
+c) An error occurs.
+Answer: b) The code is skipped.
+
+How do you write a multi-line if statement?
+
+javascript
+if (x === y) {
+  alert("Match!");
+}
+a) Correct
+b) Incorrect
+Answer: a) Correct
+
+What is missing in this if statement?
+
+javascript
+if (x == 10)
+  alert("Ten!");
+a) Curly braces {}
+b) Semicolon ; after if
+c) Nothing
+Answer: c) Nothing (Single-line if can omit {} but is discouraged.)
+
+Bonus Mix
+What is the output?
+
+javascript
+var a = "5";
+var b = 2;
+alert(a + b);
+a) "52"
+b) 7
+c) Error
+Answer: a) "52" (String concatenation.)
+
+How do you increment score by 1?
+a) score =+ 1;
+b) score++;
+c) score = score + 1;
+Answer: Both b) and c) are correct.
+
+What is the result of "Hi" + 5 + 5?
+a) "Hi10"
+b) "Hi55"
+c) "Hi 5 5"
+Answer: b) "Hi55" (Left-to-right concatenation.)
+
+What is the purpose of null in JavaScript?
+a) Represents an intentional empty value.
+b) Same as 0.
+c) Same as undefined.
+Answer: a) Represents an intentional empty value.
+
+✅ JavaScript Quiz (Chapter 15: Arrays)
+
+1. What is an array in JavaScript?
+A) A single variable with only one value
+B) A type of variable that can hold multiple values
+C) A built-in function
+D) A math operator
+Answer: B
+
+2. What is the correct way to declare an array?
+A) var cities = "Atlanta", "Chicago", "Denver";
+B) var cities = ["Atlanta", "Chicago", "Denver"];
+C) array cities = {"Atlanta", "Chicago", "Denver"};
+D) cities = (Atlanta, Chicago, Denver);
+Answer: B
+
+3. In the array below, what is the value of cities[2]?
+
+var cities = ["Atlanta", "Baltimore", "Chicago", "Denver"];
+
+
+A) Atlanta
+B) Baltimore
+C) Chicago
+D) Denver
+Answer: C
+
+4. What index number does the first element of an array have?
+A) 0
+B) 1
+C) -1
+D) Any number
+Answer: A
+
+5. If the last item in an array has index 9, how many items are in the array?
+A) 9
+B) 10
+C) 8
+D) 11
+Answer: B
+
+6. What will this code display?
+
+var cities = ["Atlanta", "Baltimore", "Chicago", "Denver"];
+alert("Welcome to " + cities[3]);
+
+
+A) Welcome to Atlanta
+B) Welcome to Baltimore
+C) Welcome to Chicago
+D) Welcome to Denver
+Answer: D
+
+7. Which of the following is a mixed array (different types of values)?
+A) var arr = ["Apple", "Banana", "Cherry"];
+B) var arr = [1, 2, 3, 4];
+C) var arr = [1, "Bob", true];
+D) var arr = ["Red", "Blue", "Green"];
+Answer: C
+
+8. Which rule is correct for naming arrays in JavaScript?
+A) Can start with a number
+B) Can include spaces
+C) Can only contain letters, numbers, $, and _
+D) No rules at all
+Answer: C
+
+9. Which statement about arrays is TRUE?
+A) Arrays always start at index 1
+B) You must declare an array each time you add new values
+C) You declare an array only once
+D) Arrays can only store strings
+Answer: C
+
+10. What is a good naming convention for arrays?
+A) Singular names (e.g., city)
+B) Random letters (e.g., abc)
+C) Plural names (e.g., cities)
+D) Numbers only (e.g., 123)
+Answer: C
+
+Chapter 11: Comparison Operators
+Which operator checks strict equality (value and type)?
+a) ==
+b) ===
+c) =
+Answer: b) ===
+
+What is the result of "5" === 5?
+a) true
+b) false
+c) Error
+Answer: b) false (Different types: string vs. number.)
+
+Which operator means "not equal to"?
+a) !==
+b) !=
+c) Both a and b
+Answer: c) Both a and b (But !== is preferred for strict inequality.)
+
+What does (10 > 5) && (2 < 1) evaluate to?
+a) true
+b) false
+c) Error
+Answer: b) false (Second condition is false.)
+
+Chapter 12: if...else and else if
+What is the output?
+
+javascript
+var age = 20;
+if (age >= 18) {
+  alert("Adult");
+} else {
+  alert("Minor");
+}
+a) "Adult"
+b) "Minor"
+c) No output
+Answer: a) "Adult"
+
+How does else if differ from else?
+a) else if tests another condition; else runs if all prior conditions fail.
+b) They are identical.
+c) else if is invalid syntax.
+Answer: a) else if tests another condition.
+
+What happens if multiple if conditions are true?
+
+javascript
+if (x > 0) alert("Positive");
+else if (x > 10) alert("Large");
+a) Both alerts may execute.
+b) Only the first true condition executes.
+c) Neither executes.
+Answer: b) Only the first true condition executes. (JavaScript stops at the first match.)
+
+Chapter 13: Testing Sets of Conditions
+What does || mean?
+a) Logical AND
+b) Logical OR
+c) Not equal
+Answer: b) Logical OR
+
+What is the result of (true || false) && false?
+a) true
+b) false
+c) Error
+Answer: b) false (Parentheses evaluate to true, then true && false is false.)
+
+How do you group conditions to clarify precedence?
+a) Use square brackets [].
+b) Use parentheses ().
+c) Use curly braces {}.
+Answer: b) Parentheses ()
+
+Chapter 14: Nested if Statements
+What is the purpose of indenting nested if blocks?
+a) Required for code execution.
+b) Improves readability.
+c) Both a and b.
+Answer: b) Improves readability. (JavaScript ignores whitespace.)
+
+What is the output?
+
+javascript
+var x = 10, y = 5;
+if (x > 5) {
+  if (y > 10) alert("A");
+  else alert("B");
+}
+a) "A"
+b) "B"
+c) No output
+Answer: b) "B" (Outer if is true, inner if is false.)
+
+Chapter 15: Arrays
+How do you declare an array?
+a) var arr = ("a", "b");
+b) var arr = ["a", "b"];
+c) var arr = "a", "b";
+Answer: b) var arr = ["a", "b"];
+
+What is the index of the first element in an array?
+a) 0
+b) 1
+c) Depends on the array.
+Answer: a) 0
+
+What is the value of arr[1]?
+
+javascript
+var arr = ["apple", "banana", "cherry"];
+a) "apple"
+b) "banana"
+c) "cherry"
+Answer: b) "banana" *(Index 1 = second element.)*
+
+Here are 15 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the === operator?
+A) To assign a value to a variable
+B) To compare two values for equality
+C) To concatenate strings
+D) To declare a variable
+
+Correct answer: B) To compare two values for equality
+
+Quiz 2
+What is the difference between === and ==?
+A) === checks for value equality, while == checks for type equality
+B) === checks for both value and type equality, while == checks for value equality only
+C) === is used for strings, while == is used for numbers
+D) There is no difference
+
+Correct answer: B) === checks for both value and type equality, while == checks for value equality only
+
+Quiz 3
+What is the purpose of the !== operator?
+A) To assign a value to a variable
+B) To compare two values for inequality
+C) To concatenate strings
+D) To declare a variable
+
+Correct answer: B) To compare two values for inequality
+
+Quiz 4
+What is the result of the expression "Rose" !== "rose"?
+A) True
+B) False
+C) Error
+D) Undefined
+
+Correct answer: A) True
+
+Quiz 5
+What is the purpose of the && operator?
+A) To test for any of a set of conditions
+B) To test for a combination of conditions
+C) To assign a value to a variable
+D) To declare a variable
+
+Correct answer: B) To test for a combination of conditions
+
+Quiz 6
+What is the purpose of the || operator?
+A) To test for a combination of conditions
+B) To test for any of a set of conditions
+C) To assign a value to a variable
+D) To declare a variable
+
+Correct answer: B) To test for any of a set of conditions
+
+Quiz 7
+What is the result of the expression true || false?
+A) True
+B) False
+C) Error
+D) Undefined
+
+Correct answer: A) True
+
+Quiz 8
+What is the purpose of nesting if statements?
+A) To test for a single condition
+B) To test for multiple conditions
+C) To assign a value to a variable
+D) To declare a variable
+
+Correct answer: B) To test for multiple conditions
+
+Quiz 9
+What is an array in JavaScript?
+A) A single value assigned to a variable
+B) A collection of values assigned to a variable
+C) A function that performs a calculation
+D) A loop that iterates over a set of values
+
+Correct answer: B) A collection of values assigned to a variable
+
+Quiz 10
+How do you access an element in an array?
+A) Using parentheses
+B) Using square brackets
+C) Using curly brackets
+D) Using quotes
+
+Correct answer: B) Using square brackets
+
+Quiz 11
+What is the index of the first element in an array?
+A) 0
+B) 1
+C) -1
+D) undefined
+
+Correct answer: A) 0
+
+Quiz 12
+Can an array contain different data types?
+A) Yes
+B) No
+C) Only strings and numbers
+D) Only booleans and arrays
+
+Correct answer: A) Yes
+
+Quiz 13
+How do you declare an array in JavaScript?
+A) Using the var keyword
+B) Using the let keyword
+C) Using square brackets []
+D) All of the above
+
+Correct answer: D) All of the above
+
+Quiz 14
+What happens if you try to access an array element that doesn't exist?
+A) It returns undefined
+B) It throws an error
+C) It returns null
+D) It returns the last element in the array
+
+Correct answer: A) It returns undefined
+
+Quiz 15
+Can you assign new values to an array that has already been declared?
+A) Yes
+B) No
+C) Only if it's a string array
+D) Only if it's a number array
+
+Correct answer: A) Yes
+
+How do you remove the last element of an array?
+a) array.pop()
+b) array.shift()
+c) array.splice()
+Answer: a) array.pop()
+
+What does pets.push("fish") do?
+a) Adds "fish" to the start of the array.
+b) Adds "fish" to the end of the array.
+c) Removes "fish" from the array.
+Answer: b) Adds "fish" to the end of the array.
+
+What is the value of arr[2] after this code?
+
+javascript
+var arr = [10, 20];
+arr[3] = 40;
+a) undefined
+b) 30
+c) 40
+Answer: a) undefined (Index 2 is skipped.)
+
+Chapter 17: Advanced Array Methods
+Which method removes the first element of an array?
+a) array.unshift()
+b) array.shift()
+c) array.slice()
+Answer: b) array.shift()
+
+What does splice(2, 1, "duck") do?
+a) Inserts "duck" at index 2 and removes 1 element.
+b) Removes 2 elements starting at index 1.
+c) Copies elements from index 2 to 4.
+Answer: a) Inserts "duck" at index 2 and removes 1 element.
+
+How do you copy elements [2] to [4] into a new array?
+a) array.slice(2, 5)
+b) array.splice(2, 3)
+c) array.pop(2, 4)
+Answer: a) array.slice(2, 5) (End index is exclusive.)
+
+Chapter 18: for Loops
+What is the output?
+
+javascript
+for (var i = 0; i < 3; i++) {
+  alert(i);
+}
+a) 0, 1, 2
+b) 1, 2, 3
+c) 3
+Answer: a) 0, 1, 2
+
+How many times does this loop run?
+
+javascript
+for (var i = 1; i <= 5; i += 2) {}
+a) 3
+b) 5
+c) 6
+Answer: a) 3 *(i = 1, 3, 5)*
+
+What is the purpose of the loop counter (i)?
+a) Tracks iterations and accesses array elements.
+b) Only counts iterations.
+c) Only declares variables.
+Answer: a) Tracks iterations and accesses array elements.
+
+Chapter 19: Loop Optimization
+What is a flag variable used for?
+a) To signal a condition (e.g., true/false).
+b) To count loop iterations.
+c) To store array lengths.
+Answer: a) To signal a condition (e.g., true/false).
+
+What does break do in a loop?
+a) Pauses the loop.
+b) Exits the loop immediately.
+c) Skips the current iteration.
+Answer: b) Exits the loop immediately.
+
+How do you get the length of an array?
+a) array.length
+b) array.size()
+c) array.count
+Answer: a) array.length
+
+Chapter 20: Nested Loops
+How many iterations occur here?
+
+javascript
+for (var i = 0; i < 2; i++) {
+  for (var j = 0; j < 3; j++) {}
+}
+a) 5
+b) 6
+c) 8
+Answer: b) 6 *(2 outer × 3 inner = 6)*
+
+What is the output?
+
+javascript
+var result = [];
+for (var i = 0; i < 2; i++) {
+  for (var j = 0; j < 2; j++) {
+    result.push(i + j);
+  }
+}
+a) [0, 1, 1, 2]
+b) [0, 1, 2, 3]
+c) [1, 2, 2, 3]
+Answer: a) [0, 1, 1, 2]
+
+Why use nested loops?
+a) To process multi-dimensional data (e.g., arrays in arrays).
+b) To reduce code length.
+c) Both a and b.
+Answer: c) Both a and b.
+
+Here are 15 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the pop method in an array?
+A) To add an element to the end of the array
+B) To remove the last element of the array
+C) To add an element to the beginning of the array
+D) To remove the first element of the array
+
+Correct answer: B) To remove the last element of the array
+
+Quiz 2
+What is the purpose of the push method in an array?
+A) To add one or more elements to the end of the array
+B) To remove one or more elements from the end of the array
+C) To add one or more elements to the beginning of the array
+D) To remove one or more elements from the beginning of the array
+
+Correct answer: A) To add one or more elements to the end of the array
+
+Quiz 3
+What is the purpose of the shift method in an array?
+A) To remove the last element of the array
+B) To add an element to the beginning of the array
+C) To remove the first element of the array
+D) To add an element to the end of the array
+
+Correct answer: C) To remove the first element of the array
+
+Quiz 4
+What is the purpose of the unshift method in an array?
+A) To add one or more elements to the end of the array
+B) To remove one or more elements from the end of the array
+C) To add one or more elements to the beginning of the array
+D) To remove one or more elements from the beginning of the array
+
+Correct answer: C) To add one or more elements to the beginning of the array
+
+Quiz 5
+What is the purpose of the splice method in an array?
+A) To add or remove elements from anywhere in the array
+B) To add elements to the end of the array
+C) To remove elements from the beginning of the array
+D) To copy elements from one array to another
+
+Correct answer: A) To add or remove elements from anywhere in the array
+
+Quiz 6
+What is a flag variable used for?
+A) To count the number of iterations in a loop
+B) To keep track of a condition that may change during the execution of the code
+C) To declare a new array
+D) To assign a value to a variable
+
+Correct answer: B) To keep track of a condition that may change during the execution of the code
+
+Quiz 7
+What is a Boolean value?
+A) A string value
+B) A numeric value
+C) A true or false value
+D) An array value
+
+Correct answer: C) A true or false value
+
+Quiz 8
+What is the purpose of the break statement in a loop?
+A) To continue to the next iteration of the loop
+B) To exit the loop prematurely
+C) To declare a new variable
+D) To assign a value to a variable
+
+Correct answer: B) To exit the loop prematurely
+
+Quiz 9
+How do you find the length of an array in JavaScript?
+A) Using the length property
+B) Using the size property
+C) Using the count property
+D) Using a loop to iterate over the array
+
+Correct answer: A) Using the length property
+
+Quiz 10
+What is the purpose of nested loops?
+A) To iterate over a single array
+B) To iterate over multiple arrays
+C) To perform a repetitive task for each element in an array
+D) To perform a repetitive task for each element in multiple arrays
+
+Correct answer: D) To perform a repetitive task for each element in multiple arrays
+
+Quiz 11
+How do you access the elements of a nested array?
+A) Using a single index
+B) Using multiple indices
+C) Using a loop
+D) Using a recursive function
+
+Correct answer: B) Using multiple indices
+
+Quiz 12
+What is the result of the expression fullNames.push(firstNames[i] + lastNames[j])?
+A) It adds a new element to the end of the fullNames array
+B) It removes the last element from the fullNames array
+C) It assigns a value to the firstNames array
+D) It assigns a value to the lastNames array
+
+Correct answer: A) It adds a new element to the end of the fullNames array
+
+Quiz 13
+How many times will the inner loop run in a nested loop structure?
+A) Once for each iteration of the outer loop
+B) Once for each element in the inner array
+C) Once for each element in the outer array
+D) A fixed number of times regardless of the outer loop
+
+Correct
+
+1. What is an array in JavaScript?
+A) A single variable with only one value
+B) A type of variable that can hold multiple values ✅ (Correct Answer)
+C) A built-in function
+D) A math operator
+
+2. What is the correct way to declare an array?
+A) var cities = "Atlanta", "Chicago", "Denver";
+B) var cities = ["Atlanta", "Chicago", "Denver"]; ✅ (Correct Answer)
+C) array cities = {"Atlanta", "Chicago", "Denver"};
+D) cities = (Atlanta, Chicago, Denver);
+
+3. In the array below, what is the value of cities[2]?
+
+var cities = ["Atlanta", "Baltimore", "Chicago", "Denver"];
+
+
+A) Atlanta
+B) Baltimore
+C) Chicago ✅ (Correct Answer)
+D) Denver
+
+4. What index number does the first element of an array have?
+A) 0 ✅ (Correct Answer)
+B) 1
+C) -1
+D) Any number
+
+5. If the last item in an array has index 9, how many items are in the array?
+A) 9
+B) 10 ✅ (Correct Answer)
+C) 8
+D) 11
+
+6. What will this code display?
+
+var cities = ["Atlanta", "Baltimore", "Chicago", "Denver"];
+alert("Welcome to " + cities[3]);
+
+
+A) Welcome to Atlanta
+B) Welcome to Baltimore
+C) Welcome to Chicago
+D) Welcome to Denver ✅ (Correct Answer)
+
+7. Which of the following is a mixed array (different types of values)?
+A) var arr = ["Apple", "Banana", "Cherry"];
+B) var arr = [1, 2, 3, 4];
+C) var arr = [1, "Bob", true]; ✅ (Correct Answer)
+D) var arr = ["Red", "Blue", "Green"];
+
+8. Which rule is correct for naming arrays in JavaScript?
+A) Can start with a number
+B) Can include spaces
+C) Can only contain letters, numbers, $, and _ ✅ (Correct Answer)
+D) No rules at all
+
+9. Which statement about arrays is TRUE?
+A) Arrays always start at index 1
+B) You must declare an array each time you add new values
+C) You declare an array only once ✅ (Correct Answer)
+D) Arrays can only store strings
+
+10. What is a good naming convention for arrays?
+A) Singular names (e.g., city)
+B) Random letters (e.g., abc)
+C) Plural names (e.g., cities) ✅ (Correct Answer)
+D) Numbers only (e.g., 123)
