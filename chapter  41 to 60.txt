@@ -1,0 +1,2397 @@
+What is the main difference between a for loop and a while loop in JavaScript?
+
+A) for loops can't be nested
+
+B) while loops don't need a counter
+
+C) for loops pack initialization, condition, and increment in one line
+
+D) while loops are faster
+
+Answer: C
+
+What will this while loop output?
+
+javascript
+var i = 0;
+while (i <= 3) {
+  console.log(i);
+  i++;
+}
+A) 0, 1, 2, 3
+
+B) 1, 2, 3
+
+C) Infinite loop
+
+D) 0, 1, 2
+
+Answer: A
+
+What is the key difference between a while loop and a do...while loop?
+
+A) do...while runs at least once
+
+B) while loops are only for arrays
+
+C) do...while can't use a counter
+
+D) while loops are deprecated
+
+Answer: A
+
+Where is the best place to include JavaScript files in an HTML document?
+
+A) In the <head>
+
+B) At the end of the <body>
+
+C) In a separate CSS file
+
+D) Inside <meta> tags
+
+Answer: B
+
+How do you write a single-line comment in JavaScript?
+
+A) <!-- Comment -->
+
+B) /* Comment */
+
+C) // Comment
+
+D) # Comment
+
+Answer: C
+
+What event is triggered when a user clicks an element?
+
+A) onHover
+
+B) onClick
+
+C) onFocus
+
+D) onLoad
+
+Answer: B
+
+How do you prevent a link from navigating when clicked in JavaScript?
+
+A) href="#"
+
+B) href="javascript:void(0)"
+
+C) onClick="return false"
+
+D) Both B and C
+
+Answer: D
+
+What event handler is used when the mouse pointer leaves an element?
+
+A) onMouseout
+
+B) onMouseleave
+
+C) onBlur
+
+D) onHover
+
+Answer: A
+
+How do you read the value of a text field with the ID "email"?
+
+A) document.getElementById("email").text
+
+B) document.querySelector("#email").value
+
+C) document.getElementById("email").value
+
+D) document.email.value
+
+Answer: C
+
+How do you change the text of a paragraph with ID "demo"?
+
+A) document.getElementById("demo").text = "Hello"
+
+B) document.getElementById("demo").innerText = "Hello"
+
+C) document.getElementById("demo").innerHTML = "Hello"
+
+D) Both B and C
+
+Answer: D
+
+How do you hide an element with ID "box" using JavaScript?
+
+A) document.getElementById("box").style.display = "none"
+
+B) document.getElementById("box").visibility = "hidden"
+
+C) document.getElementById("box").className = "hidden"
+
+D) All of the above
+
+Answer: D
+
+How do you swap an image with ID "pic" to "new.jpg"?
+
+A) document.getElementById("pic").src = "new.jpg"
+
+B) document.getElementById("pic").href = "new.jpg"
+
+C) document.pic.src = "new.jpg"
+
+D) document.querySelector("#pic").setAttribute("src", "new.jpg")
+
+Answer: A
+
+How do you change the font size of an element with ID "text" to 20px?
+
+A) document.getElementById("text").style.fontSize = "20px"
+
+B) document.getElementById("text").fontSize = "20px"
+
+C) document.getElementById("text").css("font-size", "20px")
+
+D) document.text.style.fontSize = "20px"
+
+Answer: A
+
+How do you select all <p> elements in the document?
+
+A) document.querySelectorAll("p")
+
+B) document.getElementsByTagName("p")
+
+C) document.getAll("p")
+
+D) Both A and B
+
+Answer: D
+
+What does document.getElementsByTagName("div") return?
+
+A) The first <div>
+
+B) An array-like collection of all <div> elements
+
+C) A single div with ID "div"
+
+D) An error
+
+Answer: B
+
+What is the DOM?
+
+A) A programming language
+
+B) A representation of the HTML document as a tree structure
+
+C) A JavaScript framework
+
+D) A CSS property
+
+Answer: B
+
+How do you access the first child of an element with ID "parent"?
+
+A) document.getElementById("parent").childNodes[0]
+
+B) document.getElementById("parent").firstChild
+
+C) document.getElementById("parent").children[0]
+
+D) All of the above
+
+Answer: D
+
+What is the correct way to add a class "active" to an element with ID "menu"?
+
+A) document.getElementById("menu").class = "active"
+
+B) document.getElementById("menu").className = "active"
+
+C) document.getElementById("menu").addClass("active")
+
+D) document.getElementById("menu").setAttribute("class", "active")
+
+Answer: B
+
+What does document.getElementById("myDiv").innerHTML do?
+
+A) Gets the text content of the element
+
+B) Gets the HTML content of the element
+
+C) Sets the text content of the element
+
+D) Both A and B
+
+Answer: B
+
+How do you change the background color of an element with ID "header" to red?
+
+A) document.getElementById("header").style.backgroundColor = "red"
+
+B) document.getElementById("header").background = "red"
+
+C) document.getElementById("header").css("background-color", "red")
+
+D) document.header.style.backgroundColor = "red"
+
+Answer: A
+
+What is the correct syntax for a do...while loop?
+
+A)
+
+javascript
+do {
+  // code
+} while (condition);
+B)
+
+javascript
+while (condition) do {
+  // code
+}
+C)
+
+javascript
+do while (condition) {
+  // code
+}
+D)
+
+javascript
+do (condition) {
+  // code
+} while;
+Answer: A
+
+What happens if the condition in a while loop is initially false?
+
+A) The loop runs once
+
+B) The loop never runs
+
+C) The loop runs infinitely
+
+D) The loop breaks the code
+
+Answer: B
+
+How do you select all paragraphs inside a div with ID "content"?
+
+A) document.getElementById("content").getElementsByTagName("p")
+
+B) document.querySelectorAll("#content p")
+
+C) document.getElementById("content").querySelector("p")
+
+D) Both A and B
+
+Answer: D
+
+What does document.childNodes[0] refer to?
+
+A) The <head> element
+
+B) The <html> element
+
+C) The <body> element
+
+D) The first comment in the document
+
+Answer: B
+
+How do you change the text color of an element with ID "title" to blue?
+
+A) document.getElementById("title").style.color = "blue"
+
+B) document.getElementById("title").textColor = "blue"
+
+C) document.getElementById("title").css.color = "blue"
+
+D) document.title.style.color = "blue"
+
+Answer: A
+
+Here are 25 quizzes based on JavaScript chapters 41-60:
+
+Quiz 1
+What is the purpose of the while loop in JavaScript?
+A) To execute a block of code repeatedly while a condition is true
+B) To execute a block of code once
+C) To skip a block of code
+D) To exit a loop
+
+Correct answer: A) To execute a block of code repeatedly while a condition is true
+
+Quiz 2
+What is the difference between while and do...while loops?
+A) while loop checks the condition before executing the code, while do...while loop checks the condition after executing the code
+B) while loop checks the condition after executing the code, while do...while loop checks the condition before executing the code
+C) while loop is used for arrays, while do...while loop is used for objects
+D) while loop is used for functions, while do...while loop is used for variables
+
+Correct answer: A) while loop checks the condition before executing the code, while do...while loop checks the condition after executing the code
+
+Quiz 3
+What is the purpose of the onClick event handler?
+A) To execute a function when a user clicks on an element
+B) To execute a function when a user hovers over an element
+C) To execute a function when a user submits a form
+D) To execute a function when a page loads
+
+Correct answer: A) To execute a function when a user clicks on an element
+
+Quiz 4
+What is the purpose of the onMouseover event handler?
+A) To execute a function when a user clicks on an element
+B) To execute a function when a user hovers over an element
+C) To execute a function when a user submits a form
+D) To execute a function when a page loads
+
+Correct answer: B) To execute a function when a user hovers over an element
+
+Quiz 5
+What is the purpose of the getElementById method?
+A) To get an element by its id
+B) To get an element by its class
+C) To get an element by its tag name
+D) To get an element by its name
+
+Correct answer: A) To get an element by its id
+
+Quiz 6
+What is the purpose of the getElementsByTagName method?
+A) To get an element by its id
+B) To get an element by its class
+C) To get a collection of elements by their tag name
+D) To get an element by its name
+
+Correct answer: C) To get a collection of elements by their tag name
+
+Quiz 7
+What is the DOM?
+A) Document Object Model
+B) Document Orientation Model
+C) Dynamic Object Model
+D) Data Object Model
+
+Correct answer: A) Document Object Model
+
+Quiz 8
+What is a node in the DOM?
+A) An element
+B) A attribute
+C) A text node
+D) All of the above
+
+Correct answer: D) All of the above
+
+Quiz 9
+What is the purpose of the childNodes property?
+A) To get the parent node of an element
+B) To get the child nodes of an element
+C) To get the sibling nodes of an element
+D) To get the attribute nodes of an element
+
+Correct answer: B) To get the child nodes of an element
+
+Quiz 10
+What is the difference between innerHTML and value properties?
+A) innerHTML is used for form fields, while value is used for other elements
+B) innerHTML is used for other elements, while value is used for form fields
+C) innerHTML is used for getting the content of an element, while value is used for setting the content of an element
+D) innerHTML is used for setting the content of an element, while value is used for getting the content of an element
+
+Correct answer: B) innerHTML is used for other elements, while value is used for form fields
+
+Quiz 11
+What is the purpose of the style property?
+A) To get or set the style of an element
+B) To get or set the content of an element
+C) To get or set the attribute of an element
+D) To get or set the class of an element
+
+Correct answer: A) To get or set the style of an element
+
+Quiz 12
+What is the purpose of the className property?
+A) To get or set the class of an element
+B) To get or set the style of an element
+C) To get or set the content of an element
+
+What is the key difference between a for loop and a while loop?
+
+A) for loops can't be nested
+
+B) while loops don't need a counter
+
+C) for loops pack initialization, condition, and increment in one line
+
+D) while loops are faster
+
+Answer: C
+
+What will this while loop output?
+
+javascript
+var i = 0;
+while (i <= 3) {
+  console.log(i);
+  i++;
+}
+A) 0, 1, 2, 3
+
+B) 1, 2, 3
+
+C) Infinite loop
+
+D) 0, 1, 2
+
+Answer: A
+
+What is the key difference between a while loop and a do...while loop?
+
+A) do...while runs at least once
+
+B) while loops are only for arrays
+
+C) do...while can't use a counter
+
+D) while loops are deprecated
+
+Answer: A
+
+Where is the best place to include JavaScript files in an HTML document?
+
+A) In the <head>
+
+B) At the end of the <body>
+
+C) In a separate CSS file
+
+D) Inside <meta> tags
+
+Answer: B
+
+How do you write a single-line comment in JavaScript?
+
+A) <!-- Comment -->
+
+B) /* Comment */
+
+C) // Comment
+
+D) # Comment
+
+Answer: C
+
+What event is triggered when a user clicks an element?
+
+A) onHover
+
+B) onClick
+
+C) onFocus
+
+D) onLoad
+
+Answer: B
+
+How do you prevent a link from navigating when clicked in JavaScript?
+
+A) href="#"
+
+B) href="javascript:void(0)"
+
+C) onClick="return false"
+
+D) Both B and C
+
+Answer: D
+
+What event handler is used when the mouse pointer leaves an element?
+
+A) onMouseout
+
+B) onMouseleave
+
+C) onBlur
+
+D) onHover
+
+Answer: A
+
+How do you read the value of a text field with the ID "email"?
+
+A) document.getElementById("email").text
+
+B) document.querySelector("#email").value
+
+C) document.getElementById("email").value
+
+D) document.email.value
+
+Answer: C
+
+How do you change the text of a paragraph with ID "demo"?
+
+A) document.getElementById("demo").text = "Hello"
+
+B) document.getElementById("demo").innerText = "Hello"
+
+C) document.getElementById("demo").innerHTML = "Hello"
+
+D) Both B and C
+
+Answer: D
+
+How do you hide an element with ID "box" using JavaScript?
+
+A) document.getElementById("box").style.display = "none"
+
+B) document.getElementById("box").visibility = "hidden"
+
+C) document.getElementById("box").className = "hidden"
+
+D) All of the above
+
+Answer: D
+
+How do you swap an image with ID "pic" to "new.jpg"?
+
+A) document.getElementById("pic").src = "new.jpg"
+
+B) document.getElementById("pic").href = "new.jpg"
+
+C) document.pic.src = "new.jpg"
+
+D) document.querySelector("#pic").setAttribute("src", "new.jpg")
+
+Answer: A
+
+How do you change the font size of an element with ID "text" to 20px?
+
+A) document.getElementById("text").style.fontSize = "20px"
+
+B) document.getElementById("text").fontSize = "20px"
+
+C) document.getElementById("text").css("font-size", "20px")
+
+D) document.text.style.fontSize = "20px"
+
+Answer: A
+
+How do you select all <p> elements in the document?
+
+A) document.querySelectorAll("p")
+
+B) document.getElementsByTagName("p")
+
+C) document.getAll("p")
+
+D) Both A and B
+
+Answer: D
+
+What does document.getElementsByTagName("div") return?
+
+A) The first <div>
+
+B) An array-like collection of all <div> elements
+
+C) A single div with ID "div"
+
+D) An error
+
+Answer: B
+
+Here are 15 quiz questions based on the chapters:
+
+Quiz Questions
+1. How do you read the text content of a paragraph element with the id "slowLoris"?
+a) document.getElementById("slowLoris").innerHTML
+b) document.getElementById("slowLoris").textContent
+c) Both a and b
+d) Neither a nor b
+
+Correct answer: c) Both a and b
+
+2. What is the purpose of the expandLoris function?
+a) To collapse a paragraph of text
+b) To expand a paragraph of text
+c) To change the font size of a paragraph
+d) To add a new paragraph to the page
+
+Correct answer: b) To expand a paragraph of text
+
+3. How do you make an element invisible using JavaScript?
+a) document.getElementById("elementId").style.display = "none"
+b) document.getElementById("elementId").style.visibility = "hidden"
+c) Both a and b
+d) Neither a nor b
+
+Correct answer: c) Both a and b
+
+4. What is the difference between className and style properties?
+a) className adds a new class to an element, while style sets individual style properties
+b) className sets individual style properties, while style adds a new class to an element
+c) className replaces all existing classes, while style adds new style properties
+d) className adds new style properties, while style replaces all existing classes
+
+Correct answer: a) className adds a new class to an element, while style sets individual style properties
+
+5. How do you swap two images using JavaScript?
+a) By changing the src attribute of an image element
+b) By adding a new image element to the page
+c) By removing an image element from the page
+d) By changing the alt attribute of an image element
+
+Correct answer: a) By changing the src attribute of an image element
+
+6. What is the purpose of the getElementsByTagName method?
+a) To get a single element by its id
+b) To get a collection of elements by their tag name
+c) To get the parent element of a node
+d) To get the child elements of a node
+
+Correct answer: b) To get a collection of elements by their tag name
+
+7. How do you target a specific element within a collection of elements?
+a) Using the getElementById method
+b) Using the index of the element in the collection
+c) Using the getElementsByTagName method
+d) Using the parentNode property
+
+Correct answer: b) Using the index of the element in the collection
+
+8. What is the DOM?
+a) A programming language
+b) A markup language
+c) An organization chart of a web page
+d) A style sheet
+
+Correct answer: c) An organization chart of a web page
+
+9. What is a node in the DOM?
+a) A single element on a web page
+b) A collection of elements on a web page
+c) A parent-child relationship between elements
+d) A sibling relationship between elements
+
+Correct answer: a) A single element on a web page
+
+10. What is the relationship between a parent node and a child node?
+a) A parent node contains a child node
+b) A child node contains a parent node
+c) Parent and child nodes are siblings
+d) Parent and child nodes are unrelated
+
+Correct answer: a) A parent node contains a child node
+
+11. How do you access the parent node of an element?
+a) Using the parentNode property
+b) Using the childNodes property
+c) Using the getElementById method
+d) Using the getElementsByTagName method
+
+Correct answer: a) Using the parentNode property
+
+12. What is a sibling node?
+a) A node that is a parent of another node
+b) A node that is a child of another node
+c) A node that has the same parent as another node
+d) A node that is unrelated to another node
+
+Correct answer: c) A node that has the same parent as another node
+
+13. How do you access the child nodes of an element?
+a) Using the childNodes property
+b) Using the parentNode property
+c) Using the getElementById method
+d) Using the getElementsByTagName method
+
+Correct answer: a) Using the childNodes property
+
+14. What is the purpose of the document node?
+a) To represent the root of the DOM tree
+b) To represent the body of the HTML document
+c) To represent the head of
+
+How do you change the HTML content of an element with ID "demo"?
+
+A) document.getElementById("demo").text = "New text"
+
+B) document.getElementById("demo").innerHTML = "New text"
+
+C) document.getElementById("demo").value = "New text"
+
+D) document.querySelector("#demo").textContent = "New text"
+Answer: B
+
+What does innerHTML capture when reading an element's content?
+
+A) Only plain text
+
+B) Text + HTML tags inside the element
+
+C) Only the first child element
+
+D) The element's class names
+Answer: B
+
+How would you insert a list (<ol>) into a div with ID "listContainer"?
+
+A) document.getElementById("listContainer").text = "<ol><li>Item</li></ol>"
+
+B) document.getElementById("listContainer").innerHTML = "<ol><li>Item</li></ol>"
+
+C) document.querySelector("#listContainer").append("<ol><li>Item</li></ol>")
+
+D) document.getElementById("listContainer").appendChild("<ol>")
+Answer: B
+
+Chapter 52: Manipulating Images and Text
+How do you hide an image with ID "pic" using JavaScript?
+
+A) document.getElementById("pic").style.display = "none"
+
+B) document.getElementById("pic").visibility = "hidden"
+
+C) document.getElementById("pic").className = "hidden" (assuming CSS .hidden { display: none; })
+
+D) All of the above
+Answer: D
+
+What is the correct way to add a class "active" to an element without overwriting existing classes?
+
+A) element.className = "active"
+
+B) element.className += " active" (note the space)
+
+C) element.classList.add("active")
+
+D) Both B and C
+Answer: D
+
+Chapter 53: Swapping Images
+How do you change the src of an image with ID "logo" to "new-logo.png"?
+
+A) document.getElementById("logo").src = "new-logo.png"
+
+B) document.getElementById("logo").setAttribute("src", "new-logo.png")
+
+C) document.querySelector("#logo").href = "new-logo.png"
+
+D) Both A and B
+Answer: D
+
+What is the purpose of passing arguments like swapPic(id, 'new-image.jpg')?
+
+A) To make the function reusable for any image ID
+
+B) To hardcode the image path
+
+C) To prevent the function from running
+
+D) To delete the original image
+Answer: A
+
+Chapter 54: Swapping Images and Setting Classes
+What does this code do?
+
+javascript
+var img = document.getElementById("photo");
+img.src = "updated.jpg";
+A) Deletes the image
+
+B) Changes the image source to "updated.jpg"
+
+C) Hides the image
+
+D) Adds a CSS class to the image
+Answer: B
+
+How do you check the href of a link with ID "mylink"?
+
+A) document.getElementById("mylink").getAttribute("href")
+
+B) document.getElementById("mylink").href
+
+C) document.querySelector("#mylink").url
+
+D) Both A and B
+Answer: D
+
+Chapter 55: Setting Styles
+How do you set the font size of an element with ID "text" to 20px?
+
+A) document.getElementById("text").style.fontSize = "20px"
+
+B) document.getElementById("text").css("font-size", "20px")
+
+C) document.getElementById("text").size = "20px"
+
+D) document.querySelector("#text").font = "20px"
+Answer: A
+
+What property is used to float an element left?
+
+A) element.style.cssFloat = "left"
+
+B) element.style.float = "left"
+
+C) element.style.position = "left"
+
+D) Both A and B (older browsers use styleFloat)
+Answer: D
+
+How do you make an element invisible but still take up space?
+
+A) element.style.display = "none"
+
+B) element.style.visibility = "hidden"
+
+C) element.style.opacity = "0"
+
+D) Both B and C
+Answer: D
+
+Chapter 56: Target All Elements by Tag Name
+How do you select all <p> elements in the document?
+
+A) document.querySelectorAll("p")
+
+B) document.getElementsByTagName("p")
+
+C) document.getAll("p")
+
+D) Both A and B
+Answer: D
+
+What does document.getElementsByTagName("div") return?
+
+A) The first <div>
+
+B) An array-like collection of all <div> elements
+
+C) A single element
+
+D) An error
+Answer: B
+
+How do you change the font family of all paragraphs to Arial?
+
+javascript
+var pars = document.getElementsByTagName("p");
+for (var i = 0; i < pars.length; i++) {
+  pars[i].style.fontFamily = "Arial";
+}
+A) Correct
+
+B) Incorrect (should use classList.add)
+
+C) Incorrect (should use innerHTML)
+
+D) Incorrect (should use querySelector)
+Answer: A
+
+Chapter 57: Target Some Elements by Tag Name
+How do you select all <li> elements inside a <ul> with ID "menu"?
+
+A) document.getElementById("menu").getElementsByTagName("li")
+
+B) document.querySelector("#menu li")
+
+C) document.getElementsByTagName("ul#menu li")
+
+D) Both A and B
+Answer: D
+
+What does this code do?
+
+javascript
+var table = document.getElementById("data");
+var cells = table.getElementsByTagName("td");
+A) Selects all <td> elements in the document
+
+B) Selects all <td> elements inside the table with ID "data"
+
+C) Deletes all table cells
+
+D) Creates new <td> elements
+Answer: B
+
+Chapter 58: The DOM
+What is the DOM?
+
+A) A programming language
+
+B) A tree-like representation of the HTML document
+
+C) A JavaScript framework
+
+D) A CSS property
+Answer: B
+
+Which of these is NOT a DOM node type?
+
+A) document
+
+B) element
+
+C) attribute
+
+D) style
+Answer: D (correct types: document, element, text, comment, etc.)
+
+Chapter 59: The DOM - Parents and Children
+How do you access the first child of an element with ID "parent"?
+
+A) document.getElementById("parent").childNodes[0]
+
+B) document.getElementById("parent").firstChild
+
+C) document.getElementById("parent").children[0]
+
+D) All of the above
+Answer: D
+
+Quiz: While Loops & do...while Loops
+
+1. What is the main difference between a for loop and a while loop?
+A) for loops can only count up
+B) while loops can’t have a counter
+C) for loops pack initialization, condition, and increment in one line
+D) while loops are faster
+✅ Answer: C
+
+2. In a while loop, where is the counter typically declared?
+A) Inside the parentheses
+B) Before the loop starts
+C) After the loop ends
+D) Inside the curly brackets only
+✅ Answer: B
+
+3. In a while loop, where is the counter increment usually placed?
+A) Before the loop
+B) Inside the loop body
+C) After the loop ends
+D) Inside the parentheses
+✅ Answer: B
+
+4. Which part of the loop is inside the parentheses of a while loop?
+A) Initialization, condition, and increment
+B) Only the condition
+C) Only the increment
+D) Condition and increment
+✅ Answer: B
+
+5. What will this code output?
+
+var i = 0;
+while (i <= 2) {
+  alert(i);
+  i++;
+}
+
+
+A) 0, 1, 2
+B) 0, 1, 2, 3
+C) 1, 2, 3
+D) No output
+✅ Answer: A
+
+6. A do...while loop always executes the loop body:
+A) Only if the condition is true at the start
+B) At least once, no matter what the condition is
+C) Zero times if the condition is false
+D) Twice before checking the condition
+✅ Answer: B
+
+7. Where is the condition placed in a do...while loop?
+A) Before the loop starts
+B) At the top inside parentheses
+C) At the bottom after the curly bracket
+D) In a separate if statement
+✅ Answer: C
+
+8. Which of these ends with a semicolon?
+A) for loop
+B) while loop
+C) do...while loop
+D) All loops
+✅ Answer: C
+
+9. What will this code do?
+
+var i = 0;
+while (i < 0) {
+  alert(i);
+  i++;
+}
+
+
+A) Show 0 once
+B) Show nothing
+C) Show 0 infinitely
+D) Error
+✅ Answer: B
+
+10. What will this code do?
+
+var i = 0;
+do {
+  alert(i);
+  i++;
+} while (i < 0);
+
+
+A) Show nothing
+B) Show 0 once
+C) Show 0 infinitely
+D) Error
+✅ Answer: B
+
+11. Which is NOT true about a while loop?
+A) The code inside may never run
+B) It checks the condition before running the loop body
+C) It always runs at least once
+D) Counter increment is usually inside the loop body
+✅ Answer: C
+
+12. Which loop structure ensures the body executes at least one time?
+A) for
+B) while
+C) do...while
+D) None of these
+✅ Answer: C
+
+13. In a do...while loop, when does the counter increment happen?
+A) Before entering the loop
+B) Before checking the condition
+C) After executing the loop body
+D) Never
+✅ Answer: C
+
+14. The curly brackets {} in loops enclose:
+A) The loop-limiting condition
+B) The initialization code
+C) The statements to execute each iteration
+D) Only the counter variable
+✅ Answer: C
+
+15. Which loop is best if you want to guarantee at least one run of the loop code?
+A) while loop
+B) do...while loop
+C) for loop
+D) switch statement
+✅ Answer: B
+
+Quiz: Placing Scripts & Commenting in JavaScript
+
+1. Where is the best place to put JavaScript code inside an HTML file for faster page load?
+A) Inside <head>
+B) At the start of <body>
+C) At the end of <body>
+D) In the middle of <body>
+✅ Answer: C
+
+2. Which tag is used to embed JavaScript code in an HTML file?
+A) <js>
+B) <javascript>
+C) <script>
+D) <code>
+✅ Answer: C
+
+3. What is the file extension for a JavaScript file?
+A) .html
+B) .css
+C) .js
+D) .javascript
+✅ Answer: C
+
+4. Which of the following is a correct way to include an external JavaScript file?
+A) <script href="main.js"></script>
+B) <link rel="script" src="main.js">
+C) <script src="main.js"></script>
+D) <js src="main.js"></js>
+✅ Answer: C
+
+5. What happens to JavaScript functions when the page loads?
+A) They load only when called
+B) They are stored in memory and ready to execute
+C) They disappear after loading CSS
+D) They execute automatically on load
+✅ Answer: B
+
+6. Which symbol is used for a single-line comment in JavaScript?
+A) <!-- -->
+B) //
+C) /* */
+D) #
+✅ Answer: B
+
+7. How do you write a multi-line comment in JavaScript?
+A) <!-- comment -->
+B) ## comment ##
+C) /* comment */
+D) // comment //
+✅ Answer: C
+
+8. What will happen to text inside // This is a comment?
+A) It will be displayed on the page
+B) The browser will ignore it
+C) It will be executed as code
+D) It will cause an error
+✅ Answer: B
+
+9. In a single-line comment, where should the // be placed to make it part-code and part-comment?
+A) At the very start of the file
+B) Anywhere before the comment text
+C) After the code you want to comment on
+D) At the end of HTML tags
+✅ Answer: C
+
+10. Which of the following is true about JavaScript comments?
+A) They are required for code to run
+B) They make code easier to understand for humans
+C) The browser executes them as code
+D) They are visible to users on the webpage
+✅ Answer: B
+
+Events: Link (Ch. 45)
+
+1. What is the term for user actions like clicking a button, moving a mouse, or pressing a key?
+A) Listeners
+B) Events
+C) Actions
+D) Triggers
+✅ Answer: B
+
+2. JavaScript code that responds to an event is called a(n) ____.
+A) event handler
+B) listener function
+C) trigger script
+D) executor
+✅ Answer: A
+
+3. Which inline code would display "Hi" in an alert when clicking a link without reloading the page?
+A) <a href="#" onClick="alert('Hi');">Click</a>
+B) <a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+C) <a href="alert('Hi')">Click</a>
+D) <a onClick="alert('Hi');">Click</a>
+✅ Answer: B
+
+4. Why is href="#" not ideal for event links?
+A) It breaks JavaScript
+B) It causes the page to scroll to the top
+C) It loads a blank page
+D) It makes the link unclickable
+✅ Answer: B
+
+5. In <a href="JavaScript:void(0)" onClick="popup('Hi');">Click</a>, what is 'Hi'?
+A) A variable
+B) A function name
+C) An argument passed to the function
+D) A reserved keyword
+✅ Answer: C
+
+Events: Button (Ch. 46)
+
+6. Which HTML element is usually more professional for clickable actions?
+A) <a>
+B) <input type="button">
+C) <div>
+D) <span>
+✅ Answer: B
+
+7. Which is the correct inline code to make a button say "Hello world!" when clicked?
+A) <input type="button" onClick="Hello world!">
+B) <button onClick="alert('Hello world!');">Click</button>
+C) <input type="button" value="Click" onClick="alert('Hello world!');">
+D) <input value="Click" alert="Hello world!">
+✅ Answer: C
+
+8. Which attribute is common for both link and button click events?
+A) onTap
+B) onSelect
+C) onClick
+D) onHover
+✅ Answer: C
+
+9. How do you make an image trigger JavaScript code when clicked?
+A) <img onClick="function()">
+B) <img src="image.png" onClick="alert('Hi');">
+C) <img src="image.png" href="#" onClick="alert('Hi');">
+D) <image onClick="alert('Hi');">
+✅ Answer: B
+
+10. Which is the more professional inline method for triggering JavaScript on an image click?
+A) <img src="pic.png" onClick="alert('Hi');">
+B) <img src="pic.png" onClick="runFunction();">
+C) <img src="pic.png" alert="Hi">
+D) <img src="pic.png" onClick="JavaScript:void(0)">
+✅ Answer: B
+
+Events: Mouse (Ch. 47)
+
+11. Which event occurs when a mouse pointer is moved over an element?
+A) onMouseenter
+B) onMousehover
+C) onMouseover
+D) onMousein
+✅ Answer: C
+
+12. Which inline code swaps an image when the user hovers over it?
+A) <img src="before.jpg" onMouseover="src='after.jpg'">
+B) <img src="before.jpg" onHover="src='after.jpg'">
+C) <img src="before.jpg" onMouseover="alert('after.jpg')">
+D) <img src="before.jpg" swap="after.jpg">
+✅ Answer: A
+
+13. Which event should you combine with onMouseover to revert an image back when the mouse leaves?
+A) onMouseleave
+B) onMouseexit
+C) onMouseout
+D) onMouseaway
+✅ Answer: C
+
+14. What is the purpose of this.style.color='green' in an onMouseover event?
+A) To change the background color
+B) To change the font size
+C) To change the text color to green
+D) To add a green border
+✅ Answer: C
+
+15. Which code displays an alert when hovering over an <h1> element?
+A) <h1 hover="alert('Message');">Title</h1>
+B) <h1 onMouseover="alert('Message');">Title</h1>
+C) <h1 onHover="alert('Message');">Title</h1>
+D) <h1 hover="Message">Title</h1>
+✅ Answer: B
+
+Events: Fields (Ch. 48)
+
+16. Which event occurs when a form field becomes active (clicked into)?
+A) onClick
+B) onEnter
+C) onFocus
+D) onActive
+✅ Answer: C
+
+17. Which event occurs when a form field loses focus?
+A) onLeave
+B) onExit
+C) onBlur
+D) onUnfocus
+✅ Answer: C
+
+18. What is the effect of this.style.backgroundColor='yellow' in an onFocus event?
+A) The background turns yellow
+B) The border turns yellow
+C) The text turns yellow
+D) The cursor turns yellow
+✅ Answer: A
+
+19. Which code changes a field to yellow when focused and back to white when blurred?
+A) <input onFocus="yellow();" onBlur="white();">
+B) <input onFocus="this.style.backgroundColor='yellow';" onBlur="this.style.backgroundColor='white';">
+C) <input onClick="yellow();" onMouseout="white();">
+D) <input colorFocus="yellow" colorBlur="white">
+✅ Answer: B
+
+20. A more professional approach for handling field color changes is to:
+A) Write all code inline
+B) Call functions instead of writing full code inline
+C) Use only HTML attributes
+D) Avoid any color changes
+✅ Answer: B
+
+1. Which HTML attribute allows you to uniquely identify an element so JavaScript can access it?
+A) class
+B) name
+C) id
+D) ref
+✅ Answer: C
+
+2. Which method is used to access an element in JavaScript by its ID?
+A) document.querySelector()
+B) document.getElementByID()
+C) document.getElementById()
+D) document.getElementsByName()
+✅ Answer: C
+
+3. What property is used to read the text entered into an <input> field?
+A) .innerHTML
+B) .value
+C) .text
+D) .content
+✅ Answer: B
+
+4. In the code document.getElementById("email").value, "email" refers to:
+A) The name of a function
+B) The field's id attribute value
+C) A variable
+D) A keyword in JavaScript
+✅ Answer: B
+
+5. What is the correct sequence to get the value from an input field by ID?
+A) document.getElementById(id).value
+B) value.getElementById(document.id)
+C) getElementById(document.value)
+D) document.value(id).getElementById
+✅ Answer: A
+
+6. Which event is triggered when the user clicks out of a form field?
+A) onFocus
+B) onClick
+C) onBlur
+D) onExit
+✅ Answer: C
+
+7. In the ZIP-to-City example, the switch statement is used to:
+A) Change HTML elements to uppercase
+B) Match the ZIP code to the correct city name
+C) Swap two variables’ values
+D) Restart the form
+✅ Answer: B
+
+8. What line of code would set the value of an input field with id="city" to "Chicago"?
+A) document.getElementById("city") = "Chicago";
+B) document.getElementById("city").value = "Chicago";
+C) document.getElementByName("city").value = "Chicago";
+D) city.value = "Chicago";
+✅ Answer: B
+
+9. In the function fillCity(), the statement var zipEntered = document.getElementById("zip").value; does what?
+A) Assigns the input field element to zipEntered
+B) Assigns the ZIP field’s text value to zipEntered
+C) Changes the ZIP code
+D) Creates an empty variable
+✅ Answer: B
+
+10. Which is true about .value in JavaScript form handling?
+A) It only works for <textarea> elements
+B) It can both read and write field values
+C) It can only read values, not write them
+D) It is only valid for password fields
+✅ Answer: B
+
+1. Which JavaScript property allows you to change the content inside an HTML element?
+A) .value
+B) .innerHTML
+C) .className
+D) .text
+✅ Answer: B
+
+2. What is the purpose of document.getElementById("slowLoris").innerHTML = expandedParagraph;?
+A) Reads the paragraph content
+B) Deletes the paragraph content
+C) Replaces the paragraph’s current content with new text
+D) Adds a CSS class to the paragraph
+✅ Answer: C
+
+3. The innerHTML property can be used to insert:
+A) Only plain text
+B) Only images
+C) Any HTML code, including tags
+D) CSS classes only
+✅ Answer: C
+
+4. In the list example, which HTML element type is being inserted dynamically?
+A) <ul>
+B) <ol>
+C) <div>
+D) <p>
+✅ Answer: B
+
+5. Which function reads the HTML inside an element into a variable?
+A) .value
+B) .innerText
+C) .innerHTML
+D) .getHTML
+✅ Answer: C
+
+6. In peekAtContent(), the variable whatsThere will contain:
+A) Only the plain text of the element
+B) The HTML tags and text of the element
+C) Only CSS styling
+D) The id of the element
+✅ Answer: B
+
+7. To hide an image when it is clicked, you can change its:
+A) .src
+B) .value
+C) .innerHTML
+D) .className
+✅ Answer: D
+
+8. In the blobfish example, what does the .hidden class do in CSS?
+A) Sets visibility to hidden
+B) Removes the image from HTML
+C) Sets display: none; to hide the element
+D) Changes the image to transparent
+✅ Answer: C
+
+9. What is the correct camelCase property for changing an element’s CSS class in JavaScript?
+A) .ClassName
+B) .classname
+C) .className
+D) .class
+✅ Answer: C
+
+10. What happens if you use document.getElementById("ugly").className = "hidden";?
+A) It adds "hidden" to the element’s classes
+B) It replaces all existing classes with "hidden"
+C) It toggles visibility
+D) It deletes the element
+✅ Answer: B
+
+11. How can you add a new class while keeping the element’s existing classes?
+A) .className += " newClass";
+B) .className = " newClass";
+C) .class += " newClass";
+D) .className + " newClass";
+✅ Answer: A
+
+12. Why is a space needed before the new class name when appending to .className?
+A) To separate multiple class names in HTML
+B) To prevent a syntax error in JavaScript
+C) To make the new class bold
+D) To avoid removing the old class
+✅ Answer: A
+
+13. Which event handler was used to trigger the image disappearance?
+A) onBlur
+B) onMouseOver
+C) onClick
+D) onLoad
+✅ Answer: C
+
+14. The expandedParagraph variable in expandLoris() contains:
+A) A short description only
+B) Both short and long versions of the text
+C) The long description text to replace the original
+D) HTML code for an image
+✅ Answer: C
+
+15. What is the difference between .value and .innerHTML?
+A) .value is for form fields; .innerHTML is for element content
+B) .value is for images; .innerHTML is for CSS
+C) .value is faster than .innerHTML
+D) They are exactly the same
+✅ Answer: A
+
+1. Which property is used in JavaScript to change the image source?
+A) .href
+B) .src
+C) .innerHTML
+D) .value
+✅ Answer: B
+
+2. What is the advantage of passing arguments like swapPic(id, 'after-pic.jpg');?
+A) It makes the function work only for one image
+B) It makes the function general-purpose for any image
+C) It removes the need for HTML
+D) It swaps text instead of images
+✅ Answer: B
+
+3. In the function swapPic(eId, newPic), what does eId represent?
+A) The class name
+B) The new image file name
+C) The id of the HTML element
+D) The size of the image
+✅ Answer: C
+
+4. Which is the more “verbose” approach to changing an image source?
+A) Changing .src directly in document.getElementById(...)
+B) Storing document.getElementById(...) in a variable first, then changing .src
+C) Using CSS classes
+D) Using inline HTML attributes
+✅ Answer: B
+
+5. If a link element has id="link1", which property gives you its URL?
+A) .src
+B) .innerHTML
+C) .href
+D) .url
+✅ Answer: C
+
+6. The function frm.className = "jumbo"; will:
+A) Add "jumbo" to existing classes
+B) Replace all classes with "jumbo"
+C) Only make text bold
+D) Apply inline CSS directly
+✅ Answer: B
+
+7. What is the difference between adding a CSS class and using .style in JavaScript?
+A) .className changes inline styles directly
+B) .style preserves other styles, .className may overwrite them
+C) .style removes all formatting
+D) They are exactly the same
+✅ Answer: B
+
+8. Which statement correctly sets the font size of #p1 to 2em?
+A) document.getElementById("p1").fontSize = "2em";
+B) document.getElementById("p1").style.fontSize = "2em";
+C) document.getElementById("p1").setFont("2em");
+D) document.getElementById("p1").style.size = "2em";
+✅ Answer: B
+
+9. What does document.getElementById("pic99").style.cssFloat = "left"; do?
+A) Sets a floating image to left in CSS
+B) Aligns text left
+C) Adds a new CSS class called “left”
+D) Changes the image size
+✅ Answer: A
+
+10. Which property makes an element invisible but still takes up space?
+A) .display = "none"
+B) .hidden = true
+C) .visibility = "hidden"
+D) .opacity = "0"
+✅ Answer: C
+
+11. How do you give #mainPic left and right margins of 10px using .style?
+A) .style.margin = "0 10px 0 10px";
+B) .style.margin = "10px";
+C) .style.padding = "0 10px";
+D) .style.marginLeftRight = "10px";
+✅ Answer: A
+
+12. When reading styles with .style.margin, you only get:
+A) All margins from CSS and inline
+B) Inline-specified margins only
+C) Browser default margins only
+D) None of the above
+✅ Answer: B
+
+13. Which method gives you all style properties (CSS + inline)?
+A) .style.getAll()
+B) document.getComputedStyle(...)
+C) .currentStyle
+D) .cssText
+✅ Answer: B
+
+14. Why might document.getComputedStyle() not work in some cases?
+A) It’s only for reading .src values
+B) It’s unsupported in Internet Explorer versions before 9
+C) It only works on <img> elements
+D) It removes inline CSS
+✅ Answer: B
+
+15. In swapPic(eId, newPic), what does newPic represent?
+A) The id of the element
+B) The file path or URL of the new image
+C) The CSS class name
+D) The size of the image
+✅ Answer: B
+
+1. What does document.getElementsByTagName("p") return?
+A) A single paragraph element
+B) An array-like collection of all <p> elements in the document
+C) Only the first <p> in the document
+D) The innerHTML of all <p> elements combined
+✅ Answer: B
+
+2. If a document has 4 <p> elements, what is par.length when var par = document.getElementsByTagName("p");?
+A) 3
+B) 4
+C) 5
+D) 0
+✅ Answer: B
+
+3. Which code changes the text of the second paragraph in par to "Hello World"?
+A) par[2].innerHTML = "Hello World";
+B) par[1].innerHTML = "Hello World";
+C) document.getElementsByTagName("p")[2] = "Hello World";
+D) document.getElementsByTagName("p")[1].text = "Hello World";
+✅ Answer: B
+
+4. In the loop:
+
+for (var i = 0; i < par.length; i++) {
+    par[i].style.fontFamily = "Verdana";
+}
+
+
+What does i represent?
+A) The id of each paragraph
+B) The index of the current paragraph in the collection
+C) The number of paragraphs total
+D) The font size
+✅ Answer: B
+
+5. How would you target all <img> elements in a document?
+A) document.getElementsByClassName("img")
+B) document.getElementsByTagName("img")
+C) document.querySelectorAll("images")
+D) document.getElementById("img")
+✅ Answer: B
+
+6. Which statement creates a collection of all <div> elements?
+A) var divs = document.getElementsByTagName("div");
+B) var divs = document.querySelectorAll("divs");
+C) var divs = document.getElementsByClassName("div");
+D) var divs = document.getElementById("div");
+✅ Answer: A
+
+7. Which method targets only paragraphs inside a specific <div id="rules">?
+A) document.getElementsByTagName("p")
+B) document.querySelector("#rules p")
+C) document.getElementById("rules").getElementsByTagName("p")
+D) getElementsById("rules p")
+✅ Answer: C
+
+8. In the code:
+
+var e = document.getElementById("rules");
+var paragraphs = e.getElementsByTagName("p");
+
+
+What does paragraphs contain?
+A) All <p> elements in the entire document
+B) All <p> elements inside the <div id="rules">
+C) Only the first <p> inside the div
+D) Only the text content of the <div id="rules">
+✅ Answer: B
+
+9. If you want to change the background color of all table cells in a table with id="table9", you should first:
+A) Get all <tr> elements
+B) Get the table by ID, then get <td> elements inside it
+C) Use document.getElementsByTagName("td") directly
+D) Change the table's CSS class
+✅ Answer: B
+
+10. In cells[i].style.backgroundColor = "pink";, what is cells[i]?
+A) The first table cell
+B) The i-th cell in the cells collection
+C) The CSS class of the table
+D) The id of the table
+✅ Answer: B
+
+11. Which of these returns all unordered lists in the document?
+A) document.getElementsByTagName("ul")
+B) document.getElementsByTagName("li")
+C) document.getElementById("ul")
+D) document.querySelector("ul")
+✅ Answer: A
+
+12. The getElementsByTagName method returns:
+A) An actual JavaScript array
+B) A NodeList (array-like object)
+C) A plain object with keys as tag names
+D) A single DOM element
+✅ Answer: B
+
+13. How do you find the number of <p> elements inside var divs = document.getElementsByTagName("div");?
+A) divs.length
+B) p.length
+C) divs.getElementsByTagName("p").length
+D) divs[0].length
+✅ Answer: C
+
+14. Which is the correct capitalization for the method that finds an element by id?
+A) getElementByID
+B) getelementbyid
+C) getElementById
+D) getelementByID
+✅ Answer: C
+
+15. If there are 10 <td> cells in a table, what will cells.length be after running:
+
+var t = document.getElementById("table9");
+var cells = t.getElementsByTagName("td");
+
+
+A) 5
+B) 0
+C) 10
+D) Undefined
+✅ Answer: C
+
+Quiz: DOM, Parents & Children, and Finding Children
+
+1. What does DOM stand for?
+A) Document Object Map
+B) Document Object Model
+C) Data Object Model
+D) Document Order Method
+✅ Answer: B) Document Object Model
+
+2. Which is the top-level node in the DOM hierarchy?
+A) <html>
+B) <head>
+C) document
+D) <body>
+✅ Answer: C) document
+
+3. In the DOM hierarchy, what are <head> and <body> in relation to <html>?
+A) Parents
+B) Siblings
+C) Children
+D) Text nodes
+✅ Answer: C) Children
+
+4. What type of node is <p> in the DOM?
+A) Document node
+B) Element node
+C) Text node
+D) Attribute node
+✅ Answer: B) Element node
+
+5. In the DOM, what is a sibling?
+A) A node on the same level with the same parent
+B) A node that contains another node
+C) The top-level node
+D) A node with no children
+✅ Answer: A) A node on the same level with the same parent
+
+6. What will document.getElementById("email") return?
+A) A collection of all elements
+B) The element with id="email"
+C) All elements inside the body
+D) The first <p> element
+✅ Answer: B) The element with id="email"
+
+7. Which method returns multiple elements of the same type?
+A) getElementById()
+B) getElementsByTagName()
+C) getElementByClass()
+D) querySelector()
+✅ Answer: B) getElementsByTagName()
+
+8. In getElementsByTagName("p"), which index represents the third paragraph?
+A) 2
+B) 3
+C) 1
+D) 0
+✅ Answer: A) 2
+
+9. What does innerHTML do?
+A) Changes the CSS style of an element
+B) Reads or sets the HTML content inside an element
+C) Creates a new node
+D) Deletes an element
+✅ Answer: B) Reads or sets the HTML content inside an element
+
+10. If <head> and <body> are both children of <html>, what is their relationship?
+A) Parent
+B) Siblings
+C) Cousins
+D) Ancestors
+✅ Answer: B) Siblings
+
+11. What is the child index number of the first child in childNodes?
+A) 0
+B) 1
+C) -1
+D) Depends on the browser
+✅ Answer: A) 0
+
+12. Which will correctly get the second <p> inside the <div id="ny">?
+A) document.getElementsByTagName("p")[4]
+B) document.getElementById("ny").getElementsByTagName("p")[1]
+C) Both A and B
+D) None of the above
+✅ Answer: C) Both A and B
+
+13. In <p>This is <em>important</em>!</p>, which node is the parent of the text "important"?
+A) <p>
+B) <em>
+C) Document
+D) <body>
+✅ Answer: B) <em>
+
+14. Which method allows you to navigate from a parent to its children?
+A) childNodes
+B) parentNode
+C) getElementById()
+D) innerHTML
+✅ Answer: A) childNodes
+
+15. True or False: Every DOM element is a child of another element except the document node.
+✅ Answer: True
+
+
+Invoke Function ka Matlab
+
+JavaScript me function ko invoke karna ka matlab hota hai function ko call karna — yani us function ka code run karwana.
+
+Jab tum function banati ho, wo sirf ek definition hota hai.
+Uska code tab tak execute nahi hota jab tak tum function ko call (invoke) na karo.
+
+Example
+function greet() {
+  console.log("Hello, Ayesha!");
+}
+
+// Function invocation (calling)
+greet();
+
+
+function greet() → ye function ka definition hai.
+
+greet(); → ye invocation hai. Is line se function ka code run hoga.
+
+Function ko Invoke Karne ke Tareeqe
+
+Directly call karna: myFunction();
+
+Event ke through:
+
+<button onclick="myFunction()">Click me</button>
+
+
+Automatically call (IIFE — Immediately Invoked Function Expression):
+
+(function(){
+  console.log("I run immediately!");
+})();
+
+Important Point
+
+Agar tum sirf function ka naam likho: greet (without ()), to wo execute nahi hoga, sirf uska reference milega.
+
+Execute karne ke liye brackets () lagane zaroori hain.
+
+10 Quiz on Invoke Function ✅
+
+Q1. Function ko "invoke" karne ka matlab kya hai?
+A) Function ka naam likhna
+B) Function ka code run karwana
+C) Function banane ka process
+D) Variable declare karna
+Answer: B
+
+Q2.
+
+function sayHi() {
+  console.log("Hi!");
+}
+sayHi();
+
+
+Is code me sayHi(); kya kar raha hai?
+A) Function define kar raha hai
+B) Function ko invoke kar raha hai
+C) Variable declare kar raha hai
+D) Kuch nahi kar raha
+Answer: B
+
+Q3.
+
+function add(a, b) {
+  return a + b;
+}
+var sum = add(2, 3);
+
+
+add(2, 3) kya hai?
+A) Function declaration
+B) Function invocation with arguments
+C) Variable initialization
+D) Syntax error
+Answer: B
+
+Q4. Function ko bina () ke likhne ka matlab kya hai?
+A) Function call ho jayega
+B) Sirf uska reference milega
+C) Function delete ho jayega
+D) Syntax error aayega
+Answer: B
+
+Q5.
+
+(function(){
+  console.log("I am IIFE");
+})();
+
+
+Ye kis type ka function invoke hai?
+A) Normal call
+B) Event-based call
+C) Immediately Invoked Function Expression (IIFE)
+D) Arrow function call
+Answer: C
+
+Q6.
+
+function greet(name) {
+  console.log("Hello " + name);
+}
+greet("Ayesha");
+
+
+Is code me "Ayesha" kis cheez ka example hai?
+A) Function name
+B) Argument
+C) Variable name
+D) Return value
+Answer: B
+
+Q7. Function invoke karte waqt parentheses () ka kaam kya hai?
+A) Function delete karna
+B) Function execute karna
+C) Function banane ka signal
+D) Variable assign karna
+Answer: B
+
+Q8.
+
+function test(){
+  return "done";
+}
+console.log(test);
+
+
+Is code ka output kya hoga?
+A) "done"
+B) Function ka code (as text)
+C) Syntax error
+D) Undefined
+Answer: B
+
+Q9.
+
+function sayHello() {
+  console.log("Hello");
+}
+var ref = sayHello;
+ref();
+
+
+ref(); kya karega?
+A) Kuch nahi karega
+B) Error dega
+C) "Hello" print karega
+D) Reference delete karega
+Answer: C
+
+Q10.
+
+function show() {
+  console.log("Showing...");
+}
+setTimeout(show, 1000);
+
+
+Is example me function invocation kaise ho raha hai?
+A) Direct call
+B) Event ke through
+C) Timer ke through
+D) IIFE ke through
+Answer: C
+
+1.
+
+Which of the following is the correct way to write a while loop that shows numbers 0–3 in alerts?
+A)
+
+while (i = 0; i <= 3; i++) { alert(i); }
+
+
+B)
+
+var i = 0; 
+while (i <= 3) { alert(i); i++; }
+
+
+C)
+
+while (i < 3) alert(i);
+
+
+Answer: B
+
+2.
+
+What is the main difference between a while loop and a do...while loop?
+A) do...while can never end.
+B) do...while always executes its block at least once.
+C) while is faster.
+
+Answer: B
+
+3.
+
+What is missing in this code?
+
+do {
+  alert("Hello");
+} while (i < 3)
+
+
+A) Missing i++
+B) Missing semicolon after while
+C) Both A and B
+
+Answer: C
+
+4.
+
+Where is the best place to put <script> tags in an HTML file?
+A) Inside <head>
+B) At the very top of <body>
+C) At the end of <body>
+
+Answer: C
+
+5.
+
+Which of these is a valid way to link an external JavaScript file?
+A) <script href="main.js"></script>
+B) <script src="main.js"></script>
+C) <link rel="script" href="main.js">
+
+Answer: B
+
+6.
+
+How do you write a single-line comment in JavaScript?
+A) <!-- comment -->
+B) // comment
+C) /* comment */
+
+Answer: B
+
+7.
+
+How do you write a multi-line comment in JavaScript?
+A) <!-- comment -->
+B) // comment
+C) /* comment */
+
+Answer: C
+
+8.
+
+What happens when the user clicks this link?
+
+<a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+
+
+A) Page reloads
+B) Alert “Hi” appears
+C) Goes to another page
+
+Answer: B
+
+9.
+
+What is the purpose of JavaScript:void(0) in a link?
+A) Reload the page
+B) Prevent page reload and only run JavaScript
+C) Open a new tab
+
+Answer: B
+
+10.
+
+Which input creates a clickable button that shows an alert?
+A)
+
+<input type="button" value="Click" onClick="alert('Hello!');">
+
+
+B)
+
+<button>Click</button> alert('Hello!');  
+
+
+C)
+
+<input type="submit" value="Click" alert('Hello!');>
+
+
+Answer: A
+
+11.
+
+What will happen in this code?
+
+<img src="before.jpg" onMouseover="src='after.jpg'">
+
+
+A) Image changes to after.jpg when mouse hovers
+B) Nothing happens
+C) Image disappears
+
+Answer: A
+
+12.
+
+Which event is triggered when the user moves the mouse away from an element?
+A) onMouseover
+B) onMouseout
+C) onClick
+
+Answer: B
+
+13.
+
+What will happen in this code?
+
+<input type="text" onFocus="this.style.backgroundColor='yellow';">
+
+
+A) Field turns yellow when focused
+B) Field stays yellow always
+C) Nothing happens
+
+Answer: A
+
+14.
+
+Which event is the opposite of onFocus?
+A) onBlur
+B) onChange
+C) onInput
+
+Answer: A
+
+15.
+
+What does .value return when used on an input field?
+A) The input field’s background color
+B) The input field’s current value
+C) The input field’s id
+
+Answer: B
+
+16.
+
+What does this function do?
+
+function checkAddress(fieldId) {
+  if (document.getElementById(fieldId).value === "") {
+    alert("Email address required.");
+  }
+}
+
+
+A) Submits the form
+B) Alerts if the field is empty
+C) Changes background color
+
+Answer: B
+
+17.
+
+What does document.getElementById("email").value return?
+A) The HTML code of the email input
+B) The text typed in the email field
+C) The field id
+
+Answer: B
+
+18.
+
+What is the output of this code if ZIP entered is 68114?
+
+switch (zipEntered) {
+  case "60608": cityName = "Chicago"; break;
+  case "68114": cityName = "Omaha"; break;
+  case "53212": cityName = "Milwaukee";
+}
+alert(cityName);
+
+
+A) Chicago
+B) Omaha
+C) Milwaukee
+
+Answer: B
+
+19.
+
+Which event triggers this function in the ZIP example?
+
+<input type="text" id="zip" onBlur="fillCity();">
+
+
+A) When user types inside field
+B) When user clicks out of field
+C) When page loads
+
+Answer: B
+
+20.
+
+What will this function do?
+
+function fillCity() {
+  var cityName;
+  var zipEntered = document.getElementById("zip").value;
+  switch (zipEntered) {
+    case "60608": cityName = "Chicago"; break;
+    case "68114": cityName = "Omaha"; break;
+    case "53212": cityName = "Milwaukee";
+  }
+  document.getElementById("city").value = cityName;
+}
+
+
+A) Shows an alert with city name
+B) Automatically fills city field based on ZIP
+C) Deletes the ZIP field
+
+Answer: B
+
+What does DOM stand for?
+a) Document Object Model
+b) Data Object Model
+c) Display Object Method
+Correct Answer: a) Document Object Model
+
+How do you target an element with the ID "email"?
+a) document.querySelector("#email")
+b) document.getElementById("email")
+c) Both a and b
+Correct Answer: c) Both a and b
+
+What property is used to change the HTML content of an element?
+a) .textContent
+b) .innerHTML
+c) .value
+Correct Answer: b) .innerHTML
+
+How do you make all paragraphs in a document red?
+a) document.getElementsByTagName("p").style.color = "red";
+b) Loop through document.getElementsByTagName("p") and set .style.color
+c) document.querySelectorAll("p").color = "red";
+Correct Answer: b) Loop through document.getElementsByTagName("p") and set .style.color
+
+What does += do when assigning a class?
+a) Replaces all existing classes
+b) Adds a new class while preserving existing ones
+c) Toggles the class
+Correct Answer: b) Adds a new class while preserving existing ones
+
+How do you hide an element with the ID "ugly"?
+a) document.getElementById("ugly").style.display = "none";
+b) document.getElementById("ugly").className = "hidden"; (if CSS defines .hidden { display: none; })
+c) Both a and b
+Correct Answer: c) Both a and b
+
+How do you swap an image with ID "before" to "after-pic.jpg"?
+a) document.getElementById("before").src = "after-pic.jpg";
+b) document.getElementById("before").href = "after-pic.jpg";
+c) document.getElementById("before").setAttribute("src", "after-pic.jpg");
+Correct Answer: a) document.getElementById("before").src = "after-pic.jpg";
+
+What is the correct way to set a paragraph's font size to 2em?
+a) document.getElementById("p1").style.fontSize = "2em";
+b) document.getElementById("p1").css("font-size", "2em");
+c) document.getElementById("p1").fontSize("2em");
+Correct Answer: a) document.getElementById("p1").style.fontSize = "2em";
+
+How do you target all <div> elements in the document?
+a) document.querySelectorAll("div")
+b) document.getElementsByTagName("div")
+c) Both a and b
+Correct Answer: c) Both a and b
+
+How do you target all paragraphs inside a div with ID "rules"?
+a) document.getElementById("rules").getElementsByTagName("p");
+b) document.querySelector("#rules p");
+c) Both a and b
+Correct Answer: c) Both a and b
+
+What is the top-level node in the DOM?
+a) <html>
+b) document
+c) <body>
+Correct Answer: b) document
+
+What is the parent of <head> and <body>?
+a) document
+b) <html>
+c) window
+Correct Answer: b) <html>
+
+Nodes with the same parent are called:
+a) Children
+b) Siblings
+c) Descendants
+Correct Answer: b) Siblings
+
+How do you access the first child of an element with ID "ny"?
+a) document.getElementById("ny").children[0];
+b) document.getElementById("ny").childNodes[0];
+c) Both a and b (but childNodes may include text nodes)
+Correct Answer: c) Both a and b (but childNodes may include text nodes)
+
+How do you read the text content of a paragraph with ID "p1"?
+a) document.getElementById("p1").innerHTML;
+b) document.getElementById("p1").textContent;
+c) Both a and b
+Correct Answer: c) Both a and b
+
+What does document.getElementsByTagName("p") return?
+a) A single paragraph element
+b) An array-like collection of all paragraphs
+c) The first paragraph
+Correct Answer: b) An array-like collection of all paragraphs
+
+How do you change the background color of all table cells to pink?
+a) Loop through document.getElementsByTagName("td") and set .style.backgroundColor
+b) document.querySelectorAll("td").style.backgroundColor = "pink";
+c) document.getElementsByTagName("td").backgroundColor = "pink";
+Correct Answer: a) Loop through document.getElementsByTagName("td") and set .style.backgroundColor
+
+What property do you use to add a CSS class to an element?
+a) .class
+b) .className
+c) .classList
+Correct Answer: b) .className
+
+How do you float an image with ID "pic99" to the left?
+a) document.getElementById("pic99").style.cssFloat = "left";
+b) document.getElementById("pic99").style.float = "left";
+c) Both a and b
+Correct Answer: c) Both a and b
+
+What does visibility: hidden; do?
+a) Removes the element from the DOM
+b) Hides the element but reserves its space
+c) Deletes the element
+Correct Answer: b) Hides the element but reserves its space
+
+How do you make a function that swaps any image to any other image?
+a) Pass the ID and new image path as arguments
+b) Hardcode the image paths in the function
+c) Use inline event handlers only
+Correct Answer: a) Pass the ID and new image path as arguments
+
+What is the correct way to set margins for an element with ID "mainPic"?
+a) document.getElementById("mainPic").style.margin = "0 10px 0 10px";
+b) document.getElementById("mainPic").margin = "0 10px";
+c) document.getElementById("mainPic").style.margin = "10px";
+Correct Answer: a) document.getElementById("mainPic").style.margin = "0 10px 0 10px";
+
+How do you check if an element has a class "active"?
+a) document.getElementById("el").className === "active";
+b) document.getElementById("el").classList.contains("active");
+c) Both a and b
+Correct Answer: b) document.getElementById("el").classList.contains("active");
+
+What is the DOM hierarchy order?
+a) document → <html> → <head>/<body> → ...
+b) window → document → <body> → ...
+c) <html> → <head> → <body> → ...
+Correct Answer: a) document → <html> → <head>/<body> → ...
+
+How do you remove an element with ID "div9" from the DOM?
+a) document.getElementById("div9").remove();
+b) document.getElementById("div9").style.display = "none";
+c) document.getElementById("div9").delete();
+Correct Answer: a) document.getElementById("div9").remove();

@@ -1,0 +1,1889 @@
+Here are 20 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the toLowerCase method?
+A) To convert a string to uppercase
+B) To convert a string to lowercase
+C) To capitalize the first letter of a string
+D) To remove spaces from a string
+
+Correct answer: B) To convert a string to lowercase
+
+Quiz 2
+What is the purpose of the toUpperCase method?
+A) To convert a string to lowercase
+B) To convert a string to uppercase
+C) To capitalize the first letter of a string
+D) To remove spaces from a string
+
+Correct answer: B) To convert a string to uppercase
+
+Quiz 3
+How do you find the length of a string in JavaScript?
+A) Using the length property
+B) Using the size property
+C) Using the count property
+D) Using a loop to iterate over the string
+
+Correct answer: A) Using the length property
+
+Quiz 4
+What is the purpose of the slice method in a string?
+A) To extract a subset of characters from a string
+B) To replace a subset of characters in a string
+C) To add characters to a string
+D) To remove characters from a string
+
+Correct answer: A) To extract a subset of characters from a string
+
+Quiz 5
+What is the difference between slice(0, 1) and slice(0)?
+A) slice(0, 1) extracts the first character, while slice(0) extracts the entire string
+B) slice(0, 1) extracts the entire string, while slice(0) extracts the first character
+C) slice(0, 1) and slice(0) are equivalent
+D) slice(0, 1) extracts the last character, while slice(0) extracts the first character
+
+Correct answer: A) slice(0, 1) extracts the first character, while slice(0) extracts the entire string
+
+Quiz 6
+What is the purpose of the indexOf method?
+A) To find the index of a specified segment in a string
+B) To replace a specified segment in a string
+C) To add a specified segment to a string
+D) To remove a specified segment from a string
+
+Correct answer: A) To find the index of a specified segment in a string
+
+Quiz 7
+What does indexOf return if the specified segment is not found?
+A) The index of the first character of the segment
+B) -1
+C) The length of the string
+D) The index of the last character of the segment
+
+Correct answer: B) -1
+
+Quiz 8
+What is the purpose of the lastIndexOf method?
+A) To find the index of the first occurrence of a segment
+B) To find the index of the last occurrence of a segment
+C) To replace a segment with another segment
+D) To add a segment to a string
+
+Correct answer: B) To find the index of the last occurrence of a segment
+
+Quiz 9
+What is the purpose of the charAt method?
+A) To find the index of a specified character
+B) To extract a specified character from a string
+C) To replace a specified character in a string
+D) To add a specified character to a string
+
+Correct answer: B) To extract a specified character from a string
+
+Quiz 10
+How do you find the last character in a string?
+A) Using charAt(0)
+B) Using charAt(length - 1)
+C) Using slice(0, 1)
+D) Using slice(-1)
+
+Correct answer: B) Using charAt(length - 1)
+
+Quiz 11
+What is the purpose of the replace method?
+A) To find a specified segment in a string
+B) To replace a specified segment with another segment
+C) To add a specified segment to a string
+D) To remove a specified segment from a string
+
+Correct answer: B) To replace a specified segment with another segment
+
+Quiz 12
+How do you perform a global replace in a string?
+A) Using the replace method with the g flag
+B) Using the replace method without the g flag
+C) Using a loop to iterate over the string
+D) Using the indexOf method
+
+Correct answer: A) Using the replace method with the g flag
+
+Quiz 13
+What is the syntax for a global replace?
+A) string.replace("segment", "replacement")
+B) string.replace(/segment/g, "replacement")
+C) `string.replace
+
+Which method converts a string to all lower-case?
+
+A) lower()
+
+B) toLowerCase()
+
+C) toLower()
+
+D) convertLower()
+
+Answer: B
+
+What does this output?
+
+"ChEyEnNe".toLowerCase()
+
+
+Answer: "cheyenne"
+
+In slice(start, end), the end index is:
+
+A) Inclusive
+
+B) Exclusive
+
+C) Ignored
+
+D) 1-based
+
+Answer: B (exclusive)
+
+What does this output?
+
+const city = "Boston";
+city.slice(2, 5);
+
+
+Answer: "sto"
+
+What does this output?
+
+const city = "Boston";
+city.slice(2);
+
+
+Answer: "ston"
+
+Which line correctly capitalizes a one-word city string in cityToCheck?
+
+A) cityToCheck.toUpperCase() + cityToCheck.toLowerCase()
+
+B) cityToCheck[0].toUpperCase() + cityToCheck.slice(1)
+
+C) cityToCheck.slice(0,1).toUpperCase() + cityToCheck.slice(1).toLowerCase()
+
+D) cityToCheck.charAt(1).toUpperCase() + cityToCheck.toLowerCase()
+
+Answer: C
+
+Fill in the blank: "November".length is ___.
+
+Answer: 8
+
+Why is for (let i = 0; i < str.length; i++) preferred over i <= str.length when looping characters?
+
+A) It’s faster
+
+B) length is 0-based
+
+C) Strings are immutable
+
+D) Indices go from 0 to length - 1
+
+Answer: D
+
+What does this code check for?
+
+if (str.slice(i, i + 2) === "  ") { /* ... */ }
+
+
+A) Tabs
+
+B) Double spaces
+
+C) Newline
+
+D) Trailing space
+
+Answer: B (double spaces)
+
+What does indexOf return if the substring is not found?
+
+A) 0
+
+B) null
+
+C) undefined
+
+D) -1
+
+Answer: D
+
+Consider:
+
+const text = "To be or not to be.";
+text.lastIndexOf("be");
+
+
+What is the result?
+
+A) 3
+
+B) 16
+
+C) 17
+
+D) -1
+
+Answer: B (16)
+
+Which line gets the first character of firstName?
+
+A) firstName[1]
+
+B) charAt(firstName, 0)
+
+C) firstName.charAt(0)
+
+D) firstName.slice(1, 0)
+
+Answer: C
+
+Which line gets the last character of name?
+
+A) name.charAt(name.length)
+
+B) name.charAt(name.length - 1)
+
+C) name.slice(name.length)
+
+D) name.slice(-0)
+
+Answer: B
+
+What’s the best way to compare user input city with a stored list regardless of case?
+
+A) Store both lower & upper cases
+
+B) Convert input to lower-case; store list in lower-case
+
+C) Convert list to upper-case; leave input raw
+
+D) Compare with regex only
+
+Answer: B
+
+What is printed?
+
+const text = "World War II and World War II";
+const out = text.replace("World War II", "the Second World War");
+out;
+
+
+Answer: "the Second World War and World War II" (only the first occurrence replaced)
+
+How do you replace all occurrences of "World War II" with "the Second World War"?
+
+A) text.replaceAll("World War II", "the Second World War")
+
+B) text.replace(/World War II/g, "the Second World War")
+
+C) text.replace("World War II", /the Second World War/g)
+
+D) text.replace(/World War II/, "the Second World War")
+
+Answer: B (global regex). (Note: replaceAll also works in modern JS, but the chapter teaches regex with g.)
+
+What is the output?
+
+const name = "Ali";
+name.charAt(name.length - 1);
+
+
+Answer: "i"
+
+Method names like toLowerCase and toUpperCase are written in:
+
+A) snake_case
+
+B) kebab-case
+
+C) camelCase
+
+D) PascalCase
+
+Answer: C
+
+Given:
+
+let cityToCheck = "sAntA Fe";
+const firstChar = cityToCheck.slice(0,1).toUpperCase();
+const otherChars = cityToCheck.slice(1).toLowerCase();
+const cappedCity = firstChar + otherChars;
+cappedCity;
+
+
+What is the output?
+
+A) "SANTA FE"
+
+B) "Santa fe"
+
+C) "Santa Fe"
+
+D) "sAntA Fe"
+
+Answer: B (because only the first letter is capitalized and all remaining letters are lower-cased; the space remains as-is, so the second word’s f becomes lower-case.)
+
+Why do we check if (firstChar !== -1) before slicing around a found segment?
+
+A) To avoid mutating strings
+
+B) To prevent slicing with -1 which would cut from the end and cause wrong replacement
+
+C) To make code faster
+
+D) To ensure global replacement
+
+Answer: B
+
+What method converts all characters in a string to lowercase?
+a) toLower()
+b) toLowerCase()
+c) lowerCase()
+Answer: b) toLowerCase()
+
+How would you convert the string cityName to uppercase?
+a) cityName.toUpperCase()
+b) cityName.upperCase()
+c) cityName.caseUpper()
+Answer: a) cityName.toUpperCase()
+
+What does slice(0, 3) return for the string "November"?
+a) "Nov"
+b) "Nove"
+c) "vem"
+Answer: a) "Nov"
+
+How do you find the length of a string stored in text?
+a) text.length()
+b) text.size
+c) text.length
+Answer: c) text.length
+
+What does "Hello".charAt(1) return?
+a) "H"
+b) "e"
+c) "l"
+Answer: b) "e"
+
+How would you extract all characters from index 2 to the end of str?
+a) str.slice(2)
+b) str.slice(2, str.length)
+c) str.substring(2)
+Answer: a) str.slice(2)
+
+What does "Hello".indexOf("l") return?
+a) 1
+b) 2
+c) 3
+Answer: b) 2
+
+How do you find the last occurrence of "be" in "To be or not to be"?
+a) "To be or not to be".lastIndexOf("be")
+b) "To be or not to be".indexOfLast("be")
+c) "To be or not to be".findLast("be")
+Answer: a) "To be or not to be".lastIndexOf("be")
+
+What does "Hello".replace("l", "x") return?
+a) "Hexlo"
+b) "Hexxo"
+c) "He xx o"
+Answer: a) "Hexlo"
+
+How do you replace all occurrences of "l" with "x" in "Hello"?
+a) "Hello".replace(/l/g, "x")
+b) "Hello".replaceAll("l", "x")
+c) "Hello".replace("l", "x", true)
+Answer: a) "Hello".replace(/l/g, "x")
+
+What is the result of "Cheyenne".toLowerCase()?
+a) "Cheyenne"
+b) "cheyenne"
+c) "CHEYENNE"
+Answer: b) "cheyenne"
+
+How do you capitalize the first letter of cityName and lowercase the rest?
+a) cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase()
+b) cityName.slice(0,1).toUpperCase() + cityName.slice(1).toLowerCase()
+c) Both a and b
+Answer: c) Both a and b
+
+What does "Boston".slice(2, 5) return?
+a) "sto"
+b) "ston"
+c) "Bos"
+Answer: a) "sto"
+
+What does "Hello".indexOf("z") return?
+a) -1
+b) 0
+c) undefined
+Answer: a) -1
+
+How do you check if text contains "world"? (case-insensitive)
+a) text.toLowerCase().indexOf("world") !== -1
+b) text.indexOf("world") >= 0
+c) text.contains("world")
+Answer: a) text.toLowerCase().indexOf("world") !== -1
+
+What does "Hello".charAt(5) return?
+a) undefined
+b) "" (empty string)
+c) Error
+Answer: b) "" (empty string)
+
+How do you replace "World War II" with "the Second World War" in text?
+a) text.replace("World War II", "the Second World War")
+b) text = text.replace("World War II", "the Second World War")
+c) Both a and b
+Answer: c) Both a and b (if you want to modify the original, use b)
+
+What is the result of "".slice(0, 1)?
+a) undefined
+b) "" (empty string)
+c) Error
+Answer: b) "" (empty string)
+
+How do you find the last character of str?
+a) str.charAt(str.length)
+b) str.charAt(str.length - 1)
+c) str.slice(-1)
+Answer: b) str.charAt(str.length - 1) or c) str.slice(-1)
+
+What does "Hello".replace("l", "L") return?
+a) "HeLLo"
+b) "HeLlo"
+c) "Hello"
+Answer: b) "HeLlo" (only first occurrence is replaced by default)
+
+Here are 15 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the Math.round method?
+A) To round a number up to the nearest integer
+B) To round a number down to the nearest integer
+C) To round a number to the nearest integer
+D) To truncate a number
+
+Correct answer: C) To round a number to the nearest integer
+
+Quiz 2
+What is the difference between Math.ceil and Math.floor?
+A) Math.ceil rounds up, while Math.floor rounds down
+B) Math.ceil rounds down, while Math.floor rounds up
+C) Math.ceil rounds to the nearest integer, while Math.floor truncates
+D) Math.ceil truncates, while Math.floor rounds to the nearest integer
+
+Correct answer: A) Math.ceil rounds up, while Math.floor rounds down
+
+Quiz 3
+What is the purpose of the Math.random method?
+A) To generate a random integer
+B) To generate a random decimal number between 0 and 1
+C) To generate a random string
+D) To generate a random boolean value
+
+Correct answer: B) To generate a random decimal number between 0 and 1
+
+Quiz 4
+How do you generate a random integer between 1 and 6?
+A) Math.floor(Math.random() * 6) + 1
+B) Math.ceil(Math.random() * 6)
+C) Math.round(Math.random() * 6)
+D) Math.random() * 6
+
+Correct answer: A) Math.floor(Math.random() * 6) + 1
+
+Quiz 5
+What is the purpose of the parseInt method?
+A) To convert a string to a floating-point number
+B) To convert a string to an integer
+C) To convert a number to a string
+D) To round a number to the nearest integer
+
+Correct answer: B) To convert a string to an integer
+
+Quiz 6
+What is the difference between parseInt and parseFloat?
+A) parseInt converts to an integer, while parseFloat converts to a floating-point number
+B) parseInt converts to a floating-point number, while parseFloat converts to an integer
+C) parseInt rounds to the nearest integer, while parseFloat truncates
+D) parseInt truncates, while parseFloat rounds to the nearest integer
+
+Correct answer: A) parseInt converts to an integer, while parseFloat converts to a floating-point number
+
+Quiz 7
+What is the purpose of the Number method?
+A) To convert a string to a number
+B) To convert a number to a string
+C) To round a number to the nearest integer
+D) To truncate a number
+
+Correct answer: A) To convert a string to a number
+
+Quiz 8
+How do you convert a number to a string?
+A) Using the Number method
+B) Using the toString method
+C) Using the parseInt method
+D) Using the parseFloat method
+
+Correct answer: B) Using the toString method
+
+Quiz 9
+What is the purpose of the toFixed method?
+A) To round a number to a specified number of decimal places
+B) To convert a number to a string
+C) To truncate a number
+D) To round a number to the nearest integer
+
+Correct answer: A) To round a number to a specified number of decimal places
+
+Quiz 10
+What is the potential issue with the toFixed method?
+A) It always rounds up
+B) It always rounds down
+C) It may round inconsistently in different browsers
+D) It only works with integers
+
+Correct answer: C) It may round inconsistently in different browsers
+
+Quiz 11
+How can you fix the potential issue with the toFixed method?
+A) By using a different method
+B) By adding a small value to the number before rounding
+C) By converting the number to a string and manipulating the last digit
+D) By using a library function
+
+Correct answer: C) By converting the number to a string and manipulating the last digit
+
+Quiz 12
+What happens when you add a string and a number in JavaScript?
+A) The string is converted to a number and added
+B) The number is converted to a string and concatenated
+C) An error is thrown
+D) The result is NaN
+
+Correct answer: B) The number is converted to a string and concatenated
+
+Quiz 13
+What happens when you subtract a string from a number in JavaScript?
+A) The string is
+
+
+What method rounds a number to the nearest integer?
+a) Math.round()
+b) Math.nearest()
+c) Number.round()
+Answer: a) Math.round()
+
+How would you round 3.14159 to 2 decimal places?
+a) Math.round(3.14159, 2)
+b) 3.14159.toFixed(2)
+c) round(3.14159, 2)
+Answer: b) 3.14159.toFixed(2)
+
+What does Math.ceil(0.0001) return?
+a) 0
+b) 1
+c) 0.0001
+Answer: b) 1
+
+What does Math.floor(9.999) return?
+a) 9
+b) 10
+c) 9.999
+Answer: a) 9
+
+How do you generate a random number between 0 (inclusive) and 1 (exclusive)?
+a) Math.random()
+b) Math.rand()
+c) random()
+Answer: a) Math.random()
+
+How would you simulate a 6-sided die roll (1-6)?
+a) Math.floor(Math.random() * 6)
+b) Math.ceil(Math.random() * 6)
+c) Math.floor(Math.random() * 6) + 1
+Answer: c) Math.floor(Math.random() * 6) + 1
+
+What does parseInt("3.9") return?
+a) 3
+b) 4
+c) 3.9
+Answer: a) 3
+
+What does parseFloat("3.9") return?
+a) 3
+b) 3.9
+c) 4
+Answer: b) 3.9
+
+How do you convert the string "123" to the number 123?
+a) Number("123")
+b) parseInt("123")
+c) Both a and b
+Answer: c) Both a and b
+
+What does "200" + 150 evaluate to?
+a) "200150"
+b) 350
+c) Error
+Answer: a) "200150"
+
+What does "200" - "150" evaluate to?
+a) "200150"
+b) 50
+c) Error
+Answer: b) 50
+
+How do you convert the number 123 to the string "123"?
+a) 123.toString()
+b) String(123)
+c) Both a and b
+Answer: c) Both a and b
+
+What does (0.1 + 0.2).toFixed(1) return?
+a) "0.3"
+b) 0.3
+c) "0.30"
+Answer: a) "0.3" (Note: toFixed returns a string)
+
+How would you round 2.5 to the nearest integer?
+a) Math.round(2.5)
+b) Math.ceil(2.5)
+c) Math.floor(2.5)
+Answer: a) Math.round(2.5) (returns 3)
+
+What does Math.floor(Math.random() * 10) generate?
+a) A number from 0 to 9
+b) A number from 1 to 10
+c) A number from 0 to 10
+Answer: a) A number from 0 to 9
+
+How would you convert "3.14banana" to a number?
+a) parseInt("3.14banana")
+b) parseFloat("3.14banana")
+c) Number("3.14banana")
+Answer: a) parseInt("3.14banana") (returns 3) or b) parseFloat("3.14banana") (returns 3.14)
+
+What does Number("123") return?
+a) The number 123
+b) The string "123"
+c) NaN
+Answer: a) The number 123
+
+What does parseInt("hello") return?
+a) 0
+b) NaN
+c) Error
+Answer: b) NaN
+
+How would you format 9.99999 as "$10.00"?
+a) "$" + Math.round(9.99999).toFixed(2)
+b) "$" + 9.99999.toFixed(2)
+c) "$" + Math.ceil(9.99999).toFixed(2)
+Answer: b) "$" + 9.99999.toFixed(2) (returns "$10.00")
+
+What does (1.355).toFixed(2) potentially return due to browser inconsistency?
+a) Always "1.36"
+b) Always "1.35"
+c) Either "1.35" or "1.36"
+Answer: c) Either "1.35" or "1.36" (due to floating-point rounding differences)
+
+Q1. What does Math.round(2.5) return?
+a) 2
+b) 3
+c) 2.5
+d) Error
+Answer: b) 3
+
+Q2. What will Math.round(-1.5) return?
+a) -2
+b) -1
+c) 0
+d) 2
+Answer: b) -1
+
+Q3. Which function always rounds up to the nearest integer?
+a) round()
+b) ceil()
+c) floor()
+d) trunc()
+Answer: b) ceil()
+
+Q4. What does Math.floor(2.9) return?
+a) 2
+b) 3
+c) 2.9
+d) 0
+Answer: a) 2
+
+Q5. What is the result of Math.ceil(-0.5)?
+a) -1
+b) 0
+c) 1
+d) Error
+Answer: b) 0
+
+Random Numbers
+
+Q6. What range of numbers does Math.random() generate?
+a) 0 to 1 (exclusive)
+b) 1 to 10
+c) -1 to 1
+d) 0 to 100
+Answer: a) 0 to 1 (exclusive)
+
+Q7. To simulate a dice roll (1–6), which formula is correct?
+a) Math.round(Math.random() * 6)
+b) Math.floor(Math.random() * 6) + 1
+c) Math.ceil(Math.random() * 6)
+d) Math.random() + 6
+Answer: b) Math.floor(Math.random() * 6) + 1
+
+Q8. If Math.random() generates 0.999999, multiplying by 6 gives approximately:
+a) 0
+b) 5.9999
+c) 6.9999
+d) 1
+Answer: b) 5.9999
+
+Converting Strings to Integers/Decimals
+
+Q9. What will parseInt("1.9999") return?
+a) 2
+b) 1.9999
+c) 1
+d) NaN
+Answer: c) 1
+
+Q10. What will parseFloat("1.9999") return?
+a) 1
+b) 2
+c) 1.9999
+d) NaN
+Answer: c) 1.9999
+
+Q11. What will "200" - "150" return?
+a) "200150"
+b) 50
+c) NaN
+d) "50"
+Answer: b) 50
+
+Q12. What will "200" + 150 return?
+a) 200150
+b) "200150"
+c) 350
+d) "350"
+Answer: b) "200150"
+
+Q13. If a user enters "52" in a prompt, what is the result of:
+
+var qualifyingAge = currentAge + 1;
+
+
+a) 53
+b) "521"
+c) 52
+d) Error
+Answer: b) "521"
+
+Q14. How do you ensure correct numeric addition in the above case?
+a) Number(currentAge) + 1
+b) parseInt(currentAge) + 1
+c) Both a and b
+d) Not possible
+Answer: c) Both a and b
+
+Converting Numbers to Strings
+
+Q15. Which statement converts a number into a string?
+a) num.toText()
+b) num.toString()
+c) parseInt(num)
+d) stringify(num)
+Answer: b) num.toString()
+
+Q16. What does Number("24.9876") return?
+a) "24.9876"
+b) 24
+c) 24.9876
+d) NaN
+Answer: c) 24.9876
+
+Controlling Decimal Length
+
+Q17. What does (10.59675).toFixed(2) return?
+a) 10.59
+b) 10.60
+c) 10.59675
+d) "$10.60"
+Answer: b) 10.60
+
+Q18. What does (10.59675).toFixed() return?
+a) 10.60
+b) 10.5
+c) 11
+d) 10
+Answer: c) 11
+
+Q19. Why is toFixed() sometimes unreliable?
+a) It always returns NaN
+b) Different browsers may round .5 up or down differently
+c) It doesn’t work with integers
+d) It ignores decimals
+Answer: b) Different browsers may round .5 up or down differently
+
+Q20. Which method would you use to fix the .5 rounding issue reliably (based on the chapter)?
+a) Use parseInt()
+b) Convert number to string and manually adjust last digit
+c) Use Math.round()
+d) Use Math.random()
+Answer: b) Convert number to string and manually adjust last digit
+
+Q1.
+
+Which JavaScript object is used to work with dates and times?
+a) Time
+b) Clock
+c) Date
+d) Calendar
+✅ Answer: c) Date
+
+Q2.
+
+What does new Date() return?
+a) Current year only
+b) Current date and time from the user’s computer
+c) Current time in UTC always
+d) Only the current month
+✅ Answer: b) Current date and time from the user’s computer
+
+Q3.
+
+Which method converts a Date object into a string?
+a) toDate()
+b) toStr()
+c) toString()
+d) convert()
+✅ Answer: c) toString()
+
+Q4.
+
+What does getDay() return?
+a) Name of the day (e.g., "Mon")
+b) Number between 0 and 6, where 0 = Sunday
+c) Number of days in the month
+d) Current date of the month
+✅ Answer: b) Number between 0 and 6, where 0 = Sunday
+
+Q5.
+
+If today is Wednesday, what will new Date().getDay() return?
+a) 1
+b) 2
+c) 3
+d) 4
+✅ Answer: c) 3
+
+Q6.
+
+Which method extracts the month (0–11) from a Date object?
+a) getMonth()
+b) getDate()
+c) getFullYear()
+d) getHours()
+✅ Answer: a) getMonth()
+
+Q7.
+
+What will new Date().getMonth() return in December?
+a) 10
+b) 11
+c) 12
+d) 0
+✅ Answer: b) 11
+
+Q8.
+
+Which method gives the year in four digits?
+a) getYr()
+b) getYear()
+c) getFullYear()
+d) year()
+✅ Answer: c) getFullYear()
+
+Q9.
+
+Which method returns the day of the month (1–31)?
+a) getDay()
+b) getMonth()
+c) getDate()
+d) getFullYear()
+✅ Answer: c) getDate()
+
+Q10.
+
+Which method returns milliseconds since Jan 1, 1970?
+a) getMilliseconds()
+b) getTime()
+c) getSecs()
+d) getUnixTime()
+✅ Answer: b) getTime()
+
+Q11.
+
+If we want to set the year of a Date object to 2001, which method is used?
+a) changeYear(2001)
+b) setYear(2001)
+c) setFullYear(2001)
+d) updateYear(2001)
+✅ Answer: c) setFullYear(2001)
+
+Q12.
+
+What does setMonth(11) do?
+a) Sets month to November
+b) Sets month to December
+c) Sets month to October
+d) Throws an error
+✅ Answer: b) Sets month to December
+
+Q13.
+
+Which code sets the hours of a Date object to 1 p.m.?
+a) d.setHours(1);
+b) d.setHours(12);
+c) d.setHours(13);
+d) d.setHours(14);
+✅ Answer: c) d.setHours(13);
+
+Q14.
+
+Which method sets the day of the month?
+a) setDate()
+b) setDay()
+c) setMonth()
+d) setTime()
+✅ Answer: a) setDate()
+
+Q15.
+
+What does this code do?
+
+var doomsday = new Date("June 30, 2035");
+
+
+a) Creates a Date object for today
+b) Creates a Date object for June 30, 2035
+c) Creates a Date object with current year and June 30
+d) Throws an error
+✅ Answer: b) Creates a Date object for June 30, 2035
+
+Q16.
+
+How do you calculate the difference between two dates in days?
+a) Subtract getDate() values
+b) Subtract getDay() values
+c) Subtract getTime() values and divide by (1000606024)
+d) Use diffDates()
+✅ **Answer: c) Subtract getTime() values and divide by (1000606024)**
+
+Q17.
+
+Which method sets the seconds of a Date object?
+a) setTime()
+b) setSeconds()
+c) setMilliseconds()
+d) setMins()
+✅ Answer: b) setSeconds()
+
+Q18.
+
+What keyword is used to define a function in JavaScript?
+a) def
+b) func
+c) function
+d) fn
+✅ Answer: c) function
+
+Q19.
+
+How do you call a function named tellTime?
+a) call tellTime;
+b) tellTime();
+c) run tellTime;
+d) function tellTime();
+✅ Answer: b) tellTime();
+
+Q20.
+
+Why are functions useful?
+a) They slow down execution
+b) They repeat blocks of code easily
+c) They prevent using variables
+d) They are required in every JS program
+✅ Answer: b) They repeat blocks of code easily
+
+How do you create a new Date object for the current moment?
+a) new Date()
+b) Date.now()
+c) currentDate()
+Answer: a) new Date()
+
+What does getDay() return for Monday?
+a) 0
+b) 1
+c) "Mon"
+Answer: b) 1 (0=Sunday, 1=Monday, etc.)
+
+How would you get the full year (e.g., 2023) from a Date object?
+a) getYear()
+b) getFullYear()
+c) year()
+Answer: b) getFullYear()
+
+What does getMonth() return for December?
+a) 11
+b) 12
+c) "Dec"
+Answer: a) 11 (0=January, 11=December)
+
+How do you create a Date object for June 30, 2035?
+a) new Date(2035, 6, 30)
+b) new Date("June 30, 2035")
+c) Both a and b
+Answer: c) Both a and b
+
+What does getTime() return?
+a) Current time in HH:MM format
+b) Milliseconds since Jan 1, 1970
+c) Seconds since midnight
+Answer: b) Milliseconds since Jan 1, 1970
+
+How would you set the year of a Date object to 2001?
+a) setYear(2001)
+b) setFullYear(2001)
+c) changeYear(2001)
+Answer: b) setFullYear(2001)
+
+What is the correct way to define a function?
+a) function myFunc() { }
+b) def myFunc() { }
+c) myFunc = function() { }
+Answer: a) function myFunc() { }
+
+How do you call a function named showAlert?
+a) showAlert
+b) showAlert()
+c) call showAlert
+Answer: b) showAlert()
+
+What does new Date().getHours() return at 1:30 PM?
+a) 1
+b) 13
+c) "01"
+Answer: b) 13 (24-hour format)
+
+How would you calculate days between two dates?
+a) Subtract their getTime() values and divide by milliseconds in a day
+b) Use dateDiff()
+c) Compare getDay() values
+Answer: a) Subtract their getTime() values and divide by milliseconds in a day
+
+What does setMonth(11) do?
+a) Sets month to November
+b) Sets month to December
+c) Adds 11 months
+Answer: b) Sets month to December (0-11)
+
+How do you convert a Date object to a string?
+a) toString()
+b) String(date)
+c) Both a and b
+Answer: c) Both a and b
+
+What does new Date("July 21, 1983 13:25") create?
+a) Date object for that specific date and time
+b) String with that date
+c) Error (invalid format)
+Answer: a) Date object for that specific date and time
+
+How would you set the minutes of a Date object to 30?
+a) setMinutes(30)
+b) changeMinutes(30)
+c) minutes(30)
+Answer: a) setMinutes(30)
+
+What is the purpose of functions?
+a) To avoid repeating code
+b) To organize code into reusable blocks
+c) Both a and b
+Answer: c) Both a and b
+
+How do you get the day of the month (1-31)?
+a) getDay()
+b) getDate()
+c) getDayOfMonth()
+Answer: b) getDate()
+
+What does new Date().getMilliseconds() return?
+a) Current millisecond (0-999)
+b) Milliseconds since midnight
+c) Milliseconds since 1970
+Answer: a) Current millisecond (0-999)
+
+Where should functions typically be placed in code?
+a) Before the code that calls them
+b) After the code that calls them
+c) Doesn't matter
+Answer: a) Before the code that calls them (so they're loaded first)
+
+What does this code do? Math.floor((date2.getTime() - date1.getTime()) / (1000 * 60 * 60 * 24))
+a) Calculates days between two dates
+b) Compares two dates
+c) Rounds a date value
+Answer: a) Calculates days between two dates
+
+Here are 20 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the new Date() method?
+A) To create a new array
+B) To create a new Date object
+C) To create a new string
+D) To create a new number
+
+Correct answer: B) To create a new Date object
+
+Quiz 2
+What does the getDay() method return?
+A) The day of the month
+B) The day of the week as a number (0-6)
+C) The month of the year
+D) The year
+
+Correct answer: B) The day of the week as a number (0-6)
+
+Quiz 3
+How do you convert a Date object to a string?
+A) Using the toString() method
+B) Using the toDateString() method
+C) Using the getTime() method
+D) Using the parseInt() method
+
+Correct answer: A) Using the toString() method
+
+Quiz 4
+What is the purpose of the getMonth() method?
+A) To get the day of the month
+B) To get the month of the year as a number (0-11)
+C) To get the year
+D) To get the day of the week
+
+Correct answer: B) To get the month of the year as a number (0-11)
+
+Quiz 5
+What does the getTime() method return?
+A) The number of milliseconds since January 1, 1970
+B) The number of seconds since January 1, 1970
+C) The number of minutes since January 1, 1970
+D) The number of hours since January 1, 1970
+
+Correct answer: A) The number of milliseconds since January 1, 1970
+
+Quiz 6
+How do you specify a date and time in JavaScript?
+A) Using the new Date() method with a string argument
+B) Using the getTime() method
+C) Using the setFullYear() method
+D) Using the parseInt() method
+
+Correct answer: A) Using the new Date() method with a string argument
+
+Quiz 7
+What is the purpose of the setFullYear() method?
+A) To set the month of a Date object
+B) To set the day of the month of a Date object
+C) To set the year of a Date object
+D) To set the hour of a Date object
+
+Correct answer: C) To set the year of a Date object
+
+Quiz 8
+What does the setMonth() method do?
+A) Sets the day of the month
+B) Sets the month of a Date object
+C) Sets the year
+D) Sets the hour
+
+Correct answer: B) Sets the month of a Date object
+
+Quiz 9
+What is a function in JavaScript?
+A) A block of code that executes only once
+B) A block of code that executes repeatedly
+C) A variable that holds a value
+D) A method that performs an action
+
+Correct answer: B) A block of code that executes repeatedly
+
+Quiz 10
+How do you define a function in JavaScript?
+A) Using the function keyword
+B) Using the var keyword
+C) Using the let keyword
+D) Using the const keyword
+
+Correct answer: A) Using the function keyword
+
+Quiz 11
+What is the purpose of the parentheses in a function definition?
+A) To enclose the function body
+B) To enclose the function name
+C) To indicate that it's a function
+D) To pass arguments to the function
+
+Correct answer: C) To indicate that it's a function
+
+Quiz 12
+How do you call a function in JavaScript?
+A) By using the function keyword
+B) By using the function name followed by parentheses
+C) By using the var keyword
+D) By using the let keyword
+
+Correct answer: B) By using the function name followed by parentheses
+
+Quiz 13
+What is the benefit of using functions in JavaScript?
+A) They make the code more complex
+B) They make the code more repetitive
+C) They save repetitive coding and make the code easier to understand
+D) They slow down the code execution
+
+Correct answer: C) They save repetitive coding and make the code easier to understand
+
+Quiz 14
+Where can functions be placed in JavaScript code?
+A) Only at the beginning of the code
+B) Only at the end of the code
+C) Anywhere in the code, but typically before the main code
+D) Only in external JavaScript files
+
+Correct answer: C) Anywhere in the code, but typically before the main code
+
+Quiz 15
+What
+
+What is the correct way to pass data to a function?
+a) myFunction(data)
+b) myFunction = data
+c) call myFunction with data
+Answer: a) myFunction(data)
+
+How does a function return data to the calling code?
+a) Using pass back statement
+b) Using return statement
+c) Using output statement
+Answer: b) Using return statement
+
+What is a variable declared inside a function called?
+a) Global variable
+b) Local variable
+c) Universal variable
+Answer: b) Local variable
+
+Where is a global variable declared?
+a) Inside any function
+b) In the main body of code
+c) Both a and b
+Answer: b) In the main body of code
+
+What happens if you declare a variable without var inside a function?
+a) It becomes local to that function
+b) It becomes global
+c) It causes an error
+Answer: b) It becomes global
+
+What keyword starts a switch statement?
+a) switch
+b) case
+c) select
+Answer: a) switch
+
+What is the purpose of break in a switch statement?
+a) To stop all JavaScript execution
+b) To exit the switch block
+c) To skip the next case
+Answer: b) To exit the switch block
+
+What is the equivalent of else in a switch statement?
+a) otherwise
+b) default
+c) finally
+Answer: b) default
+
+How many values can a function return?
+a) Only one
+b) Multiple values
+c) As many as needed
+Answer: a) Only one
+
+What happens if you omit break in a switch case?
+a) Only that case executes
+b) All following cases execute
+c) It causes an error
+Answer: b) All following cases execute
+
+Which is better practice for functions?
+a) Using global variables
+b) Passing arguments and returning values
+c) Using the same variable names everywhere
+Answer: b) Passing arguments and returning values
+
+What is the parameter in this code? function calc(x) { return x*2; }
+a) x
+b) calc
+c) return
+Answer: a) x
+
+What does this return? function test() { var x=1; }
+a) 1
+b) undefined
+c) Nothing (no return)
+Answer: b) undefined
+
+What is the value of result after: var result = calc(5); if calc is function calc(x) { return x*2; }
+a) 5
+b) 10
+c) undefined
+Answer: b) 10
+
+What is wrong with this switch?
+
+text
+switch(x) {
+  case 1: alert("One");
+  case 2: alert("Two");
+}
+a) Missing break statements
+b) Missing default
+c) Both a and b
+Answer: c) Both a and b
+
+What is the scope of a variable declared in a function?
+a) Global
+b) Only within that function
+c) Within all functions
+Answer: b) Only within that function
+
+What is the value of y after:
+
+text
+var y = 10;
+function test() { var y = 5; }
+test();
+a) 10
+b) 5
+c) undefined
+Answer: a) 10
+
+What is the purpose of the default case?
+a) To handle unexpected values
+b) To make the switch mandatory
+c) To always execute
+Answer: a) To handle unexpected values
+
+Can a function call another function?
+a) No
+b) Yes, but only once
+c) Yes, multiple times
+Answer: c) Yes, multiple times
+
+What is the value of z after:
+
+text
+var z;
+function setZ() { z = 100; }
+setZ();
+a) undefined
+b) 100
+c) Error
+Answer: b) 100
+
+Here are 20 quizzes based on JavaScript chapters with correct answers:
+
+Quiz 1
+What is the purpose of the switch statement?
+A) To test a single condition
+B) To test multiple conditions
+C) To loop through an array
+D) To declare a variable
+
+Correct answer: B) To test multiple conditions
+
+Quiz 2
+How do you specify a value to test in a switch statement?
+A) Using the if keyword
+B) Using the switch keyword followed by a value in parentheses
+C) Using the case keyword
+D) Using the default keyword
+
+Correct answer: B) Using the switch keyword followed by a value in parentheses
+
+Quiz 3
+What is the purpose of the case keyword in a switch statement?
+A) To specify a default action
+B) To specify a value to test
+C) To break out of the switch block
+D) To declare a variable
+
+Correct answer: B) To specify a value to test
+
+Quiz 4
+What is the purpose of the break statement in a switch block?
+A) To specify a default action
+B) To specify a value to test
+C) To break out of the switch block
+D) To declare a variable
+
+Correct answer: C) To break out of the switch block
+
+Quiz 5
+What happens if you omit the break statement in a switch block?
+A) The switch block will not execute
+B) The switch block will execute only the first matching case
+C) The switch block will execute all statements after the matching case
+D) The switch block will throw an error
+
+Correct answer: C) The switch block will execute all statements after the matching case
+
+Quiz 6
+What is the purpose of the default keyword in a switch statement?
+A) To specify a value to test
+B) To break out of the switch block
+C) To specify a default action if no cases match
+D) To declare a variable
+
+Correct answer: C) To specify a default action if no cases match
+
+Quiz 7
+Is the default clause required in a switch statement?
+A) Yes
+B) No
+
+Correct answer: B) No
+
+Quiz 8
+What is the benefit of using a switch statement over multiple if statements?
+A) It makes the code more complex
+B) It makes the code more readable and efficient
+C) It allows for more conditional statements
+D) It reduces the number of variables needed
+
+Correct answer: B) It makes the code more readable and efficient
+
+Quiz 9
+Can you use a switch statement to test multiple values?
+A) Yes
+B) No
+
+Correct answer: A) Yes
+
+Quiz 10
+How do you separate multiple cases in a switch statement?
+A) Using a comma
+B) Using a semicolon
+C) Using a colon
+D) Using a new line
+
+Correct answer: C) Using a colon
+
+Quiz 11
+Can you use a variable as the value being tested in a switch statement?
+A) Yes
+B) No
+
+Correct answer: A) Yes
+
+Quiz 12
+Can you use a function call as the value being tested in a switch statement?
+A) Yes
+B) No
+
+Correct answer: A) Yes
+
+Quiz 13
+What type of values can be used in a switch statement?
+A) Only numbers
+B) Only strings
+C) Any type of value
+D) Only booleans
+
+Correct answer: C) Any type of value
+
+Quiz 14
+How does JavaScript match cases in a switch statement?
+A) Using loose equality (==)
+B) Using strict equality (===)
+C) Using a regular expression
+D) Using a callback function
+
+Correct answer: B) Using strict equality (===)
+
+Quiz 15
+Can you nest switch statements?
+A) Yes
+B) No
+
+Correct answer: A) Yes
+
+Quiz 16
+What is the syntax for a switch statement?
+A) switch (value) { case value: code; break; }
+B) switch (value) { case value: code; }
+C) switch value { case value: code; break; }
+D) switch value { case value: code; }
+
+Correct answer: A) switch (value) { case value: code; break; }
+
+Quiz 17
+Can you use a switch statement to test for multiple conditions?
+A) Yes
+B) No
+
+Correct answer: A) Yes
+
+Quiz 18
+How do you handle multiple cases with the same code?
+A) By using multiple if statements
+B) By using a single case
+
+Q: What does the method toLowerCase() do in JavaScript?
+A) Converts only the first letter to lowercase
+B) Converts the entire string to lowercase
+C) Converts only uppercase letters to lowercase
+D) Removes capital letters
+✅ Answer: B
+
+Q: What will be the output?
+
+var city = "ChEyEnNe";
+alert(city.toLowerCase());
+
+
+A) Cheyenne
+B) cheyenne
+C) ChEyEnNe
+D) CHEYENNE
+✅ Answer: B
+
+Chapter 22 – Measuring Length & Extracting Parts
+
+Q: Which method extracts a part of a string?
+A) substring()
+B) slice()
+C) cut()
+D) divide()
+✅ Answer: B
+
+Q: What is the result of this code?
+
+var city = "Boston";
+var part = city.slice(2, 5);
+alert(part);
+
+
+A) Bos
+B) sto
+C) ton
+D) ost
+✅ Answer: B
+
+Q: What property gives the number of characters in a string?
+A) size
+B) length
+C) count
+D) characters
+✅ Answer: B
+
+Chapter 23 – Finding Segments
+
+Q: What does indexOf("World War II") return if the phrase is not found?
+A) 0
+B) null
+C) -1
+D) undefined
+✅ Answer: C
+
+Q: What will this code do?
+
+var text = "To be or not to be.";
+var pos = text.lastIndexOf("be");
+alert(pos);
+
+
+A) 3
+B) 16
+C) 13
+D) -1
+✅ Answer: B
+
+Chapter 24 – Finding a Character at a Location
+
+Q: Which method is used to get a character at a specific position?
+A) slice()
+B) charAt()
+C) indexOf()
+D) findChar()
+✅ Answer: B
+
+Q: What is the output?
+
+var name = "Ayesha";
+alert(name.charAt(0));
+
+
+A) A
+B) a
+C) Ay
+D) undefined
+✅ Answer: A
+
+Q: What does this return?
+
+var word = "ChatGPT";
+alert(word.charAt(word.length - 1));
+
+
+A) C
+B) T
+C) P
+D) G
+✅ Answer: B
+
+Chapter 25 – Replacing Characters
+
+Q: Which method replaces part of a string?
+A) change()
+B) replace()
+C) modify()
+D) swap()
+✅ Answer: B
+
+Q: What is the result?
+
+var text = "World War II";
+text = text.replace("World War II", "the Second World War");
+alert(text);
+
+
+A) World War II
+B) The Second World War
+C) Error
+D) undefined
+✅ Answer: B
+
+Q: How do you replace all occurrences of "World War II"?
+A) replaceAll("World War II")
+B) replace(/World War II/g, "...")
+C) globalReplace("World War II")
+D) loopReplace()
+✅ Answer: B
+
+Chapter 26 – Rounding Numbers
+
+Q: What is the output of Math.round(2.5)?
+A) 2
+B) 3
+C) 2.5
+D) Error
+✅ Answer: B
+
+Q: What is the output of Math.floor(2.9)?
+A) 2
+B) 3
+C) 2.9
+D) 0
+✅ Answer: A
+
+Q: What is the output of Math.ceil(2.1)?
+A) 2
+B) 3
+C) 2.0
+D) undefined
+✅ Answer: B
+
+Chapter 27 – Generating Random Numbers
+
+Q: Which method generates a random decimal between 0 and 1?
+A) Math.random()
+B) Math.rand()
+C) Math.number()
+D) Random()
+✅ Answer: A
+
+Q: What is the possible output range of this code?
+
+var dice = Math.floor(Math.random() * 6) + 1;
+alert(dice);
+
+
+A) 0–5
+B) 1–6
+C) 1–5
+D) 0–6
+✅ Answer: B
+
+Chapter 28 – Converting Strings to Integers/Decimals
+
+Q: What does parseInt("2.9") return?
+A) 2.9
+B) 2
+C) 3
+D) NaN
+✅ Answer: B
+
+Q: What is the result?
+
+var num = parseFloat("3.14");
+alert(num + 1);
+
+
+A) 4
+B) 4.14
+C) "3.141"
+D) NaN
+✅ Answer: B
+
+What does new Date() create in JavaScript?
+a) A string representing the current date
+b) A Date object with the current date and time
+c) An array of date components
+Answer: b) A Date object with the current date and time
+
+How does JavaScript determine the time zone for new Date()?
+a) From the server's settings
+b) From the user's computer settings
+c) Always uses UTC
+Answer: b) From the user's computer settings
+
+What does getDay() return for Sunday?
+a) 0
+b) 1
+c) "Sun"
+Answer: a) 0
+
+How do you convert a Date object to a string?
+a) date.toString()
+b) String(date)
+c) Both a and b
+Answer: c) Both a and b
+
+What does getMonth() return for December?
+a) 11
+b) 12
+c) "Dec"
+Answer: a) 11
+
+How do you create a Date object for June 30, 2035?
+a) new Date(2035, 6, 30)
+b) new Date("June 30, 2035")
+c) Both a and b
+Answer: b) new Date("June 30, 2035")
+
+What does getTime() return?
+a) Milliseconds since midnight, Jan 1, 1970
+b) Current time in HH:MM format
+c) Seconds since epoch
+Answer: a) Milliseconds since midnight, Jan 1, 1970
+
+How do you set the year of a Date object to 2001?
+a) date.setYear(2001)
+b) date.setFullYear(2001)
+c) date.year = 2001
+Answer: b) date.setFullYear(2001)
+
+What is the purpose of a function in JavaScript?
+a) To store data
+b) To reuse a block of code
+c) To style HTML
+Answer: b) To reuse a block of code
+
+How do you pass data to a function?
+a) Using parameters
+b) Using global variables
+c) Both a and b
+Answer: a) Using parameters
+
+What is the output of tellTime() if getHours() returns 13?
+a) "1 PM"
+b) "13:00"
+c) Depends on the function code
+Answer: c) Depends on the function code
+
+How do you return a value from a function?
+a) return value;
+b) echo value;
+c) function.output(value);
+Answer: a) return value;
+
+What is a global variable?
+a) A variable declared inside a function
+b) A variable declared outside all functions
+c) A variable passed as an argument
+Answer: b) A variable declared outside all functions
+
+What is the scope of a local variable?
+a) Entire script
+b) Only within the function it's declared
+c) Global scope
+Answer: b) Only within the function it's declared
+
+What happens if a variable is declared without var inside a function?
+a) It becomes local
+b) It becomes global
+c) It causes an error
+Answer: b) It becomes global
+
+What keyword starts a switch statement?
+a) if
+b) switch
+c) case
+Answer: b) switch
+
+What is the purpose of break in a switch statement?
+a) To stop the entire script
+b) To exit the switch block after a case matches
+c) To skip the next case
+Answer: b) To exit the switch block after a case matches
+
+What is the equivalent of else in a switch statement?
+a) default
+b) otherwise
+c) break
+Answer: a) default
+
+What happens if you omit break in a switch case?
+a) Only that case executes
+b) All following cases execute
+c) The script stops
+Answer: b) All following cases execute
+
+When is the default case executed in a switch?
+a) When no other cases match
+b) Always first
+c) Only if placed first
+Answer: a) When no other cases match
+
