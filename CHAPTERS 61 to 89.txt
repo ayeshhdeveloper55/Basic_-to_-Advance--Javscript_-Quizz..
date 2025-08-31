@@ -1,0 +1,996 @@
+****************📘 JavaScript (Ch 61–89) Quiz*******************************
+
+Chapter 61 – The DOM: Junk artifacts and nodeType
+
+Browsers often create extra text nodes in the DOM because of:
+a) Comments
+b) Indentation & whitespace
+c) Missing tags
+d) CSS formatting
+✅ Answer: b) Indentation & whitespace
+
+What is the nodeType value for an element node like <p>?
+a) 1
+b) 2
+c) 3
+d) 4
+✅ Answer: a) 1
+
+Chapter 62 – The DOM: More ways to target elements
+
+parentNode.firstChild is the same as:
+a) childNodes[last]
+b) childNodes[0]
+c) childNodes[1]
+d) childNodes[-1]
+✅ Answer: b) childNodes[0]
+
+If no nextSibling exists, what value will JavaScript return?
+a) undefined
+b) null
+c) 0
+d) false
+✅ Answer: b) null
+
+Chapter 63 – The DOM: Getting a target’s name
+
+The nodeName of <p> will be:
+a) "p"
+b) "P"
+c) "#text"
+d) "paragraph"
+✅ Answer: b) "P"
+
+The node name of a text node is always:
+a) "#TEXT"
+b) "TEXT"
+c) "#text"
+d) "String"
+✅ Answer: c) "#text"
+
+Chapter 64 – The DOM: Counting elements
+
+What does getElementsByTagName("li") return?
+a) A single element
+b) An array-like collection of <li> elements
+c) A string
+d) A number
+✅ Answer: b) An array-like collection of <li> elements
+
+Which property gives the total number of child nodes in a node list?
+a) total
+b) count
+c) length
+d) size
+✅ Answer: c) length
+
+Chapter 65 – The DOM: Attributes
+
+In <a href="http://abc.com">, href is:
+a) An element
+b) A child
+c) An attribute
+d) A property
+✅ Answer: c) An attribute
+
+Which method is used to check if an element has a specific attribute?
+a) hasProperty()
+b) getAttribute()
+c) hasAttribute()
+d) checkAttribute()
+✅ Answer: c) hasAttribute()
+
+Chapter 66 – The DOM: Attribute names and values
+
+The .attributes property of an element returns:
+a) An array
+b) A string
+c) A collection of attributes
+d) Boolean value
+✅ Answer: c) A collection of attributes
+
+If the markup is <p id="p1" class="c1">, what will list[1].nodeName return?
+a) "id"
+b) "class"
+c) "c1"
+d) "#text"
+✅ Answer: b) "class"
+
+Chapter 67 – The DOM: Adding nodes
+
+Which method creates a new element node?
+a) createNode()
+b) createElement()
+c) appendChild()
+d) newElement()
+✅ Answer: b) createElement()
+
+To add text inside a newly created <p>, we use:
+a) setText()
+b) createTextNode() + appendChild()
+c) innerHTML =
+d) addText()
+✅ Answer: b) createTextNode() + appendChild()
+
+Chapter 68 – The DOM: Inserting nodes
+
+Which method inserts a new node before another child?
+a) insertBefore()
+b) insertAfter()
+c) appendChild()
+d) prependNode()
+✅ Answer: a) insertBefore()
+
+To remove a node from DOM, we use:
+a) remove()
+b) deleteNode()
+c) removeChild()
+d) clearNode()
+✅ Answer: c) removeChild()
+
+Chapter 69 – Objects
+
+In JavaScript, an object’s property is accessed using:
+a) Brackets []
+b) Dot . notation
+c) Both a & b
+d) Only variables
+✅ Answer: c) Both a & b
+
+In the object plan1, what type of value can a property hold?
+a) Only strings
+b) Only numbers
+c) Only arrays
+d) Strings, numbers, arrays, etc.
+✅ Answer: d) Strings, numbers, arrays, etc.
+
+Chapter 70 – Objects: Properties
+
+To delete a property from an object, we use:
+a) removeProperty
+b) delete
+c) destroy
+d) unset
+✅ Answer: b) delete
+
+"market" in deal3 will return:
+a) Property value
+b) True/False depending on existence
+c) Undefined
+d) Null
+✅ Answer: b) True/False depending on existence
+
+Question 1
+What will be the value of plan1.name after executing this code?
+
+javascript
+var plan1 = {
+  name: "Basic",
+  price: 3.99
+};
+plan1.name = "Premium";
+A) "Basic"
+B) "Premium"
+C) undefined
+D) null
+
+Correct Answer: B) "Premium"
+Explanation: The property value is reassigned from "Basic" to "Premium".
+
+Question 2
+How do you add a new property storage with value 500 to an existing object plan2?
+
+A) plan2[storage] = 500;
+B) plan2.storage = 500;
+C) plan2 = {storage: 500};
+D) plan2("storage") = 500;
+
+Correct Answer: B) plan2.storage = 500;
+Explanation: Dot notation is used to add/assign properties to objects.
+
+Question 3
+What does this code do?
+
+javascript
+delete deal3.market;
+A) Sets deal3.market to undefined
+B) Removes the market property from deal3
+C) Checks if market exists in deal3
+D) Creates a new property market
+
+Correct Answer: B) Removes the market property from deal3
+Explanation: The delete operator removes a property from an object.
+
+Question 4
+What is the value of propertyExists after this code runs?
+
+javascript
+var deal3 = {market: "regional"};
+propertyExists = "market" in deal3;
+A) true
+B) false
+C) "regional"
+D) undefined
+
+Correct Answer: A) true
+Explanation: The in operator checks if a property exists in an object.
+
+Question 5
+How do you create an object deal4 with no properties?
+
+A) var deal4 = [];
+B) var deal4 = null;
+C) var deal4 = {};
+D) var deal4 = undefined;
+
+Correct Answer: C) var deal4 = {};
+Explanation: Empty curly braces {} create an empty object.
+
+Question 6
+What is the value of mo after this code executes?
+
+javascript
+var plan1 = {
+  discountMonths: [6, 7, 11]
+};
+var mo = plan1.discountMonths[2];
+A) 6
+B) 7
+C) 11
+D) undefined
+
+Correct Answer: C) 11
+Explanation: Array indexing starts at 0, so index [2] is the third element (11).
+
+Question 7
+How do you check if a property pages exists in object plan1?
+
+A) "pages" exists plan1
+B) plan1.hasOwnProperty("pages")
+C) plan1.contains("pages")
+D) plan1.in("pages")
+
+Correct Answer: B) plan1.hasOwnProperty("pages")
+Explanation: The hasOwnProperty() method checks if an object has a specific property.
+
+Question 8
+What is the value of deal3.market after this code?
+
+javascript
+var deal3 = {};
+deal3.market = undefined;
+A) null
+B) "undefined"
+C) undefined
+D) throws an error
+
+Correct Answer: C) undefined
+Explanation: The property exists but has the value undefined.
+
+Question 9
+Which syntax correctly creates an object with an array property?
+
+A)
+
+javascript
+var plan1 = {
+  features: "Guarantee", "Free Ship"
+};
+B)
+
+javascript
+var plan1 = {
+  features: ["Guarantee", "Free Ship"]
+};
+C)
+
+javascript
+var plan1 = {
+  features: ("Guarantee", "Free Ship")
+};
+D)
+
+javascript
+var plan1 = {
+  features: {"Guarantee", "Free Ship"}
+};
+Correct Answer: B)
+
+javascript
+var plan1 = {
+  features: ["Guarantee", "Free Ship"]
+};
+Explanation: Array values are defined with square brackets [].
+
+Question 10
+What is the value of plan1.price after this code?
+
+javascript
+var plan1 = {
+  price: 3.99
+};
+plan1.price = 5.99;
+A) 3.99
+B) 5.99
+C) undefined
+D) null
+
+Correct Answer: B) 5.99
+Explanation: The property is reassigned to the new value.
+
+Question 1
+What is the correct syntax to open a new window named "info" with a width of 500px and height of 400px?
+
+A) window.open("", "info", "width=500 height=400");
+B) window.open("", "info", "width=500,height=400");
+C) window.open("info", "", "width=500,height=400");
+D) window.open("", "", "name=info,width=500,height=400");
+
+Correct Answer: B) window.open("", "info", "width=500,height=400");
+Explanation: The parameters must be in the order: URL, name, features. Features must be comma-separated without spaces.
+
+Question 2
+What is the minimum allowed width/height for a browser window?
+
+A) 50px
+B) 100px
+C) 200px
+D) There is no minimum
+
+Correct Answer: B) 100px
+Explanation: Browser windows have a minimum size of 100 pixels in both dimensions.
+
+Question 3
+How do you position a window 300px from the left and 200px from the top of the screen?
+
+A) window.open("", "", "left=300 top=200");
+B) window.open("", "", "left=300,top=200");
+C) window.open("", "", "position=300,200");
+D) window.open("", "", "x=300,y=200");
+
+Correct Answer: B) window.open("", "", "left=300,top=200");
+Explanation: Use left and top parameters separated by commas.
+
+Question 4
+Which statement correctly opens a window with both size and position specifications?
+
+A) window.open("page.html", "myWin", "width=400,height=300,left=100,top=50");
+B) window.open("page.html", "myWin", "width=400 height=300 left=100 top=50");
+C) window.open("page.html", "myWin", "size=400x300,position=100,50");
+D) window.open("page.html", "myWin", "400,300,100,50");
+
+Correct Answer: A) window.open("page.html", "myWin", "width=400,height=300,left=100,top=50");
+Explanation: All parameters must be properly named and comma-separated.
+
+Question 5
+What happens if you try to specify window position without specifying window size?
+
+A) The window will open at the specified position with default size
+B) The position parameters will be ignored
+C) JavaScript will throw an error
+D) The window will open fullscreen at the specified position
+
+Correct Answer: B) The position parameters will be ignored
+Explanation: Position parameters are only honored when both width and height are specified.
+
+Question 6
+How would you store window specifications in a variable?
+
+A)
+
+javascript
+var specs = {width: 500, height: 400, left: 100, top: 50};
+window.open("", "", specs);
+B)
+
+javascript
+var specs = "width=500,height=400,left=100,top=50";
+window.open("", "", specs);
+C)
+
+javascript
+var specs = "500,400,100,50";
+window.open("", "", specs);
+D)
+
+javascript
+var specs = "(500,400,100,50)";
+window.open("", "", specs);
+Correct Answer: B)
+
+javascript
+var specs = "width=500,height=400,left=100,top=50";
+window.open("", "", specs);
+Explanation: The features parameter must be a string with proper formatting.
+
+Question 7
+What is the purpose of the window name parameter?
+
+A) It's the JavaScript variable handle for the window
+B) It's used for HTML target attributes
+C) It displays in the browser title bar
+D) It's required for window positioning
+
+Correct Answer: B) It's used for HTML target attributes
+Explanation: The name parameter can be used in <a target="name"> or <form target="name">.
+
+Question 8
+Which of these will open a window successfully?
+
+A) window.open("", "", "width=50,height=50");
+B) window.open("", "", "width=100,height=100");
+C) window.open("", "", "width=99,height=99");
+D) window.open("", "", "width=0,height=0");
+
+Correct Answer: B) window.open("", "", "width=100,height=100");
+Explanation: The minimum allowed size is 100px in both dimensions.
+
+Question 9
+What is the correct order of parameters for window.open()?
+
+A) name, URL, features
+B) URL, features, name
+C) features, URL, name
+D) URL, name, features
+
+Correct Answer: D) URL, name, features
+Explanation: The method signature is window.open(url, name, features).
+
+Question 10
+How do you open a window with a specific URL but let the browser determine the size?
+
+A) window.open("page.html", "", "auto");
+B) window.open("page.html");
+C) window.open("page.html", "", "");
+D) window.open("page.html", "", "default");
+
+Correct Answer: B) window.open("page.html");
+Explanation: Omitting the features parameter lets the browser use default size and position.
+
+Chapter 71 – Objects: Methods
+
+When a function is attached to an object, it is called:
+a) A property
+b) A method
+c) A prototype
+d) A constructor
+✅ Answer: b) A method
+
+The keyword this inside a method refers to:
+a) The global object
+b) The parent function
+c) The object that owns the method
+d) The window object
+✅ Answer: c) The object that owns the method
+
+Chapter 72 – Objects: Constructors
+
+Which keyword is used to create a new object from a constructor?
+a) build
+b) new
+c) create
+d) make
+✅ Answer: b) new
+
+By convention, constructor function names usually:
+a) Are lowercase
+b) Are uppercase (PascalCase)
+c) Start with underscore
+d) End with "Obj"
+✅ Answer: b) Are uppercase (PascalCase)
+
+Chapter 73 – Objects: Constructors for Methods
+
+A method defined inside a constructor function is created:
+a) Once for all objects
+b) Separately for each object
+c) Only for the first object
+d) Only if prototype is used
+✅ Answer: b) Separately for each object
+
+In a constructor, the first line of a method definition looks like:
+a) calcAnnual: function() {}
+b) this.calcAnnual = function() {}
+c) function calcAnnual() {}
+d) method.calcAnnual = {}
+✅ **Answer: b) this.calcAnnual = function() {}`
+
+Chapter 74 – Objects: Prototypes
+
+To avoid duplicating the same method for every object, we use:
+a) this.method
+b) class.method
+c) prototype.method
+d) static.method
+✅ Answer: c) prototype.method
+
+If you write Plan.prototype.cancellable = true;, then:
+a) Only the first object gets cancellable
+b) All objects share the cancellable property
+c) Property is private
+d) It overrides existing property automatically
+✅ Answer: b) All objects share the cancellable property
+
+Chapter 75 – Objects: Checking for properties and methods
+
+"price" in plan1 will return:
+a) The value of price
+b) True/False
+c) Undefined
+d) Null
+✅ Answer: b) True/False
+
+To check only object’s own properties (not inherited), we use:
+a) hasAttribute()
+b) hasOwnProperty()
+c) inProperty()
+d) getOwnProperty()
+✅ Answer: b) hasOwnProperty()
+
+Chapter 76 – Browser Control: Getting and setting the URL
+
+The full URL of current page is obtained by:
+a) document.URL
+b) window.location.href
+c) Both a & b
+d) window.domain
+✅ Answer: c) Both a & b
+
+To get just the path part of URL, we use:
+a) window.location.href
+b) window.location.hostname
+c) window.location.pathname
+d) window.location.hash
+✅ Answer: c) window.location.pathname
+
+Chapter 77 – Browser Control: Another way
+
+Which statement navigates to a new URL and keeps history?
+a) window.location.assign()
+b) window.location.replace()
+c) window.location.reload()
+d) window.history.back()
+✅ Answer: a) window.location.assign()
+
+Which statement removes current page from history?
+a) assign()
+b) replace()
+c) reload()
+d) refresh()
+✅ Answer: b) replace()
+
+Chapter 78 – Browser Control: Forward and reverse
+
+history.go(-2) means:
+a) Go forward 2 pages
+b) Go back 2 pages
+c) Reload current page
+d) Clear history
+✅ Answer: b) Go back 2 pages
+
+The URL of the page where the user came from is stored in:
+a) document.previous
+b) document.referrer
+c) history.back()
+d) window.location.from
+✅ Answer: b) document.referrer
+
+Chapter 79 – Browser Control: Filling the window
+
+The method to open a new popup window is:
+a) window.create()
+b) window.open()
+c) document.open()
+d) window.popup()
+✅ Answer: b) window.open()
+
+Which method writes HTML content into a new popup?
+a) document.write()
+b) document.open()
+c) window.fill()
+d) window.assign()
+✅ Answer: a) document.write()
+
+Chapter 80 – Browser Control: Size and Location
+
+In window.open("monk.html", "win1"), "win1" represents:
+a) Handle
+b) Window name
+c) URL
+d) Tab name
+✅ Answer: b) Window name
+
+The handle of a popup window is:
+a) The name used in HTML target attribute
+b) The variable assigned in JavaScript (e.g., var win = window.open())
+c) Always the same as window name
+d) The hostname of the site
+✅ Answer: b) The variable assigned in JavaScript
+
+Chapter 81 – Browser control: Testing for popup blockers
+
+If a popup is blocked, the handle returned by window.open() will be:
+a) 0
+b) false
+c) null or undefined
+d) ""
+✅ Answer: c) null or undefined
+
+In Internet Explorer, if the popup is blocked, the handle is:
+a) null
+b) undefined
+c) false
+d) NaN
+✅ Answer: b) undefined
+
+Chapter 82 – Form validation: text fields
+
+Which property is used to get the length of a text field’s value?
+a) .size
+b) .value.length
+c) .length
+d) .textLength
+✅ Answer: b) .value.length
+
+What method is used to move the cursor into a text field?
+a) .focus()
+b) .cursor()
+c) .select()
+d) .activate()
+✅ Answer: a) .focus()
+
+Chapter 83 – Form validation: drop-downs
+
+Which property is used to check whether a user has selected from a <select> menu?
+a) .selectedValue
+b) .selectedOption
+c) .selectedIndex
+d) .valueIndex
+✅ Answer: c) .selectedIndex
+
+If selectedIndex is 0, what does it mean?
+a) No selection has been made
+b) First real option selected
+c) All options selected
+d) Index error
+✅ Answer: a) No selection has been made
+
+Chapter 84 – Form validation: radio buttons
+
+Which method returns all radio buttons sharing the same name?
+a) getElementById()
+b) getElementsByTagName()
+c) getElementsByName()
+d) querySelector()
+✅ Answer: c) getElementsByName()
+
+Which property is checked to see if a radio button is selected?
+a) .selected
+b) .checked
+c) .active
+d) .status
+✅ Answer: b) .checked
+
+Chapter 85 – Form validation: ZIP codes
+
+Which HTML attribute limits the number of characters a user can enter?
+a) maxlength
+b) limit
+c) max
+d) maxchar
+✅ Answer: a) maxlength
+
+Which function is used to check if a character is not a number?
+a) isNumber()
+b) NaN()
+c) isNaN()
+d) checkInt()
+✅ Answer: c) isNaN()
+
+Chapter 86 – Form validation: email
+
+Which method is used to find the position of "@" in a string?
+a) .find()
+b) .positionOf()
+c) .indexOf()
+d) .search()
+✅ Answer: c) .indexOf()
+
+If indexOf("@") < 1, what does it mean?
+a) The email is correct
+b) "@" is at start or missing → invalid email
+c) "@" is in last position
+d) String is empty
+✅ Answer: b) "@" is at start or missing → invalid email
+
+Chapter 87 – Exceptions: try and catch
+
+Which block contains code that may throw an error?
+a) catch
+b) try
+c) throw
+d) error
+✅ Answer: b) try
+
+If an error occurs in the try block, the code inside which block will run?
+a) error{}
+b) throw{}
+c) catch{}
+d) finally{}
+✅ Answer: c) catch{}
+
+Chapter 88 – Exceptions: throw
+
+Which keyword is used to generate a custom error?
+a) error
+b) throw
+c) catch
+d) break
+✅ Answer: b) throw
+
+What type of values can be thrown using throw?
+a) Only strings
+b) Only numbers
+c) Only objects
+d) Any type (string, number, boolean, etc.)
+✅ Answer: d) Any type
+
+Chapter 89 – Handling events within JavaScript
+
+Which property is used to assign an event handler in JavaScript?
+a) .onClick
+b) .onclick
+c) .OnClick
+d) .clickEvent
+✅ Answer: b) .onclick
+
+In scripted event handling, the function name is written:
+a) Inside quotes with parentheses
+b) Without quotes and without parentheses
+c) With quotes and no parentheses
+d) With parentheses but no quotes
+✅ Answer: b) Without quotes and without parentheses
+
+To attach a function sayHello() with a button (id="btn1"), correct code is:
+a) document.getElementById("btn1").onclick = sayHello;
+b) document.getElementById("btn1").onclick = "sayHello()";
+c) document.getElementById("btn1").onClick = sayHello;
+d) document.getElementById("btn1").click = sayHello();
+✅ Answer: a) document.getElementById("btn1").onclick = sayHello;
+
+Inline event handling uses:
+a) All lowercase event names
+b) CamelCase event names
+c) Uppercase event names
+d) Function expressions only
+✅ Answer: b) CamelCase event names
+
+Question 1
+What is the correct way to attach a click event handler to a button with id "btn1"?
+
+A) document.getElementById("btn1").onClick = myFunction;
+B) document.getElementById("btn1").onclick = myFunction();
+C) document.getElementById("btn1").onclick = myFunction;
+D) document.getElementById("btn1").click = myFunction;
+
+Correct Answer: C) document.getElementById("btn1").onclick = myFunction;
+Explanation: Event names must be lowercase, and function references shouldn't include parentheses.
+
+Question 2
+Which event handler is correctly written?
+
+A) element.onMouseOver = doSomething;
+B) element.onmouseover = doSomething();
+C) element.onmouseover = doSomething;
+D) element.mouseover = doSomething;
+
+Correct Answer: C) element.onmouseover = doSomething;
+Explanation: The event name must be all lowercase, and the function reference shouldn't include parentheses.
+
+Question 3
+What's wrong with this code?
+
+javascript
+document.getElementById("myBtn").onclick = alert("Clicked!");
+A) The event name should be "onClick"
+B) The function should be in quotes
+C) It should use addEventListener instead
+D) The alert will execute immediately, not when clicked
+
+Correct Answer: D) The alert will execute immediately, not when clicked
+Explanation: The parentheses after alert cause it to execute immediately during assignment.
+
+Question 4
+How do you attach multiple event handlers to the same element?
+
+A) element.onclick = function1; element.onclick = function2;
+B) element.onclick = function1, function2;
+C) Using addEventListener() instead
+D) JavaScript doesn't allow multiple event handlers
+
+Correct Answer: C) Using addEventListener() instead
+Explanation: The onclick property can only hold one function reference. Use addEventListener for multiple handlers.
+
+Question 5
+What does this code do?
+
+javascript
+document.getElementById("form1").onsubmit = validateForm;
+A) Calls validateForm when the form is submitted
+B) Calls validateForm immediately
+C) Returns the value of validateForm
+D) Nothing - it's syntactically incorrect
+
+Correct Answer: A) Calls validateForm when the form is submitted
+Explanation: This attaches validateForm as the submit event handler.
+
+Question 6
+How would you remove an event handler attached via the onclick property?
+
+A) element.onclick = null;
+B) element.removeEventListener("click");
+C) element.onclick.remove();
+D) delete element.onclick;
+
+Correct Answer: A) element.onclick = null;
+Explanation: Setting the event handler property to null removes the handler.
+
+Question 7
+Which event would you use for when a user moves mouse over an element?
+
+A) onmouseenter
+B) onmouseover
+C) onmousemove
+D) All of the above
+
+Correct Answer: D) All of the above
+Explanation: All these events relate to mouse movement over elements.
+
+Question 8
+What's the difference between inline and JavaScript event handling?
+
+A) Inline is more modern
+B) JavaScript handling separates behavior from content
+C) Inline handling is more powerful
+D) There's no practical difference
+
+Correct Answer: B) JavaScript handling separates behavior from content
+Explanation: Keeping JavaScript separate from HTML is considered better practice.
+
+Question 9
+How do you prevent default behavior in an event handler?
+
+A) return false;
+B) event.preventDefault();
+C) event.stopPropagation();
+D) All of the above
+
+Correct Answer: D) All of the above
+Explanation: All these methods can prevent default behavior in different contexts.
+
+Question 10
+What does this code do?
+
+javascript
+document.getElementById("img1").onload = function() {
+  alert("Image loaded");
+};
+A) Alerts when the page loads
+B) Alerts when the image is clicked
+C) Alerts when the image finishes loading
+D) Alerts immediately
+
+Correct Answer: C) Alerts when the image finishes loading
+Explanation: The onload event fires when an image has completed loading.
+
+Question 11
+Which event is triggered when a user leaves an input field?
+
+A) onchange
+B) onblur
+C) onfocusout
+D) All of the above
+
+Correct Answer: D) All of the above
+Explanation: All these events can indicate when a user leaves an input field.
+
+Question 12
+How do you get information about the event in your handler function?
+
+A) The event object is automatically passed as a parameter
+B) Use window.event
+C) Both A and B
+D) Event information isn't available
+
+Correct Answer: C) Both A and B
+Explanation: Modern browsers pass event object as parameter, older IE uses window.event.
+
+Question 13
+What's the correct way to handle a double-click event?
+
+A) element.ondblclick = myFunction;
+B) element.ondoubleclick = myFunction;
+C) element.onclick = myFunction; myFunction.double = true;
+D) element.click2 = myFunction;
+
+Correct Answer: A) element.ondblclick = myFunction;
+Explanation: The event name for double-click is "ondblclick".
+
+Question 14
+Which event fires when a user presses any key?
+
+A) onkeypress
+B) onkeydown
+C) onkeyup
+D) All of the above
+
+Correct Answer: D) All of the above
+Explanation: These are all keyboard events that fire at different stages of key presses.
+
+Question 15
+How do you make an event handler work for multiple elements?
+
+A) Attach the same handler to each element
+B) Use event delegation on a parent element
+C) Both A and B
+D) It's not possible
+
+Correct Answer: C) Both A and B
+Explanation: You can attach handlers individually or use event delegation for efficiency.
+
+Question 16
+What does event bubbling mean?
+
+A) Events propagate from target to parent elements
+B) Events make sound effects
+C) Events are cancelled
+D) Events only work on bubble elements
+
+Correct Answer: A) Events propagate from target to parent elements
+Explanation: Event bubbling is the process where events propagate upward through the DOM tree.
+
+Question 17
+How do you stop event bubbling?
+
+A) event.stopPropagation();
+B) event.cancelBubble = true;
+C) return false;
+D) All of the above
+
+Correct Answer: D) All of the above
+Explanation: All these methods can stop event propagation in different browsers.
+
+Question 18
+Which event is best for form validation?
+
+A) onclick of submit button
+B) onsubmit of the form
+C) onchange of each field
+D) onblur of each field
+
+Correct Answer: B) onsubmit of the form
+Explanation: Form submission is the ideal time to validate all fields together.
+
+Question 19
+What's the advantage of using addEventListener over onclick?
+
+A) Allows multiple handlers
+B) More control over event phase
+C) Better browser compatibility
+D) All of the above
+
+Correct Answer: D) All of the above
+Explanation: addEventListener provides all these advantages over the onclick property.
+
+Question 20
+How would you simulate a click event on an element?
+
+A) element.click();
+B) element.onclick();
+C) triggerEvent(element, 'click');
+D) element.simulate('click');
+
+Correct Answer: A) element.click();
+Explanation: Most modern browsers support the click() method to simulate clicks.
+
+Score Guide:

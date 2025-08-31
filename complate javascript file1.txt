@@ -1,0 +1,2317 @@
+1. What is JavaScript?
+
+a) A styling language
+b) A programming language
+c) A database language
+d) A markup language
+✅ Answer: b) A programming language
+
+2. Where can you write JavaScript code directly in the browser?
+
+a) VS Code
+b) Chrome Developer Tools → Console
+c) WordPad
+d) Notepad++
+✅ Answer: b) Chrome Developer Tools → Console
+
+3. If you type some code in the console, is it permanent?
+
+a) Yes
+b) No
+✅ Answer: b) No
+
+4. Which key brings back your old code in the console?
+
+a) Left & Right arrow
+b) Up & Down arrow
+c) Shift + Enter
+✅ Answer: b) Up & Down arrow
+
+5. What does console.log("Apna College") do?
+
+a) Saves data in memory
+b) Prints message to the console
+c) Creates a variable
+✅ Answer: b) Prints message to the console
+
+6. JavaScript variables are ______.
+
+a) Containers for data
+b) Functions
+c) Loops
+✅ Answer: a) Containers for data
+
+7. Variable names in JS are case-sensitive.
+
+a) True
+b) False
+✅ Answer: a) True
+
+8. Which variable name is valid in JS?
+
+a) 1name
+b) my-name
+c) my_name
+d) my name
+✅ Answer: c) my_name
+
+9. Which keyword allows re-declaration and updating of variables?
+
+a) var
+b) let
+c) const
+✅ Answer: a) var
+
+10. Which keyword cannot be re-declared but can be updated?
+
+a) var
+b) let
+c) const
+✅ Answer: b) let
+
+11. Which keyword cannot be re-declared or updated?
+
+a) var
+b) let
+c) const
+✅ Answer: c) const
+
+12. What is the scope of a var variable?
+
+a) Block scope
+b) Function / Global scope
+✅ Answer: b) Function / Global scope
+
+13. What is the scope of let and const?
+
+a) Block scope
+b) Global scope only
+c) Function scope
+✅ Answer: a) Block scope
+
+14. Which of the following is NOT a primitive data type in JS?
+
+a) Number
+b) String
+c) Boolean
+d) Object
+✅ Answer: d) Object
+
+15. Which is a primitive type introduced for very large numbers?
+
+a) BigInt
+b) Symbol
+c) Undefined
+✅ Answer: a) BigInt
+
+16. What will be the output of typeof "Hello"?
+
+a) number
+b) string
+c) boolean
+✅ Answer: b) string
+
+17. What will be the output of typeof null?
+
+a) object
+b) null
+c) undefined
+✅ Answer: a) object (special case in JS)
+
+18. Which type is returned by typeof true?
+
+a) boolean
+b) number
+c) string
+✅ Answer: a) boolean
+
+19. Which type is returned by typeof undefined?
+
+a) null
+b) object
+c) undefined
+✅ Answer: c) undefined
+
+20. Which operator is used to assign a value to a variable?
+
+a) =
+b) ==
+c) ===
+✅ Answer: a) =
+
+21. Create a const object called product. Can its properties be updated?
+
+a) Yes
+b) No
+✅ Answer: a) Yes (object values can be changed, but variable reference cannot be reassigned)
+
+22. Which of the following is a correct const object declaration?
+
+a) const product = { name = "Pen", price = 20 }
+b) const product = { name: "Pen", price: 20 }
+✅ Answer: b) const product = { name: "Pen", price: 20 }
+
+23. Can a reserved word like let be used as a variable name?
+
+a) Yes
+b) No
+✅ Answer: b) No
+
+24. Which of these is a valid variable name?
+
+a) $price
+b) _value
+c) myValue
+d) All of these
+✅ Answer: d) All of these
+
+25. What is VS Code?
+
+a) A compiler
+b) A browser
+c) A free and popular code editor by Microsoft
+✅ Answer: c) A free and popular code editor by Microsoft
+
+Question 1
+What does console.log("Hello") do?
+A) Creates a variable named Hello
+B) Prints "Hello" to the console
+C) Shows an alert with "Hello"
+D) Nothing
+
+Correct Answer: B) Prints "Hello" to the console
+Explanation: console.log() outputs messages to the browser's developer console.
+
+Question 2
+Which of these is a valid variable name?
+A) 1stPlace
+B) my-variable
+C) _username
+D) let
+
+Correct Answer: C) _username
+Explanation: Variable names can start with underscore, but not numbers or hyphens, and cannot be reserved words.
+
+Question 3
+What is the value of x?
+
+javascript
+let x = 5;
+x = 10;
+A) 5
+B) 10
+C) undefined
+D) Error
+
+Correct Answer: B) 10
+Explanation: let variables can be reassigned new values.
+
+Question 4
+What happens here?
+
+javascript
+const pi = 3.14;
+pi = 3.14159;
+A) pi becomes 3.14159
+B) Nothing happens
+C) Error
+D) pi becomes undefined
+
+Correct Answer: C) Error
+Explanation: const variables cannot be reassigned after declaration.
+
+Question 5
+Which data type represents true/false values?
+A) Number
+B) String
+C) Boolean
+D) Undefined
+
+Correct Answer: C) Boolean
+Explanation: Boolean represents logical values true or false.
+
+Question 6
+What does typeof "Hello" return?
+A) "number"
+B) "string"
+C) "boolean"
+D) "undefined"
+
+Correct Answer: B) "string"
+Explanation: Strings are sequences of characters enclosed in quotes.
+
+Question 7
+What is the value of y?
+
+javascript
+let y;
+A) 0
+B) ""
+C) undefined
+D) null
+
+Correct Answer: C) undefined
+Explanation: Declared but uninitialized variables have value undefined.
+
+Question 8
+Which keyword allows variable redeclaration?
+A) let
+B) const
+C) var
+D) all of them
+
+Correct Answer: C) var
+Explanation: var allows redeclaration, while let and const do not.
+
+Question 9
+What scope do let and const have?
+A) Global scope
+B) Function scope
+C) Block scope
+D) No scope
+
+Correct Answer: C) Block scope
+Explanation: let and const are block-scoped (within {}), while var is function-scoped.
+
+Question 10
+How do you create a BigInt?
+A) 123n
+B) BigInt(123)
+C) Both A and B
+D) 123big
+
+Correct Answer: C) Both A and B
+Explanation: BigInt can be created by appending 'n' or using BigInt() function.
+
+Question 11
+What does this code create?
+
+javascript
+const product = {
+  name: "Parker Jotter Standard CT Ball Pen",
+  rating: 4,
+  offer: 5,
+  price: 270
+};
+A) Array
+B) Object
+C) String
+D) Number
+
+Correct Answer: B) Object
+Explanation: Curly braces {} with key-value pairs create objects.
+
+Question 12
+How do you access the name property?
+
+javascript
+const product = { name: "Pen", price: 270 };
+A) product.name
+B) product["name"]
+C) Both A and B
+D) product->name
+
+Correct Answer: C) Both A and B
+Explanation: Object properties can be accessed with dot notation or bracket notation.
+
+Question 13
+What is null?
+A) An empty object
+B) An empty string
+C) Intentional absence of value
+D) An error
+
+Correct Answer: C) Intentional absence of value
+Explanation: null represents intentional absence of any object value.
+
+Question 14
+Which symbol is allowed in variable names?
+A) @
+B) #
+C) $
+D) %
+
+Correct Answer: C) $
+Explanation: Only $ and _ are allowed special characters in variable names.
+
+Question 15
+What is the result?
+
+javascript
+console.log(5 + "5");
+A) 10
+B) "55"
+C) Error
+D) 5
+
+Correct Answer: B) "55"
+Explanation: The + operator concatenates when one operand is a string.
+
+Question 16
+Which is NOT a primitive data type?
+A) Number
+B) String
+C) Object
+D) Boolean
+
+Correct Answer: C) Object
+Explanation: Objects are reference types, not primitive types.
+
+Question 17
+What does this code do?
+
+javascript
+const profile = {
+  username: "shradhakhapra",
+  isFollow: true,
+  followers: 569,
+  following: 4
+};
+A) Creates an array
+B) Creates an object with user profile data
+C) Throws an error
+D) Creates a function
+
+Correct Answer: B) Creates an object with user profile data
+Explanation: This creates an object storing profile information with key-value pairs.
+
+Question 18
+How do you update a property?
+
+javascript
+const student = { name: "Alice", age: 20 };
+A) student = { age: 21 }
+B) student.age = 21
+C) student -> age = 21
+D) update student.age to 21
+
+Correct Answer: B) student.age = 21
+Explanation: Object properties can be updated even if the object is const.
+
+Question 19
+Which variable declaration is preferred in modern JS?
+A) var
+B) let
+C) const
+D) All equally
+
+Correct Answer: C) const
+Explanation: const is preferred for values that shouldn't change, promoting immutability.
+
+Question 20
+What is the value of z?
+
+javascript
+const z = null;
+A) undefined
+B) 0
+C) null
+D) "null"
+
+Correct Answer: C) null
+Explanation: null is a distinct primitive value representing no value.
+
+1. Comments in JS
+
+Q: Which symbol is used for a single-line comment in JavaScript?
+a) //
+b) /* */
+c) #
+d) --
+✅ Answer: a) //
+
+2. Multi-line Comments
+
+Q: How do we write multi-line comments in JavaScript?
+a) // comment
+b) /* comment */
+c) <!-- comment -->
+d) -- comment
+✅ Answer: b) / comment /
+
+3. Arithmetic Operators
+
+Q: What will be the output of 5 % 2?
+a) 2
+b) 1
+c) 0
+d) 5
+✅ Answer: b) 1
+
+4. Exponentiation Operator
+
+Q: What is the result of 2 ** 3?
+a) 5
+b) 6
+c) 8
+d) 9
+✅ Answer: c) 8
+
+5. Increment Operator
+
+Q: If let x = 5; console.log(++x); what will be printed?
+a) 4
+b) 5
+c) 6
+d) 7
+✅ Answer: c) 6
+
+6. Decrement Operator
+
+Q: If let y = 10; console.log(y--); what will be printed?
+a) 9
+b) 10
+c) 11
+d) Error
+✅ Answer: b) 10
+
+7. Assignment Operator
+
+Q: If let a = 4; a += 3; what is the value of a?
+a) 3
+b) 4
+c) 7
+d) 12
+✅ Answer: c) 7
+
+8. Comparison Operator
+
+Q: What does === check?
+a) Only value
+b) Only type
+c) Value and type
+d) None
+✅ Answer: c) Value and type
+
+9. Loose Equality
+
+Q: What is 5 == "5" in JavaScript?
+a) true
+b) false
+c) error
+d) undefined
+✅ Answer: a) true
+
+10. Strict Equality
+
+Q: What is 5 === "5" in JavaScript?
+a) true
+b) false
+c) error
+d) NaN
+✅ Answer: b) false
+
+11. Logical AND
+
+Q: (5 > 2 && 10 > 5) will return?
+a) true
+b) false
+c) undefined
+d) NaN
+✅ Answer: a) true
+
+12. Logical OR
+
+Q: (5 < 2 || 10 > 5) will return?
+a) true
+b) false
+c) undefined
+d) NaN
+✅ Answer: a) true
+
+13. Logical NOT
+
+Q: !(5 > 2) will return?
+a) true
+b) false
+c) error
+d) null
+✅ Answer: b) false
+
+14. If Statement
+
+Q: Which syntax is correct?
+a) if (x > 5) console.log("Yes");
+b) if x > 5 { console.log("Yes"); }
+c) if (x > 5): console.log("Yes");
+d) if {x > 5} console.log("Yes");
+✅ Answer: a)
+
+15. If-Else
+
+Q: Output of code:
+
+let age = 18;
+if (age > 18) console.log("Adult");
+else console.log("Not Adult");
+
+
+a) Adult
+b) Not Adult
+c) Error
+✅ Answer: b) Not Adult
+
+16. Else-If
+
+Q: Which condition will print “B”?
+
+let marks = 75;
+if (marks >= 80) console.log("A");
+else if (marks >= 70) console.log("B");
+else console.log("C");
+
+
+a) 90
+b) 75
+c) 60
+d) 50
+✅ Answer: b) 75
+
+17. Ternary Operator
+
+Q: let result = (10 > 5) ? "Yes" : "No"; → result is?
+a) No
+b) Yes
+c) Undefined
+d) Error
+✅ Answer: b) Yes
+
+18. Multiple of 5 (Practice Qs1)
+
+Q: If input is 25, what will be output of:
+
+let num = 25;
+if (num % 5 === 0) console.log("Multiple of 5");
+else console.log("Not Multiple");
+
+
+a) Multiple of 5
+b) Not Multiple
+c) Error
+✅ Answer: a) Multiple of 5
+
+19. Grade System (Practice Qs2)
+
+Q: If score = 82, what grade will print?
+a) A
+b) B
+c) C
+d) D
+✅ Answer: a) A
+
+20. Grade System
+
+Q: If score = 65, what grade will print?
+a) A
+b) B
+c) C
+d) F
+✅ Answer: c) C
+
+21. Odd or Even
+
+Q: Code to check odd or even:
+
+let num = 6;
+if (num % 2 === 0) console.log("Even");
+else console.log("Odd");
+
+
+What prints?
+a) Odd
+b) Even
+c) Error
+✅ Answer: b) Even
+
+22. Nested If
+
+Q: Output of:
+
+let x = 10;
+if (x > 5) {
+  if (x < 15) console.log("Between 5 and 15");
+}
+
+
+a) Nothing
+b) Between 5 and 15
+c) Error
+✅ Answer: b)
+
+23. NOT with Condition
+
+Q: let a = false; if (!a) console.log("True"); → Output?
+a) True
+b) False
+c) Error
+✅ Answer: a) True
+
+24. Shortcut with Ternary
+
+Q: Replace with ternary:
+
+let age = 20;
+let msg = (age >= 18) ? "Adult" : "Minor";
+console.log(msg);
+
+
+What prints?
+a) Adult
+b) Minor
+✅ Answer: a) Adult
+
+25. Complex Condition
+
+Q: What prints?
+
+let score = 45;
+let grade = (score >= 50) ? "Pass" : "Fail";
+console.log(grade);
+
+
+a) Pass
+b) Fail
+✅ Answer: b) Fail
+
+What does 5 % 2 return?
+A) 2.5
+B) 1
+C) 0
+D) 2
+
+Correct Answer: B) 1
+Explanation: The modulus operator % returns the remainder of division.
+
+Question 2
+What is the value of x after this code?
+
+javascript
+let x = 5;
+x++;
+A) 5
+B) 6
+C) 4
+D) undefined
+
+Correct Answer: B) 6
+*Explanation: The increment operator ++ increases the value by 1.*
+
+Question 3
+What does 2 ** 3 evaluate to?
+A) 6
+B) 8
+C) 23
+D) 5
+
+Correct Answer: B) 8
+*Explanation: ** is the exponentiation operator (2 to the power of 3).*
+
+Question 4
+What is the result of this assignment?
+
+javascript
+let x = 10;
+x += 5;
+A) 10
+B) 15
+C) 5
+D) 105
+
+Correct Answer: B) 15
+*Explanation: += adds and assigns: x = x + 5.*
+
+Question 5
+What does "5" == 5 return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: A) true
+*Explanation: == performs type conversion, so it considers "5" and 5 equal.*
+
+Question 6
+What does "5" === 5 return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: B) false
+*Explanation: === checks both value and type, so string "5" ≠ number 5.*
+
+Question 7
+Which operator has the highest precedence?
+A) +
+B) *
+C) ()
+D) =
+
+Correct Answer: C) ()
+Explanation: Parentheses have the highest precedence in JavaScript.
+
+Question 8
+What does !true return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: B) false
+Explanation: The logical NOT operator ! inverts the boolean value.
+
+Question 9
+What does true && false return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: B) false
+Explanation: AND (&&) returns true only if both operands are true.
+
+Question 10
+What does true || false return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: A) true
+Explanation: OR (||) returns true if at least one operand is true.
+
+Question 11
+What will this code output?
+
+javascript
+if (10 > 5) {
+  console.log("Greater");
+}
+A) "Greater"
+B) Nothing
+C) Error
+D) true
+
+Correct Answer: A) "Greater"
+Explanation: The condition 10 > 5 is true, so the code block executes.
+
+Question 12
+What will this code output?
+
+javascript
+let age = 15;
+if (age >= 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
+A) "Adult"
+B) "Minor"
+C) Nothing
+D) Error
+
+Correct Answer: B) "Minor"
+Explanation: Since age is 15 (less than 18), the else block executes.
+
+Question 13
+What will this code output?
+
+javascript
+let score = 85;
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 80) {
+  console.log("B");
+} else {
+  console.log("C");
+}
+A) "A"
+B) "B"
+C) "C"
+D) Error
+
+Correct Answer: B) "B"
+*Explanation: 85 is between 80-89, so it matches the else-if condition.*
+
+Question 14
+What does this ternary operator do?
+
+javascript
+let result = (10 > 5) ? "Yes" : "No";
+A) result = "Yes"
+B) result = "No"
+C) result = true
+D) Error
+
+Correct Answer: A) result = "Yes"
+Explanation: Since 10 > 5 is true, it returns "Yes".
+
+Question 15
+What is the purpose of comments in JavaScript?
+A) To make code colorful
+B) To explain code and prevent execution
+C) To create variables
+D) To fix errors
+
+Correct Answer: B) To explain code and prevent execution
+Explanation: Comments are ignored by JavaScript and help document code.
+
+Question 16
+Which is a single-line comment?
+A) /* comment */
+B) // comment
+C) <!-- comment -->
+D) ** comment **
+
+Correct Answer: B) // comment
+Explanation: // creates a single-line comment.
+
+Question 17
+What does null == undefined return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: A) true
+Explanation: == considers null and undefined equal.
+
+Question 18
+What does null === undefined return?
+A) true
+B) false
+C) undefined
+D) Error
+
+Correct Answer: B) false
+Explanation: === considers null and undefined different types.
+
+Question 19
+What is the value of z?
+
+javascript
+let x = 5;
+let y = 3;
+let z = x * y + 2;
+A) 17
+B) 25
+C) 16
+D) 30
+
+Correct Answer: A) 17
+Explanation: Multiplication has higher precedence: 53=15, then 15+2=17.*
+
+Question 20
+What will this code output?
+
+javascript
+let num = prompt("Enter a number:");
+if (num % 5 === 0) {
+  console.log("Multiple of 5");
+} else {
+  console.log("Not multiple of 5");
+}
+// User enters 15
+A) "Multiple of 5"
+B) "Not multiple of 5"
+C) Nothing
+D) Error
+
+Correct Answer: A) "Multiple of 5"
+Explanation: 15 divided by 5 has remainder 0, so it's a multiple of 5.
+
+Question 21
+What grade will a score of 75 receive?
+
+javascript
+if (score >= 80) console.log("A");
+else if (score >= 70) console.log("B");
+else if (score >= 60) console.log("C");
+else if (score >= 50) console.log("D");
+else console.log("F");
+A) A
+B) B
+C) C
+D) D
+
+Correct Answer: B) B
+*Explanation: 75 is between 70-79, so it gets grade B.*
+
+Question 22
+What is the result of 10 + "5"?
+A) 15
+B) "105"
+C) "15"
+D) Error
+
+Correct Answer: B) "105"
+Explanation: When adding number and string, JavaScript converts number to string and concatenates.
+
+Question 23
+What does the decrement operator -- do?
+A) Multiplies by -1
+B) Subtracts 1
+C) Divides by 2
+D) Makes negative
+
+Correct Answer: B) Subtracts 1
+*Explanation: -- decreases the value by 1.*
+
+Question 24
+Which operator checks value AND type?
+A) ==
+B) =
+C) ===
+D) !=
+
+Correct Answer: C) ===
+Explanation: Strict equality === checks both value and data type.
+
+Question 25
+What will this code output?
+
+javascript
+let isRaining = true;
+let hasUmbrella = false;
+if (isRaining && !hasUmbrella) {
+  console.log("You'll get wet!");
+}
+A) "You'll get wet!"
+B) Nothing
+C) Error
+D) true
+
+Correct Answer: A) "You'll get wet!"
+Explanation: Both conditions are true (raining AND no umbrella), so the message displays.
+Q1. What will the following code print?
+
+for (let i = 1; i <= 3; i++) {
+   console.log("Hello");
+}
+
+
+✅ Answer: Prints "Hello" 3 times
+
+Q2. Which type of loop is guaranteed to run at least once?
+✅ Answer: do-while loop
+
+Q3. What is the output?
+
+let i = 0;
+while (i < 3) {
+   console.log(i);
+   i++;
+}
+
+
+✅ Answer: 0, 1, 2
+
+Q4. Which loop can become infinite if the condition never becomes false?
+✅ Answer: while loop (and also for loop, if not properly written)
+
+Q5. Find the error:
+
+for (let i = 1; i <= 5; i-- ) {
+   console.log(i);
+}
+
+
+✅ Answer: Infinite loop (because i-- decreases instead of increasing)
+
+Q6. What is the output?
+
+let str = "JS";
+for (let val of str) {
+   console.log(val);
+}
+
+
+✅ Answer:
+
+J
+S
+
+
+Q7. Which loop is best for iterating over objects?
+✅ Answer: for-in loop
+
+Q8. What is the output?
+
+let obj = {a: 1, b: 2};
+for (let key in obj) {
+   console.log(key);
+}
+
+
+✅ Answer: a, b
+
+Q9. Print all even numbers from 0 to 10 using a loop.
+✅ Answer:
+
+for (let i = 0; i <= 10; i+=2) {
+   console.log(i);
+}
+
+
+Q10. Which loop syntax is correct?
+A) while i < 5 { console.log(i); i++; }
+B) while (i < 5) { console.log(i); i++; }
+✅ Answer: B
+
+Q11. What is the output?
+
+let i = 3;
+do {
+   console.log(i);
+   i--;
+} while (i > 0);
+
+
+✅ Answer: 3, 2, 1
+
+Q12. Guess the game number program needs which type of loop?
+✅ Answer: while loop (until user guesses correctly)
+
+Q13. What will this print?
+
+for (let i = 5; i >= 1; i--) {
+   console.log(i);
+}
+
+
+✅ Answer: 5, 4, 3, 2, 1
+
+Strings (14–25)
+
+Q14. What is a string in JavaScript?
+✅ Answer: A sequence of characters enclosed in quotes ("" or '' or backticks)
+
+Q15. What will this print?
+
+let str = "Apna College";
+console.log(str.length);
+
+
+✅ Answer: 12
+
+Q16. What is the output?
+
+let str = "Hello";
+console.log(str[1]);
+
+
+✅ Answer: e
+
+Q17. Which of the following removes extra spaces?
+✅ Answer: str.trim()
+
+Q18. What is the result?
+
+let str = "js";
+console.log(str.toUpperCase());
+
+
+✅ Answer: "JS"
+
+Q19. What is template literal syntax?
+✅ Answer:
+
+`Hello ${name}`
+
+
+Q20. What is the output?
+
+let str = "Apna";
+let str2 = "College";
+console.log(str.concat(str2));
+
+
+✅ Answer: "ApnaCollege"
+
+Q21. What is the output?
+
+let str = "Hello World";
+console.log(str.replace("World", "JS"));
+
+
+✅ Answer: "Hello JS"
+
+Q22. What is the output?
+
+let str = "Apna College";
+console.log(str.charAt(2));
+
+
+✅ Answer: "n"
+
+Q23. Which method extracts part of a string?
+✅ Answer: slice(start, end)
+
+Q24. If user enters full name = "shradhakhapra" then username = ?
+✅ Answer: "@shradhakhapra13"
+
+Q25. What is the output?
+
+let name = "Ayesha";
+let greeting = `Hello, ${name}!`;
+console.log(greeting);
+
+
+✅ Answer: "Hello, Ayesha!"
+Array Basics (1–6)
+
+Q1. What is an array in JavaScript?
+✅ Answer: A collection of items stored in a single variable.
+
+Q2. Which of the following is a valid array?
+A) let arr = (1, 2, 3)
+B) let arr = [1, 2, 3]
+✅ Answer: B
+
+Q3. What is the index of the first element in an array?
+✅ Answer: 0
+
+Q4. Find the output:
+
+let heroes = ["ironman", "hulk", "thor"];
+console.log(heroes[1]);
+
+
+✅ Answer: "hulk"
+
+Q5. What will this print?
+
+let arr = ["rahul", 86, "Delhi"];
+console.log(arr.length);
+
+
+✅ Answer: 3
+
+Q6. If let marks = [96, 75, 48, 83, 66];, what is marks[3]?
+✅ Answer: 83
+
+Looping Arrays (7–9)
+
+Q7. Print all array elements using a loop:
+
+let fruits = ["apple", "banana", "mango"];
+
+
+✅ Answer:
+
+for (let i = 0; i < fruits.length; i++) {
+   console.log(fruits[i]);
+}
+
+
+Q8. Find the average marks:
+
+let marks = [85, 97, 44, 37, 76, 60];
+
+
+✅ Answer:
+
+let sum = 0;
+for (let val of marks) {
+   sum += val;
+}
+console.log(sum / marks.length); // 66.5
+
+
+Q9. Apply 10% OFF to prices:
+
+let items = [250, 645, 300, 900, 50];
+
+
+✅ Answer:
+
+for (let i = 0; i < items.length; i++) {
+   items[i] = items[i] - (items[i] * 10 / 100);
+}
+console.log(items); // [225, 580.5, 270, 810, 45]
+
+Array Methods (10–19)
+
+Q10. Which method adds an element at the end of the array?
+✅ Answer: push()
+
+Q11. Which method removes the last element from the array?
+✅ Answer: pop()
+
+Q12. Convert this array to string:
+
+let arr = [1, 2, 3];
+
+
+✅ Answer: arr.toString() → "1,2,3"
+
+Q13. Which method joins two arrays?
+✅ Answer: concat()
+
+Q14. Which method adds an element at the start of array?
+✅ Answer: unshift()
+
+Q15. Which method removes the first element of an array?
+✅ Answer: shift()
+
+Q16. What is the output?
+
+let arr = [10, 20, 30, 40];
+console.log(arr.slice(1, 3));
+
+
+✅ Answer: [20, 30]
+
+Q17. Which method modifies the original array (add/remove/replace)?
+✅ Answer: splice()
+
+Q18. What is the result?
+
+let arr = [1, 2, 3, 4];
+arr.splice(1, 2);
+console.log(arr);
+
+
+✅ Answer: [1, 4]
+
+Q19. Replace 3 with 99:
+
+let arr = [1, 2, 3, 4];
+
+
+✅ Answer:
+
+arr.splice(2, 1, 99); 
+console.log(arr); // [1, 2, 99, 4]
+
+Practice Questions (20–25)
+
+Q20. Create an array of companies:
+
+["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+
+
+✅ Answer:
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+
+Q21. Remove the first company from the above array.
+✅ Answer:
+
+companies.shift();
+
+
+Q22. Replace "Uber" with "Ola".
+✅ Answer:
+
+companies.splice(1, 1, "Ola");
+
+
+Q23. Add "Amazon" at the end.
+✅ Answer:
+
+companies.push("Amazon");
+
+
+Q24. What is the output?
+
+let arr = ["a", "b"];
+arr.unshift("z");
+console.log(arr);
+
+
+✅ Answer: ["z", "a", "b"]
+
+Q25. What is the output?
+
+let arr = ["x", "y", "z"];
+console.log(arr.pop());
+
+
+✅ Answer: "z"
+Q1. In JavaScript, an array is a collection of:
+a) Strings only
+b) Numbers only
+c) Objects only
+d) Any type of elements
+
+✅ Answer: d) Any type of elements
+
+Q2. What is the index of the first element in a JavaScript array?
+a) 1
+b) 0
+c) -1
+d) Depends on the array
+
+✅ Answer: b) 0
+
+Q3. Which of the following is a correct way to declare an array?
+a) let arr = (1,2,3);
+b) let arr = {1,2,3};
+c) let arr = [1,2,3];
+d) let arr = <1,2,3>;
+
+✅ Answer: c) let arr = [1,2,3];
+
+Indices
+
+Q4. Given:
+
+let heroes = ["ironman", "hulk", "thor", "batman"];
+
+
+What is heroes[2]?
+
+✅ Answer: "thor"
+
+Q5. If let marks = [96, 75, 48, 83, 66]; then marks.length equals?
+
+✅ Answer: 5
+
+Looping
+
+Q6. Which loop is best to iterate over all array elements?
+a) while
+b) for
+c) for...of
+d) All of the above
+
+✅ Answer: d) All of the above
+
+Q7. Output of:
+
+let fruits = ["apple", "mango", "banana"];
+for (let i=0; i<fruits.length; i++){
+   console.log(fruits[i]);
+}
+
+
+✅ Answer: apple, mango, banana (line by line)
+
+Practice Question 1: Average Marks
+
+Q8. Given marks [85, 97, 44, 37, 76, 60], what is their average?
+
+✅ Answer: (85+97+44+37+76+60)/6 = 399/6 = 66.5
+
+Practice Question 2: 10% Discount
+
+Q9. Prices = [250, 645, 300, 900, 50] after 10% discount, what is the new array?
+
+✅ Answer: [225, 580.5, 270, 810, 45]
+
+Array Methods
+
+Q10. Which method adds an element at the end of an array?
+✅ Answer: push()
+
+Q11. Which method removes the last element of an array and returns it?
+✅ Answer: pop()
+
+Q12. Which method converts an array into a string?
+✅ Answer: toString()
+
+Q13. What does concat() do?
+✅ Answer: Joins two or more arrays and returns a new array
+
+Q14. Which method adds elements to the beginning of an array?
+✅ Answer: unshift()
+
+Q15. Which method removes the first element from an array?
+✅ Answer: shift()
+
+Q16. Which method is used to extract a portion of an array without modifying the original array?
+✅ Answer: slice()
+
+Q17. Which method modifies an array by removing, replacing, or adding elements?
+✅ Answer: splice()
+
+Coding MCQs
+
+Q18.
+
+let arr = [1,2,3];
+arr.push(4);
+console.log(arr);
+
+
+✅ Answer: [1,2,3,4]
+
+Q19.
+
+let arr = [10,20,30];
+arr.pop();
+console.log(arr);
+
+
+✅ Answer: [10,20]
+
+Q20.
+
+let arr = ["a","b","c"];
+console.log(arr.toString());
+
+
+✅ Answer: "a,b,c"
+
+Q21.
+
+let arr = ["x","y"];
+let brr = ["z"];
+console.log(arr.concat(brr));
+
+
+✅ Answer: ["x","y","z"]
+
+Q22.
+
+let arr = [1,2,3];
+arr.unshift(0);
+console.log(arr);
+
+
+✅ Answer: [0,1,2,3]
+
+Q23.
+
+let arr = [100,200,300];
+arr.shift();
+console.log(arr);
+
+
+✅ Answer: [200,300]
+
+Q24.
+
+let arr = ["apple","banana","cherry","dates"];
+console.log(arr.slice(1,3));
+
+
+✅ Answer: ["banana","cherry"]
+
+Q25.
+
+let arr = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+arr.shift();                     // a. Remove first
+arr.splice(1,1,"Ola");           // b. Replace Uber with Ola
+arr.push("Amazon");              // c. Add Amazon
+console.log(arr);
+
+
+✅ Answer: ["Microsoft","Ola","Google","IBM","Netflix","Amazon"]
+
+1. How do you create an array of student names in JavaScript?
+
+a) let students = "Ali", "Sara", "Hina"
+b) let students = ["Ali", "Sara", "Hina"] ✅
+c) let students = {"Ali", "Sara", "Hina"}
+d) let students = ("Ali", "Sara", "Hina")
+
+2. What will heroes[2] return if let heroes = ["ironman", "hulk", "thor", "batman"]?
+
+a) ironman
+b) thor ✅
+c) hulk
+d) batman
+
+3. Array indices in JavaScript start from...
+
+a) 0 ✅
+b) 1
+c) -1
+d) Any number
+
+4. Which loop is best for iterating through arrays?
+
+a) while
+b) for ✅
+c) if
+d) switch
+
+5. Find the average of [85, 97, 44, 37, 76, 60].
+
+a) 60
+b) 66.5 ✅
+c) 85
+d) 55
+
+6. What will marks.length return for let marks = [96, 75, 48, 83, 66]?
+
+a) 4
+b) 5 ✅
+c) 6
+d) undefined
+
+7. Which method adds a new element at the end of the array?
+
+a) push() ✅
+b) pop()
+c) shift()
+d) unshift()
+
+8. What will marks.pop() do?
+
+a) Delete first element
+b) Delete last element ✅
+c) Add element at start
+d) Add element at end
+
+9. let arr = [1, 2, 3]; arr.toString(); → Result?
+
+a) [1,2,3]
+b) "1,2,3" ✅
+c) [“1”, “2”, “3”]
+d) Error
+
+10. Which method combines two arrays?
+
+a) push()
+b) concat() ✅
+c) join()
+d) merge()
+
+11. Which method adds element at the start of the array?
+
+a) unshift() ✅
+b) shift()
+c) push()
+d) splice()
+
+12. Which method removes the first element of the array?
+
+a) unshift()
+b) shift() ✅
+c) slice()
+d) pop()
+
+13. slice(start, end) does what?
+
+a) Changes original array
+b) Returns a part of array ✅
+c) Removes first element
+d) Adds element
+
+14. Which method changes the original array (add/remove/replace)?
+
+a) slice()
+b) splice() ✅
+c) concat()
+d) shift()
+
+15. Find new prices if 10% OFF applied on [250, 645, 300, 900, 50].
+
+a) [225, 580.5, 270, 810, 45] ✅
+b) [260, 600, 290, 850, 49]
+c) [225, 600, 300, 900, 50]
+d) [200, 500, 250, 700, 40]
+
+16. Remove the first company from ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"].
+
+Result → ["Microsoft", "Uber", "Google", "IBM", "Netflix"] ✅
+
+17. Replace "Uber" with "Ola".
+
+Result → ["Bloomberg", "Microsoft", "Ola", "Google", "IBM", "Netflix"] ✅
+
+18. Add "Amazon" at the end.
+
+Result → ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix", "Amazon"] ✅
+
+19. Which array method removes last element & returns it?
+
+a) shift()
+b) unshift()
+c) pop() ✅
+d) push()
+
+20. What will ["A", "B"].concat(["C", "D"]) return?
+
+a) ["A", "B", "C", "D"] ✅
+b) ["A,B,C,D"]
+c) [“C”, “D”, “A”, “B”]
+d) Error
+
+21. Which will return IBM from companies = ["Google","IBM","Netflix"]?
+
+a) companies[1] ✅
+b) companies[2]
+c) companies.get(1)
+d) companies.indexOf(1)
+
+22. What will [10,20,30].shift() return?
+
+a) 10 ✅
+b) 20
+c) 30
+d) undefined
+
+23. After running arr.splice(2,1), what happens?
+
+a) Adds element at 2
+b) Removes 1 element from index 2 ✅
+c) Removes 2 elements from index 1
+d) Error
+
+24. If let arr=[1,2,3]; arr.unshift(0); → arr becomes?
+
+a) [1,2,3,0]
+b) [0,1,2,3] ✅
+c) [0,1,2]
+d) Error
+
+25. Which is true about arrays in JS?
+
+a) Can store only numbers
+b) Can store mixed values (string, number, boolean) ✅
+c) Size must be fixed
+d) Index starts from 1
+
+Q1. In JavaScript, a function is:
+a) A block of code that runs automatically
+b) A block of code that performs a specific task when called
+c) A variable that stores data only
+d) None of the above
+
+✅ Answer: b) A block of code that performs a specific task when called
+
+Q2. Correct syntax to declare a function is:
+a) function myFunc { }
+b) function myFunc() { }
+c) function = myFunc() { }
+d) func myFunc() { }
+
+✅ Answer: b) function myFunc() { }
+
+Q3. Which keyword is used to define a function in JS?
+✅ Answer: function
+
+Q4. If a function is declared as:
+
+function add(a,b) {
+   return a+b;
+}
+
+
+What will add(3,4) return?
+
+✅ Answer: 7
+
+Q5. If a function has no return statement, what does it return?
+a) 0
+b) undefined
+c) null
+d) false
+
+✅ Answer: b) undefined
+
+Arrow Functions
+
+Q6. What is the arrow function syntax for function sum(a,b){ return a+b; }?
+
+✅ Answer:
+
+const sum = (a,b) => a+b;
+
+
+Q7. Which is more compact, traditional functions or arrow functions?
+✅ Answer: Arrow functions
+
+Q8. Output?
+
+const greet = () => "Hello!";
+console.log(greet());
+
+
+✅ Answer: "Hello!"
+
+Practice – Vowels Count
+
+Q9. Function to count vowels:
+
+function countVowels(str){
+   let vowels = "aeiouAEIOU";
+   let count = 0;
+   for(let ch of str){
+      if(vowels.includes(ch)) count++;
+   }
+   return count;
+}
+console.log(countVowels("hello"));
+
+
+✅ Answer: 2
+
+Q10. Arrow function to count vowels:
+
+const countVowels = (str) => {
+   return str.match(/[aeiou]/gi).length;
+};
+console.log(countVowels("apple"));
+
+
+✅ Answer: 2
+
+forEach Loop
+
+Q11. The forEach() method:
+a) Creates a new array
+b) Executes a callback function for each element
+c) Returns a single value
+d) None of the above
+
+✅ Answer: b) Executes a callback function for each element
+
+Q12. Output?
+
+let nums = [1,2,3];
+nums.forEach(n => console.log(n*2));
+
+
+✅ Answer: 2, 4, 6 (line by line)
+
+Q13. forEach returns a new array. True or False?
+
+✅ Answer: False
+
+map() Method
+
+Q14. The map() method:
+a) Modifies original array
+b) Creates a new array with transformed elements
+c) Deletes elements from array
+d) None
+
+✅ Answer: b) Creates a new array with transformed elements
+
+Q15. Output?
+
+let arr = [1,2,3];
+let result = arr.map(x => x*3);
+console.log(result);
+
+
+✅ Answer: [3,6,9]
+
+filter() Method
+
+Q16. The filter() method returns:
+a) Only odd numbers
+b) A new array of elements that satisfy the condition
+c) A single value
+d) Undefined
+
+✅ Answer: b) A new array of elements that satisfy the condition
+
+Q17. Output?
+
+let arr = [10,15,20,25];
+let evens = arr.filter(n => n%2==0);
+console.log(evens);
+
+
+✅ Answer: [10,20]
+
+reduce() Method
+
+Q18. The reduce() method returns:
+a) An array
+b) A single value
+c) Undefined
+d) None
+
+✅ Answer: b) A single value
+
+Q19. Output?
+
+let arr = [1,2,3,4];
+let sum = arr.reduce((acc,cur) => acc+cur, 0);
+console.log(sum);
+
+
+✅ Answer: 10
+
+Q20. Output?
+
+let arr = [2,3,4];
+let product = arr.reduce((acc,cur) => acc*cur, 1);
+console.log(product);
+
+
+✅ Answer: 24
+
+More Practice Questions
+
+Q21. Marks = [85,92,76,95,88,99]
+Filter students who scored 90+.
+
+✅ Answer: [92,95,99]
+
+Q22. Given [1,2,3,4,5], print their squares using forEach.
+
+✅ Answer: 1,4,9,16,25
+
+Q23. Create an array of numbers from 1 to 5 using loop.
+
+✅ Answer: [1,2,3,4,5]
+
+Q24. Output?
+
+let arr = [1,2,3,4];
+let res = arr.filter(n => n>2).map(n => n*2);
+console.log(res);
+
+
+✅ Answer: [6,8]
+
+Q25. Which of these methods changes the original array?
+a) map()
+b) filter()
+c) forEach()
+d) splice()
+
+✅ Answer: d) splice()
+
+:
+✅ Answer: HTML (structure), CSS (style), JS (logic)
+
+Q2. Which tag connects HTML with CSS?
+✅ Answer: <style>
+
+Q3. Which tag connects HTML with JavaScript?
+✅ Answer: <script>
+
+Q4. Where is the <title> tag placed in an HTML document?
+✅ Answer: Inside <head>
+
+Window Object
+
+Q5. What does the window object represent?
+✅ Answer: An open browser window (global object with properties & methods)
+
+Q6. Is the window object created by JavaScript or by the browser?
+✅ Answer: By the browser
+
+DOM Basics
+
+Q7. What is DOM?
+✅ Answer: The Document Object Model (a tree-like structure of the page created by the browser)
+
+Q8. Which method selects an element by ID?
+✅ Answer: document.getElementById("myId")
+
+Q9. Which method selects elements by class name?
+✅ Answer: document.getElementsByClassName("myClass")
+
+Q10. Which method selects elements by tag name?
+✅ Answer: document.getElementsByTagName("p")
+
+Query Selector
+
+Q11. Difference between querySelector() and querySelectorAll()?
+✅ Answer: querySelector() → returns the first match,
+querySelectorAll() → returns all matches (NodeList).
+
+Q12. How would you select the first element with class "box"?
+✅ Answer: document.querySelector(".box")
+
+Properties
+
+Q13. Which property gives only the text inside an element?
+✅ Answer: innerText
+
+Q14. Which property gives HTML + text inside an element?
+✅ Answer: innerHTML
+
+Q15. Which property returns text even if the element is hidden (CSS display:none)?
+✅ Answer: textContent
+
+Practice Questions
+
+Q16. Code to create <h2>Hello JavaScript</h2> and append "from Apna College students" to it?
+✅ Answer:
+
+let h2 = document.createElement("h2");
+h2.innerText = "Hello JavaScript";
+h2.innerText += " from Apna College students";
+document.body.append(h2);
+
+
+Q17. How to access 3 <div class="box"> and add unique text?
+✅ Answer:
+
+let boxes = document.querySelectorAll(".box");
+boxes[0].innerText = "Box 1";
+boxes[1].innerText = "Box 2";
+boxes[2].innerText = "Box 3";
+
+Attributes & Style
+
+Q18. Method to get attribute value of an element?
+✅ Answer: element.getAttribute("attr")
+
+Q19. Method to set attribute value of an element?
+✅ Answer: element.setAttribute("attr","value")
+
+Q20. How to change background color of a node to red?
+✅ Answer:
+
+node.style.backgroundColor = "red";
+
+Insert / Delete Elements
+
+Q21. Which method appends an element inside at the end?
+✅ Answer: node.append(el)
+
+Q22. Which method inserts at the start (inside)?
+✅ Answer: node.prepend(el)
+
+Q23. Which methods insert before or after a node (outside)?
+✅ Answer: node.before(el) and node.after(el)
+
+Q24. How to remove an element from the DOM?
+✅ Answer: node.remove()
+
+classList
+
+Q25. If we want to add a new class to a <p> without overwriting the existing one, which method is used?
+✅ Answer:
+
+node.classList.add("newClass");
+
+Q1. In JavaScript, an object is:
+a) Only a variable
+b) An entity having state (properties) & behavior (methods)
+c) A function
+d) None
+
+✅ Answer: b) An entity having state (properties) & behavior (methods)
+
+Q2. Special property of JavaScript objects that allows inheritance?
+✅ Answer: prototype
+
+Q3. If object and prototype have the same method, which one is used?
+✅ Answer: Object’s method
+
+Q4. How to set prototype manually?
+✅ Answer: Using __proto__
+
+Classes
+
+Q5. A class in JavaScript is:
+a) A single object
+b) A template for creating objects
+c) A built-in data type
+d) None
+
+✅ Answer: b) A template for creating objects
+
+Q6. Correct syntax of class?
+✅ Answer:
+
+class MyClass {
+   constructor() { ... }
+   myMethod() { ... }
+}
+
+
+Q7. Which keyword is used to create a new object from a class?
+✅ Answer: new
+
+Q8. Output?
+
+class Car {
+  constructor(name) {
+    this.name = name;
+  }
+}
+let c = new Car("BMW");
+console.log(c.name);
+
+
+✅ Answer: "BMW"
+
+Constructor
+
+Q9. The constructor() method in a class is:
+a) Called manually
+b) Automatically invoked when object is created
+c) A static method
+d) Not required
+
+✅ Answer: b) Automatically invoked when object is created
+
+Q10. Purpose of constructor?
+✅ Answer: To initialize object properties
+
+Inheritance
+
+Q11. Inheritance in JS is done using:
+✅ Answer: extends keyword
+
+Q12. Example of inheritance:
+
+class Parent {}
+class Child extends Parent {}
+
+
+Here Child inherits from?
+✅ Answer: Parent
+
+Q13. If Parent & Child have same method, which one runs?
+✅ Answer: Child’s method (Method Overriding)
+
+Q14. Output?
+
+class A {
+  greet() { return "Hello from A"; }
+}
+class B extends A {
+  greet() { return "Hello from B"; }
+}
+let obj = new B();
+console.log(obj.greet());
+
+
+✅ Answer: "Hello from B"
+
+super Keyword
+
+Q15. The super keyword is used to:
+✅ Answer: Call parent constructor or access parent methods
+
+Q16. Correct use of super inside child constructor?
+✅ Answer:
+
+class Parent {
+  constructor(name) { this.name = name; }
+}
+class Child extends Parent {
+  constructor(name, age) {
+    super(name);
+    this.age = age;
+  }
+}
+
+
+Q17. Output?
+
+class Parent {
+  greet() { return "Hi Parent"; }
+}
+class Child extends Parent {
+  greet() {
+    return super.greet() + " & Hi Child";
+  }
+}
+let c = new Child();
+console.log(c.greet());
+
+
+✅ Answer: "Hi Parent & Hi Child"
+
+Practice Scenario
+
+Q18. Create a class User with properties name, email and a method viewData().
+✅ Answer:
+
+class User {
+  constructor(name,email){
+    this.name = name;
+    this.email = email;
+  }
+  viewData(){
+    console.log("Website Data");
+  }
+}
+
+
+Q19. Create Admin class extending User, with method editData().
+✅ Answer:
+
+class Admin extends User {
+  editData(){
+    console.log("Editing Website Data");
+  }
+}
+
+
+Q20. Output?
+
+let admin = new Admin("Ali","ali@mail.com");
+admin.viewData();
+admin.editData();
+
+
+✅ Answer: "Website Data" and "Editing Website Data"
+
+Error Handling
+
+Q21. Error handling in JS is done using:
+✅ Answer: try...catch
+
+Q22. Syntax of try-catch?
+✅ Answer:
+
+try {
+   // normal code
+} catch(err) {
+   // handle error
+}
+
+
+Q23. What is err inside catch?
+✅ Answer: The error object
+
+Q24. Output?
+
+try {
+  console.log(x);
+} catch(err) {
+  console.log("Error caught");
+}
+
+
+✅ Answer: "Error caught"
+
+Q25. Can we use finally block with try-catch?
+✅ Answer: Yes, finally executes always (whether error occurs or not)
+
+1.
+
+Q: Synchronous code execution ka matlab kya hai?
+A: Code ek ek line sequence me execute hota hai aur agla instruction wait karta hai pichle ke complete hone ka.
+
+2.
+
+Q: Asynchronous execution ka fayda kya hai?
+A: Ye agle instructions ko turant execute karne deta hai bina UI block kiye.
+
+3.
+
+Q: Callback function kya hai?
+A: Ek function jo doosre function ko argument ke taur pe pass hota hai.
+
+4.
+
+Q: Callback hell ko aur kis naam se jaana jata hai?
+A: Pyramid of Doom.
+
+5.
+
+Q: Callback hell kyun problem hota hai?
+A: Code nested ho jata hai, samajhna aur manage karna mushkil ho jata hai.
+
+6.
+
+Q: Promise ka use kis problem ko solve karta hai?
+A: Callback hell.
+
+7.
+
+Q: Ek Promise object ke teen possible states kya hote hain?
+A: Pending, Resolved (Fulfilled), Rejected.
+
+8.
+
+Q: Agar promise resolve ho jaye to result kahan aata hai?
+A: Resolve me value return hoti hai (fulfilled state).
+
+9.
+
+Q: Agar promise reject ho jaye to result kahan aata hai?
+A: Reject me error object return hota hai.
+
+10.
+
+Q: Promise banane ka syntax kya hai?
+A:
+
+let promise = new Promise((resolve, reject) => { ... });
+
+11.
+
+Q: Promise ka result access karne ke liye kaun se methods use hote hain?
+A: .then() aur .catch().
+
+12.
+
+Q: .then() ka use kis liye hota hai?
+A: Promise ke resolved value ko handle karne ke liye.
+
+13.
+
+Q: .catch() ka use kis liye hota hai?
+A: Promise ke rejected value (error) ko handle karne ke liye.
+
+14.
+
+Q: Async function hamesha kya return karta hai?
+A: Promise.
+
+15.
+
+Q: Await ka kaam kya hai?
+A: Ek async function ke andar execution ko pause karta hai jab tak promise settle na ho jaye.
+
+16.
+
+Q: Kya await async function ke bahar use kar sakte hain?
+A: Nahi, sirf async function ke andar hi use hota hai.
+
+17.
+
+Q: Async/Await ka main advantage promises ke upar kya hai?
+A: Code simple aur readable lagta hai (synchronous style).
+
+18.
+
+Q: Ek async function ka example likho.
+A:
+
+async function myFunc() {
+  return "Hello";
+}
+
+19.
+
+Q: IIFE ka full form kya hai?
+A: Immediately Invoked Function Expression.
+
+20.
+
+Q: IIFE ka use kyun hota hai?
+A: Function ko turant execute karne aur variables ko private scope me rakhne ke liye.
+
+21.
+
+Q: IIFE ka syntax kya hai?
+A:
+
+(function() {
+  console.log("Hello");
+})();
+
+22.
+
+Q: Agar ek function async hai to uska return value promise na ho to bhi kya milega?
+A: Hamesha ek resolved promise return karega.
+
+23.
+
+Q: Ek resolved promise ka default state aur result kya hota hai?
+A: Fulfilled state aur value return hoti hai.
+
+24.
+
+Q: Agar promise reject ho jaye aur uska .catch() na likhen to kya hoga?
+A: Unhandled Promise Rejection error aayega.
+
+25.
+
+Q: Callback hell, Promises, aur Async/Await ka relation short me batao.
+A: Callback hell → Promises (solution) → Async/Await (aur easy solution).
+
+
+
+
